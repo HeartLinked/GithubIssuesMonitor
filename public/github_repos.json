@@ -1,0 +1,4002 @@
+[
+  {
+    "name": "freeCodeCamp/freeCodeCamp",
+    "url": "https://github.com/freeCodeCamp/freeCodeCamp"
+  },
+  {
+    "name": "EbookFoundation/free-programming-books",
+    "url": "https://github.com/EbookFoundation/free-programming-books"
+  },
+  {
+    "name": "sindresorhus/awesome",
+    "url": "https://github.com/sindresorhus/awesome"
+  },
+  {
+    "name": "public-apis/public-apis",
+    "url": "https://github.com/public-apis/public-apis"
+  },
+  {
+    "name": "jwasham/coding-interview-university",
+    "url": "https://github.com/jwasham/coding-interview-university"
+  },
+  {
+    "name": "kamranahmedse/developer-roadmap",
+    "url": "https://github.com/kamranahmedse/developer-roadmap"
+  },
+  {
+    "name": "996icu/996.ICU",
+    "url": "https://github.com/996icu/996.ICU"
+  },
+  {
+    "name": "codecrafters-io/build-your-own-x",
+    "url": "https://github.com/codecrafters-io/build-your-own-x"
+  },
+  {
+    "name": "donnemartin/system-design-primer",
+    "url": "https://github.com/donnemartin/system-design-primer"
+  },
+  {
+    "name": "facebook/react",
+    "url": "https://github.com/facebook/react"
+  },
+  {
+    "name": "vuejs/vue",
+    "url": "https://github.com/vuejs/vue"
+  },
+  {
+    "name": "vinta/awesome-python",
+    "url": "https://github.com/vinta/awesome-python"
+  },
+  {
+    "name": "tensorflow/tensorflow",
+    "url": "https://github.com/tensorflow/tensorflow"
+  },
+  {
+    "name": "trekhleb/javascript-algorithms",
+    "url": "https://github.com/trekhleb/javascript-algorithms"
+  },
+  {
+    "name": "TheAlgorithms/Python",
+    "url": "https://github.com/TheAlgorithms/Python"
+  },
+  {
+    "name": "awesome-selfhosted/awesome-selfhosted",
+    "url": "https://github.com/awesome-selfhosted/awesome-selfhosted"
+  },
+  {
+    "name": "getify/You-Dont-Know-JS",
+    "url": "https://github.com/getify/You-Dont-Know-JS"
+  },
+  {
+    "name": "CyC2018/CS-Notes",
+    "url": "https://github.com/CyC2018/CS-Notes"
+  },
+  {
+    "name": "torvalds/linux",
+    "url": "https://github.com/torvalds/linux"
+  },
+  {
+    "name": "ohmyzsh/ohmyzsh",
+    "url": "https://github.com/ohmyzsh/ohmyzsh"
+  },
+  {
+    "name": "twbs/bootstrap",
+    "url": "https://github.com/twbs/bootstrap"
+  },
+  {
+    "name": "practical-tutorials/project-based-learning",
+    "url": "https://github.com/practical-tutorials/project-based-learning"
+  },
+  {
+    "name": "ossu/computer-science",
+    "url": "https://github.com/ossu/computer-science"
+  },
+  {
+    "name": "flutter/flutter",
+    "url": "https://github.com/flutter/flutter"
+  },
+  {
+    "name": "Significant-Gravitas/AutoGPT",
+    "url": "https://github.com/Significant-Gravitas/AutoGPT"
+  },
+  {
+    "name": "microsoft/vscode",
+    "url": "https://github.com/microsoft/vscode"
+  },
+  {
+    "name": "github/gitignore",
+    "url": "https://github.com/github/gitignore"
+  },
+  {
+    "name": "jackfrued/Python-100-Days",
+    "url": "https://github.com/jackfrued/Python-100-Days"
+  },
+  {
+    "name": "jlevy/the-art-of-command-line",
+    "url": "https://github.com/jlevy/the-art-of-command-line"
+  },
+  {
+    "name": "Snailclimb/JavaGuide",
+    "url": "https://github.com/Snailclimb/JavaGuide"
+  },
+  {
+    "name": "airbnb/javascript",
+    "url": "https://github.com/airbnb/javascript"
+  },
+  {
+    "name": "trimstray/the-book-of-secret-knowledge",
+    "url": "https://github.com/trimstray/the-book-of-secret-knowledge"
+  },
+  {
+    "name": "AUTOMATIC1111/stable-diffusion-webui",
+    "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui"
+  },
+  {
+    "name": "ytdl-org/youtube-dl",
+    "url": "https://github.com/ytdl-org/youtube-dl"
+  },
+  {
+    "name": "huggingface/transformers",
+    "url": "https://github.com/huggingface/transformers"
+  },
+  {
+    "name": "labuladong/fucking-algorithm",
+    "url": "https://github.com/labuladong/fucking-algorithm"
+  },
+  {
+    "name": "avelino/awesome-go",
+    "url": "https://github.com/avelino/awesome-go"
+  },
+  {
+    "name": "vercel/next.js",
+    "url": "https://github.com/vercel/next.js"
+  },
+  {
+    "name": "golang/go",
+    "url": "https://github.com/golang/go"
+  },
+  {
+    "name": "Chalarangelo/30-seconds-of-code",
+    "url": "https://github.com/Chalarangelo/30-seconds-of-code"
+  },
+  {
+    "name": "facebook/react-native",
+    "url": "https://github.com/facebook/react-native"
+  },
+  {
+    "name": "electron/electron",
+    "url": "https://github.com/electron/electron"
+  },
+  {
+    "name": "yangshun/tech-interview-handbook",
+    "url": "https://github.com/yangshun/tech-interview-handbook"
+  },
+  {
+    "name": "justjavac/free-programming-books-zh_CN",
+    "url": "https://github.com/justjavac/free-programming-books-zh_CN"
+  },
+  {
+    "name": "d3/d3",
+    "url": "https://github.com/d3/d3"
+  },
+  {
+    "name": "kubernetes/kubernetes",
+    "url": "https://github.com/kubernetes/kubernetes"
+  },
+  {
+    "name": "microsoft/PowerToys",
+    "url": "https://github.com/microsoft/PowerToys"
+  },
+  {
+    "name": "axios/axios",
+    "url": "https://github.com/axios/axios"
+  },
+  {
+    "name": "nodejs/node",
+    "url": "https://github.com/nodejs/node"
+  },
+  {
+    "name": "f/awesome-chatgpt-prompts",
+    "url": "https://github.com/f/awesome-chatgpt-prompts"
+  },
+  {
+    "name": "facebook/create-react-app",
+    "url": "https://github.com/facebook/create-react-app"
+  },
+  {
+    "name": "Genymobile/scrcpy",
+    "url": "https://github.com/Genymobile/scrcpy"
+  },
+  {
+    "name": "mrdoob/three.js",
+    "url": "https://github.com/mrdoob/three.js"
+  },
+  {
+    "name": "microsoft/TypeScript",
+    "url": "https://github.com/microsoft/TypeScript"
+  },
+  {
+    "name": "goldbergyoni/nodebestpractices",
+    "url": "https://github.com/goldbergyoni/nodebestpractices"
+  },
+  {
+    "name": "angular/angular",
+    "url": "https://github.com/angular/angular"
+  },
+  {
+    "name": "microsoft/terminal",
+    "url": "https://github.com/microsoft/terminal"
+  },
+  {
+    "name": "denoland/deno",
+    "url": "https://github.com/denoland/deno"
+  },
+  {
+    "name": "rust-lang/rust",
+    "url": "https://github.com/rust-lang/rust"
+  },
+  {
+    "name": "mui/material-ui",
+    "url": "https://github.com/mui/material-ui"
+  },
+  {
+    "name": "ant-design/ant-design",
+    "url": "https://github.com/ant-design/ant-design"
+  },
+  {
+    "name": "ryanmcdermott/clean-code-javascript",
+    "url": "https://github.com/ryanmcdermott/clean-code-javascript"
+  },
+  {
+    "name": "GrowingGit/GitHub-Chinese-Top-Charts",
+    "url": "https://github.com/GrowingGit/GitHub-Chinese-Top-Charts"
+  },
+  {
+    "name": "puppeteer/puppeteer",
+    "url": "https://github.com/puppeteer/puppeteer"
+  },
+  {
+    "name": "iluwatar/java-design-patterns",
+    "url": "https://github.com/iluwatar/java-design-patterns"
+  },
+  {
+    "name": "PanJiaChen/vue-element-admin",
+    "url": "https://github.com/PanJiaChen/vue-element-admin"
+  },
+  {
+    "name": "521xueweihan/HelloGitHub",
+    "url": "https://github.com/521xueweihan/HelloGitHub"
+  },
+  {
+    "name": "ripienaar/free-for-dev",
+    "url": "https://github.com/ripienaar/free-for-dev"
+  },
+  {
+    "name": "papers-we-love/papers-we-love",
+    "url": "https://github.com/papers-we-love/papers-we-love"
+  },
+  {
+    "name": "godotengine/godot",
+    "url": "https://github.com/godotengine/godot"
+  },
+  {
+    "name": "storybookjs/storybook",
+    "url": "https://github.com/storybookjs/storybook"
+  },
+  {
+    "name": "nvbn/thefuck",
+    "url": "https://github.com/nvbn/thefuck"
+  },
+  {
+    "name": "langchain-ai/langchain",
+    "url": "https://github.com/langchain-ai/langchain"
+  },
+  {
+    "name": "microsoft/Web-Dev-For-Beginners",
+    "url": "https://github.com/microsoft/Web-Dev-For-Beginners"
+  },
+  {
+    "name": "animate-css/animate.css",
+    "url": "https://github.com/animate-css/animate.css"
+  },
+  {
+    "name": "fatedier/frp",
+    "url": "https://github.com/fatedier/frp"
+  },
+  {
+    "name": "gothinkster/realworld",
+    "url": "https://github.com/gothinkster/realworld"
+  },
+  {
+    "name": "tailwindlabs/tailwindcss",
+    "url": "https://github.com/tailwindlabs/tailwindcss"
+  },
+  {
+    "name": "iptv-org/iptv",
+    "url": "https://github.com/iptv-org/iptv"
+  },
+  {
+    "name": "pytorch/pytorch",
+    "url": "https://github.com/pytorch/pytorch"
+  },
+  {
+    "name": "tauri-apps/tauri",
+    "url": "https://github.com/tauri-apps/tauri"
+  },
+  {
+    "name": "Hack-with-Github/Awesome-Hacking",
+    "url": "https://github.com/Hack-with-Github/Awesome-Hacking"
+  },
+  {
+    "name": "mtdvio/every-programmer-should-know",
+    "url": "https://github.com/mtdvio/every-programmer-should-know"
+  },
+  {
+    "name": "laravel/laravel",
+    "url": "https://github.com/laravel/laravel"
+  },
+  {
+    "name": "django/django",
+    "url": "https://github.com/django/django"
+  },
+  {
+    "name": "tensorflow/models",
+    "url": "https://github.com/tensorflow/models"
+  },
+  {
+    "name": "sveltejs/svelte",
+    "url": "https://github.com/sveltejs/svelte"
+  },
+  {
+    "name": "neovim/neovim",
+    "url": "https://github.com/neovim/neovim"
+  },
+  {
+    "name": "bitcoin/bitcoin",
+    "url": "https://github.com/bitcoin/bitcoin"
+  },
+  {
+    "name": "nvm-sh/nvm",
+    "url": "https://github.com/nvm-sh/nvm"
+  },
+  {
+    "name": "opencv/opencv",
+    "url": "https://github.com/opencv/opencv"
+  },
+  {
+    "name": "gin-gonic/gin",
+    "url": "https://github.com/gin-gonic/gin"
+  },
+  {
+    "name": "macrozheng/mall",
+    "url": "https://github.com/macrozheng/mall"
+  },
+  {
+    "name": "tonsky/FiraCode",
+    "url": "https://github.com/tonsky/FiraCode"
+  },
+  {
+    "name": "MisterBooo/LeetCodeAnimation",
+    "url": "https://github.com/MisterBooo/LeetCodeAnimation"
+  },
+  {
+    "name": "florinpop17/app-ideas",
+    "url": "https://github.com/florinpop17/app-ideas"
+  },
+  {
+    "name": "krahets/hello-algo",
+    "url": "https://github.com/krahets/hello-algo"
+  },
+  {
+    "name": "doocs/advanced-java",
+    "url": "https://github.com/doocs/advanced-java"
+  },
+  {
+    "name": "FortAwesome/Font-Awesome",
+    "url": "https://github.com/FortAwesome/Font-Awesome"
+  },
+  {
+    "name": "spring-projects/spring-boot",
+    "url": "https://github.com/spring-projects/spring-boot"
+  },
+  {
+    "name": "gohugoio/hugo",
+    "url": "https://github.com/gohugoio/hugo"
+  },
+  {
+    "name": "excalidraw/excalidraw",
+    "url": "https://github.com/excalidraw/excalidraw"
+  },
+  {
+    "name": "jaywcjlove/awesome-mac",
+    "url": "https://github.com/jaywcjlove/awesome-mac"
+  },
+  {
+    "name": "typicode/json-server",
+    "url": "https://github.com/typicode/json-server"
+  },
+  {
+    "name": "vuejs/awesome-vue",
+    "url": "https://github.com/vuejs/awesome-vue"
+  },
+  {
+    "name": "massgravel/Microsoft-Activation-Scripts",
+    "url": "https://github.com/massgravel/Microsoft-Activation-Scripts"
+  },
+  {
+    "name": "tiangolo/fastapi",
+    "url": "https://github.com/tiangolo/fastapi"
+  },
+  {
+    "name": "oven-sh/bun",
+    "url": "https://github.com/oven-sh/bun"
+  },
+  {
+    "name": "yt-dlp/yt-dlp",
+    "url": "https://github.com/yt-dlp/yt-dlp"
+  },
+  {
+    "name": "home-assistant/core",
+    "url": "https://github.com/home-assistant/core"
+  },
+  {
+    "name": "netdata/netdata",
+    "url": "https://github.com/netdata/netdata"
+  },
+  {
+    "name": "moby/moby",
+    "url": "https://github.com/moby/moby"
+  },
+  {
+    "name": "elastic/elasticsearch",
+    "url": "https://github.com/elastic/elasticsearch"
+  },
+  {
+    "name": "ChatGPTNextWeb/ChatGPT-Next-Web",
+    "url": "https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web"
+  },
+  {
+    "name": "thedaviddias/Front-End-Checklist",
+    "url": "https://github.com/thedaviddias/Front-End-Checklist"
+  },
+  {
+    "name": "base-org/node",
+    "url": "https://github.com/base-org/node"
+  },
+  {
+    "name": "DopplerHQ/awesome-interview-questions",
+    "url": "https://github.com/DopplerHQ/awesome-interview-questions"
+  },
+  {
+    "name": "hakimel/reveal.js",
+    "url": "https://github.com/hakimel/reveal.js"
+  },
+  {
+    "name": "microsoft/ML-For-Beginners",
+    "url": "https://github.com/microsoft/ML-For-Beginners"
+  },
+  {
+    "name": "mermaid-js/mermaid",
+    "url": "https://github.com/mermaid-js/mermaid"
+  },
+  {
+    "name": "pallets/flask",
+    "url": "https://github.com/pallets/flask"
+  },
+  {
+    "name": "apple/swift",
+    "url": "https://github.com/apple/swift"
+  },
+  {
+    "name": "supabase/supabase",
+    "url": "https://github.com/supabase/supabase"
+  },
+  {
+    "name": "CompVis/stable-diffusion",
+    "url": "https://github.com/CompVis/stable-diffusion"
+  },
+  {
+    "name": "coder/code-server",
+    "url": "https://github.com/coder/code-server"
+  },
+  {
+    "name": "Developer-Y/cs-video-courses",
+    "url": "https://github.com/Developer-Y/cs-video-courses"
+  },
+  {
+    "name": "redis/redis",
+    "url": "https://github.com/redis/redis"
+  },
+  {
+    "name": "vitejs/vite",
+    "url": "https://github.com/vitejs/vite"
+  },
+  {
+    "name": "anuraghazra/github-readme-stats",
+    "url": "https://github.com/anuraghazra/github-readme-stats"
+  },
+  {
+    "name": "webpack/webpack",
+    "url": "https://github.com/webpack/webpack"
+  },
+  {
+    "name": "nestjs/nest",
+    "url": "https://github.com/nestjs/nest"
+  },
+  {
+    "name": "expressjs/express",
+    "url": "https://github.com/expressjs/express"
+  },
+  {
+    "name": "fighting41love/funNLP",
+    "url": "https://github.com/fighting41love/funNLP"
+  },
+  {
+    "name": "nomic-ai/gpt4all",
+    "url": "https://github.com/nomic-ai/gpt4all"
+  },
+  {
+    "name": "protocolbuffers/protobuf",
+    "url": "https://github.com/protocolbuffers/protobuf"
+  },
+  {
+    "name": "MunGell/awesome-for-beginners",
+    "url": "https://github.com/MunGell/awesome-for-beginners"
+  },
+  {
+    "name": "josephmisiti/awesome-machine-learning",
+    "url": "https://github.com/josephmisiti/awesome-machine-learning"
+  },
+  {
+    "name": "chartjs/Chart.js",
+    "url": "https://github.com/chartjs/Chart.js"
+  },
+  {
+    "name": "bregman-arie/devops-exercises",
+    "url": "https://github.com/bregman-arie/devops-exercises"
+  },
+  {
+    "name": "FuelLabs/sway",
+    "url": "https://github.com/FuelLabs/sway"
+  },
+  {
+    "name": "rustdesk/rustdesk",
+    "url": "https://github.com/rustdesk/rustdesk"
+  },
+  {
+    "name": "enaqx/awesome-react",
+    "url": "https://github.com/enaqx/awesome-react"
+  },
+  {
+    "name": "leonardomso/33-js-concepts",
+    "url": "https://github.com/leonardomso/33-js-concepts"
+  },
+  {
+    "name": "kdn251/interviews",
+    "url": "https://github.com/kdn251/interviews"
+  },
+  {
+    "name": "microsoft/playwright",
+    "url": "https://github.com/microsoft/playwright"
+  },
+  {
+    "name": "resume/resume.github.com",
+    "url": "https://github.com/resume/resume.github.com"
+  },
+  {
+    "name": "twitter/the-algorithm",
+    "url": "https://github.com/twitter/the-algorithm"
+  },
+  {
+    "name": "ansible/ansible",
+    "url": "https://github.com/ansible/ansible"
+  },
+  {
+    "name": "keras-team/keras",
+    "url": "https://github.com/keras-team/keras"
+  },
+  {
+    "name": "2dust/v2rayN",
+    "url": "https://github.com/2dust/v2rayN"
+  },
+  {
+    "name": "reduxjs/redux",
+    "url": "https://github.com/reduxjs/redux"
+  },
+  {
+    "name": "grafana/grafana",
+    "url": "https://github.com/grafana/grafana"
+  },
+  {
+    "name": "socketio/socket.io",
+    "url": "https://github.com/socketio/socket.io"
+  },
+  {
+    "name": "Anduin2017/HowToCook",
+    "url": "https://github.com/Anduin2017/HowToCook"
+  },
+  {
+    "name": "atom/atom",
+    "url": "https://github.com/atom/atom"
+  },
+  {
+    "name": "hoppscotch/hoppscotch",
+    "url": "https://github.com/hoppscotch/hoppscotch"
+  },
+  {
+    "name": "strapi/strapi",
+    "url": "https://github.com/strapi/strapi"
+  },
+  {
+    "name": "openai/whisper",
+    "url": "https://github.com/openai/whisper"
+  },
+  {
+    "name": "adam-p/markdown-here",
+    "url": "https://github.com/adam-p/markdown-here"
+  },
+  {
+    "name": "python/cpython",
+    "url": "https://github.com/python/cpython"
+  },
+  {
+    "name": "lydiahallie/javascript-questions",
+    "url": "https://github.com/lydiahallie/javascript-questions"
+  },
+  {
+    "name": "junegunn/fzf",
+    "url": "https://github.com/junegunn/fzf"
+  },
+  {
+    "name": "syncthing/syncthing",
+    "url": "https://github.com/syncthing/syncthing"
+  },
+  {
+    "name": "kelseyhightower/nocode",
+    "url": "https://github.com/kelseyhightower/nocode"
+  },
+  {
+    "name": "xingshaocheng/architect-awesome",
+    "url": "https://github.com/xingshaocheng/architect-awesome"
+  },
+  {
+    "name": "h5bp/Front-end-Developer-Interview-Questions",
+    "url": "https://github.com/h5bp/Front-end-Developer-Interview-Questions"
+  },
+  {
+    "name": "angular/angular.js",
+    "url": "https://github.com/angular/angular.js"
+  },
+  {
+    "name": "jquery/jquery",
+    "url": "https://github.com/jquery/jquery"
+  },
+  {
+    "name": "apache/echarts",
+    "url": "https://github.com/apache/echarts"
+  },
+  {
+    "name": "lodash/lodash",
+    "url": "https://github.com/lodash/lodash"
+  },
+  {
+    "name": "FuelLabs/fuel-core",
+    "url": "https://github.com/FuelLabs/fuel-core"
+  },
+  {
+    "name": "apache/superset",
+    "url": "https://github.com/apache/superset"
+  },
+  {
+    "name": "awesomedata/awesome-public-datasets",
+    "url": "https://github.com/awesomedata/awesome-public-datasets"
+  },
+  {
+    "name": "scikit-learn/scikit-learn",
+    "url": "https://github.com/scikit-learn/scikit-learn"
+  },
+  {
+    "name": "shadowsocks/shadowsocks-windows",
+    "url": "https://github.com/shadowsocks/shadowsocks-windows"
+  },
+  {
+    "name": "tesseract-ocr/tesseract",
+    "url": "https://github.com/tesseract-ocr/tesseract"
+  },
+  {
+    "name": "3b1b/manim",
+    "url": "https://github.com/3b1b/manim"
+  },
+  {
+    "name": "ventoy/Ventoy",
+    "url": "https://github.com/ventoy/Ventoy"
+  },
+  {
+    "name": "xtekky/gpt4free",
+    "url": "https://github.com/xtekky/gpt4free"
+  },
+  {
+    "name": "swisskyrepo/PayloadsAllTheThings",
+    "url": "https://github.com/swisskyrepo/PayloadsAllTheThings"
+  },
+  {
+    "name": "ByteByteGoHq/system-design-101",
+    "url": "https://github.com/ByteByteGoHq/system-design-101"
+  },
+  {
+    "name": "TheAlgorithms/Java",
+    "url": "https://github.com/TheAlgorithms/Java"
+  },
+  {
+    "name": "d2l-ai/d2l-zh",
+    "url": "https://github.com/d2l-ai/d2l-zh"
+  },
+  {
+    "name": "chrislgarry/Apollo-11",
+    "url": "https://github.com/chrislgarry/Apollo-11"
+  },
+  {
+    "name": "bradtraversy/design-resources-for-developers",
+    "url": "https://github.com/bradtraversy/design-resources-for-developers"
+  },
+  {
+    "name": "sdmg15/Best-websites-a-programmer-should-visit",
+    "url": "https://github.com/sdmg15/Best-websites-a-programmer-should-visit"
+  },
+  {
+    "name": "shadcn-ui/ui",
+    "url": "https://github.com/shadcn-ui/ui"
+  },
+  {
+    "name": "h5bp/html5-boilerplate",
+    "url": "https://github.com/h5bp/html5-boilerplate"
+  },
+  {
+    "name": "sindresorhus/awesome-nodejs",
+    "url": "https://github.com/sindresorhus/awesome-nodejs"
+  },
+  {
+    "name": "openai/openai-cookbook",
+    "url": "https://github.com/openai/openai-cookbook"
+  },
+  {
+    "name": "ocornut/imgui",
+    "url": "https://github.com/ocornut/imgui"
+  },
+  {
+    "name": "ggerganov/llama.cpp",
+    "url": "https://github.com/ggerganov/llama.cpp"
+  },
+  {
+    "name": "obsproject/obs-studio",
+    "url": "https://github.com/obsproject/obs-studio"
+  },
+  {
+    "name": "fffaraz/awesome-cpp",
+    "url": "https://github.com/fffaraz/awesome-cpp"
+  },
+  {
+    "name": "spring-projects/spring-framework",
+    "url": "https://github.com/spring-projects/spring-framework"
+  },
+  {
+    "name": "gatsbyjs/gatsby",
+    "url": "https://github.com/gatsbyjs/gatsby"
+  },
+  {
+    "name": "ollama/ollama",
+    "url": "https://github.com/ollama/ollama"
+  },
+  {
+    "name": "Eugeny/tabby",
+    "url": "https://github.com/Eugeny/tabby"
+  },
+  {
+    "name": "rails/rails",
+    "url": "https://github.com/rails/rails"
+  },
+  {
+    "name": "binary-husky/gpt_academic",
+    "url": "https://github.com/binary-husky/gpt_academic"
+  },
+  {
+    "name": "ElemeFE/element",
+    "url": "https://github.com/ElemeFE/element"
+  },
+  {
+    "name": "azl397985856/leetcode",
+    "url": "https://github.com/azl397985856/leetcode"
+  },
+  {
+    "name": "prakhar1989/awesome-courses",
+    "url": "https://github.com/prakhar1989/awesome-courses"
+  },
+  {
+    "name": "caddyserver/caddy",
+    "url": "https://github.com/caddyserver/caddy"
+  },
+  {
+    "name": "danielmiessler/SecLists",
+    "url": "https://github.com/danielmiessler/SecLists"
+  },
+  {
+    "name": "scutan90/DeepLearning-500-questions",
+    "url": "https://github.com/scutan90/DeepLearning-500-questions"
+  },
+  {
+    "name": "binhnguyennus/awesome-scalability",
+    "url": "https://github.com/binhnguyennus/awesome-scalability"
+  },
+  {
+    "name": "facebook/docusaurus",
+    "url": "https://github.com/facebook/docusaurus"
+  },
+  {
+    "name": "prometheus/prometheus",
+    "url": "https://github.com/prometheus/prometheus"
+  },
+  {
+    "name": "alacritty/alacritty",
+    "url": "https://github.com/alacritty/alacritty"
+  },
+  {
+    "name": "meta-llama/llama",
+    "url": "https://github.com/meta-llama/llama"
+  },
+  {
+    "name": "localstack/localstack",
+    "url": "https://github.com/localstack/localstack"
+  },
+  {
+    "name": "remix-run/react-router",
+    "url": "https://github.com/remix-run/react-router"
+  },
+  {
+    "name": "necolas/normalize.css",
+    "url": "https://github.com/necolas/normalize.css"
+  },
+  {
+    "name": "nuxt/nuxt",
+    "url": "https://github.com/nuxt/nuxt"
+  },
+  {
+    "name": "ageitgey/face_recognition",
+    "url": "https://github.com/ageitgey/face_recognition"
+  },
+  {
+    "name": "Alvin9999/new-pac",
+    "url": "https://github.com/Alvin9999/new-pac"
+  },
+  {
+    "name": "zylon-ai/private-gpt",
+    "url": "https://github.com/zylon-ai/private-gpt"
+  },
+  {
+    "name": "psf/requests",
+    "url": "https://github.com/psf/requests"
+  },
+  {
+    "name": "Solido/awesome-flutter",
+    "url": "https://github.com/Solido/awesome-flutter"
+  },
+  {
+    "name": "sherlock-project/sherlock",
+    "url": "https://github.com/sherlock-project/sherlock"
+  },
+  {
+    "name": "ryanoasis/nerd-fonts",
+    "url": "https://github.com/ryanoasis/nerd-fonts"
+  },
+  {
+    "name": "Semantic-Org/Semantic-UI",
+    "url": "https://github.com/Semantic-Org/Semantic-UI"
+  },
+  {
+    "name": "scrapy/scrapy",
+    "url": "https://github.com/scrapy/scrapy"
+  },
+  {
+    "name": "CorentinJ/Real-Time-Voice-Cloning",
+    "url": "https://github.com/CorentinJ/Real-Time-Voice-Cloning"
+  },
+  {
+    "name": "ionic-team/ionic-framework",
+    "url": "https://github.com/ionic-team/ionic-framework"
+  },
+  {
+    "name": "gpt-engineer-org/gpt-engineer",
+    "url": "https://github.com/gpt-engineer-org/gpt-engineer"
+  },
+  {
+    "name": "PlexPt/awesome-chatgpt-prompts-zh",
+    "url": "https://github.com/PlexPt/awesome-chatgpt-prompts-zh"
+  },
+  {
+    "name": "nektos/act",
+    "url": "https://github.com/nektos/act"
+  },
+  {
+    "name": "git/git",
+    "url": "https://github.com/git/git"
+  },
+  {
+    "name": "google/material-design-icons",
+    "url": "https://github.com/google/material-design-icons"
+  },
+  {
+    "name": "google/guava",
+    "url": "https://github.com/google/guava"
+  },
+  {
+    "name": "PKUFlyingPig/cs-self-learning",
+    "url": "https://github.com/PKUFlyingPig/cs-self-learning"
+  },
+  {
+    "name": "soimort/you-get",
+    "url": "https://github.com/soimort/you-get"
+  },
+  {
+    "name": "deepfakes/faceswap",
+    "url": "https://github.com/deepfakes/faceswap"
+  },
+  {
+    "name": "wasabeef/awesome-android-ui",
+    "url": "https://github.com/wasabeef/awesome-android-ui"
+  },
+  {
+    "name": "rust-lang/rustlings",
+    "url": "https://github.com/rust-lang/rustlings"
+  },
+  {
+    "name": "louislam/uptime-kuma",
+    "url": "https://github.com/louislam/uptime-kuma"
+  },
+  {
+    "name": "juliangarnier/anime",
+    "url": "https://github.com/juliangarnier/anime"
+  },
+  {
+    "name": "jgthms/bulma",
+    "url": "https://github.com/jgthms/bulma"
+  },
+  {
+    "name": "AppFlowy-IO/AppFlowy",
+    "url": "https://github.com/AppFlowy-IO/AppFlowy"
+  },
+  {
+    "name": "abi/screenshot-to-code",
+    "url": "https://github.com/abi/screenshot-to-code"
+  },
+  {
+    "name": "tldr-pages/tldr",
+    "url": "https://github.com/tldr-pages/tldr"
+  },
+  {
+    "name": "jekyll/jekyll",
+    "url": "https://github.com/jekyll/jekyll"
+  },
+  {
+    "name": "prettier/prettier",
+    "url": "https://github.com/prettier/prettier"
+  },
+  {
+    "name": "moment/moment",
+    "url": "https://github.com/moment/moment"
+  },
+  {
+    "name": "traefik/traefik",
+    "url": "https://github.com/traefik/traefik"
+  },
+  {
+    "name": "ReactiveX/RxJava",
+    "url": "https://github.com/ReactiveX/RxJava"
+  },
+  {
+    "name": "xai-org/grok-1",
+    "url": "https://github.com/xai-org/grok-1"
+  },
+  {
+    "name": "NationalSecurityAgency/ghidra",
+    "url": "https://github.com/NationalSecurityAgency/ghidra"
+  },
+  {
+    "name": "JetBrains/kotlin",
+    "url": "https://github.com/JetBrains/kotlin"
+  },
+  {
+    "name": "commaai/openpilot",
+    "url": "https://github.com/commaai/openpilot"
+  },
+  {
+    "name": "OpenInterpreter/open-interpreter",
+    "url": "https://github.com/OpenInterpreter/open-interpreter"
+  },
+  {
+    "name": "labmlai/annotated_deep_learning_paper_implementations",
+    "url": "https://github.com/labmlai/annotated_deep_learning_paper_implementations"
+  },
+  {
+    "name": "NARKOZ/hacker-scripts",
+    "url": "https://github.com/NARKOZ/hacker-scripts"
+  },
+  {
+    "name": "DefinitelyTyped/DefinitelyTyped",
+    "url": "https://github.com/DefinitelyTyped/DefinitelyTyped"
+  },
+  {
+    "name": "youngyangyang04/leetcode-master",
+    "url": "https://github.com/youngyangyang04/leetcode-master"
+  },
+  {
+    "name": "Textualize/rich",
+    "url": "https://github.com/Textualize/rich"
+  },
+  {
+    "name": "lencx/ChatGPT",
+    "url": "https://github.com/lencx/ChatGPT"
+  },
+  {
+    "name": "pi-hole/pi-hole",
+    "url": "https://github.com/pi-hole/pi-hole"
+  },
+  {
+    "name": "ultralytics/yolov5",
+    "url": "https://github.com/ultralytics/yolov5"
+  },
+  {
+    "name": "chinese-poetry/chinese-poetry",
+    "url": "https://github.com/chinese-poetry/chinese-poetry"
+  },
+  {
+    "name": "jgraph/drawio-desktop",
+    "url": "https://github.com/jgraph/drawio-desktop"
+  },
+  {
+    "name": "iamadamdev/bypass-paywalls-chrome",
+    "url": "https://github.com/iamadamdev/bypass-paywalls-chrome"
+  },
+  {
+    "name": "sharkdp/bat",
+    "url": "https://github.com/sharkdp/bat"
+  },
+  {
+    "name": "etcd-io/etcd",
+    "url": "https://github.com/etcd-io/etcd"
+  },
+  {
+    "name": "mozilla/pdf.js",
+    "url": "https://github.com/mozilla/pdf.js"
+  },
+  {
+    "name": "cypress-io/cypress",
+    "url": "https://github.com/cypress-io/cypress"
+  },
+  {
+    "name": "algorithm-visualizer/algorithm-visualizer",
+    "url": "https://github.com/algorithm-visualizer/algorithm-visualizer"
+  },
+  {
+    "name": "serverless/serverless",
+    "url": "https://github.com/serverless/serverless"
+  },
+  {
+    "name": "ethereum/go-ethereum",
+    "url": "https://github.com/ethereum/go-ethereum"
+  },
+  {
+    "name": "mastodon/mastodon",
+    "url": "https://github.com/mastodon/mastodon"
+  },
+  {
+    "name": "minimaxir/big-list-of-naughty-strings",
+    "url": "https://github.com/minimaxir/big-list-of-naughty-strings"
+  },
+  {
+    "name": "iamkun/dayjs",
+    "url": "https://github.com/iamkun/dayjs"
+  },
+  {
+    "name": "golang-standards/project-layout",
+    "url": "https://github.com/golang-standards/project-layout"
+  },
+  {
+    "name": "vsouza/awesome-ios",
+    "url": "https://github.com/vsouza/awesome-ios"
+  },
+  {
+    "name": "TryGhost/Ghost",
+    "url": "https://github.com/TryGhost/Ghost"
+  },
+  {
+    "name": "FiloSottile/mkcert",
+    "url": "https://github.com/FiloSottile/mkcert"
+  },
+  {
+    "name": "tiimgreen/github-cheat-sheet",
+    "url": "https://github.com/tiimgreen/github-cheat-sheet"
+  },
+  {
+    "name": "jesseduffield/lazygit",
+    "url": "https://github.com/jesseduffield/lazygit"
+  },
+  {
+    "name": "iperov/DeepFaceLab",
+    "url": "https://github.com/iperov/DeepFaceLab"
+  },
+  {
+    "name": "square/okhttp",
+    "url": "https://github.com/square/okhttp"
+  },
+  {
+    "name": "charlax/professional-programming",
+    "url": "https://github.com/charlax/professional-programming"
+  },
+  {
+    "name": "ziishaned/learn-regex",
+    "url": "https://github.com/ziishaned/learn-regex"
+  },
+  {
+    "name": "BurntSushi/ripgrep",
+    "url": "https://github.com/BurntSushi/ripgrep"
+  },
+  {
+    "name": "v2ray/v2ray-core",
+    "url": "https://github.com/v2ray/v2ray-core"
+  },
+  {
+    "name": "FuelLabs/fuels-rs",
+    "url": "https://github.com/FuelLabs/fuels-rs"
+  },
+  {
+    "name": "FuelLabs/fuels-ts",
+    "url": "https://github.com/FuelLabs/fuels-ts"
+  },
+  {
+    "name": "marktext/marktext",
+    "url": "https://github.com/marktext/marktext"
+  },
+  {
+    "name": "JuliaLang/julia",
+    "url": "https://github.com/JuliaLang/julia"
+  },
+  {
+    "name": "vuejs/core",
+    "url": "https://github.com/vuejs/core"
+  },
+  {
+    "name": "ngosang/trackerslist",
+    "url": "https://github.com/ngosang/trackerslist"
+  },
+  {
+    "name": "gogs/gogs",
+    "url": "https://github.com/gogs/gogs"
+  },
+  {
+    "name": "justjavac/awesome-wechat-weapp",
+    "url": "https://github.com/justjavac/awesome-wechat-weapp"
+  },
+  {
+    "name": "karan/Projects",
+    "url": "https://github.com/karan/Projects"
+  },
+  {
+    "name": "minio/minio",
+    "url": "https://github.com/minio/minio"
+  },
+  {
+    "name": "meteor/meteor",
+    "url": "https://github.com/meteor/meteor"
+  },
+  {
+    "name": "topjohnwu/Magisk",
+    "url": "https://github.com/topjohnwu/Magisk"
+  },
+  {
+    "name": "typescript-cheatsheets/react",
+    "url": "https://github.com/typescript-cheatsheets/react"
+  },
+  {
+    "name": "facebookresearch/segment-anything",
+    "url": "https://github.com/facebookresearch/segment-anything"
+  },
+  {
+    "name": "android/architecture-samples",
+    "url": "https://github.com/android/architecture-samples"
+  },
+  {
+    "name": "rclone/rclone",
+    "url": "https://github.com/rclone/rclone"
+  },
+  {
+    "name": "ColorlibHQ/AdminLTE",
+    "url": "https://github.com/ColorlibHQ/AdminLTE"
+  },
+  {
+    "name": "dair-ai/Prompt-Engineering-Guide",
+    "url": "https://github.com/dair-ai/Prompt-Engineering-Guide"
+  },
+  {
+    "name": "jestjs/jest",
+    "url": "https://github.com/jestjs/jest"
+  },
+  {
+    "name": "wagoodman/dive",
+    "url": "https://github.com/wagoodman/dive"
+  },
+  {
+    "name": "kamranahmedse/design-patterns-for-humans",
+    "url": "https://github.com/kamranahmedse/design-patterns-for-humans"
+  },
+  {
+    "name": "PowerShell/PowerShell",
+    "url": "https://github.com/PowerShell/PowerShell"
+  },
+  {
+    "name": "aymericdamien/TensorFlow-Examples",
+    "url": "https://github.com/aymericdamien/TensorFlow-Examples"
+  },
+  {
+    "name": "Avik-Jain/100-Days-Of-ML-Code",
+    "url": "https://github.com/Avik-Jain/100-Days-Of-ML-Code"
+  },
+  {
+    "name": "x64dbg/x64dbg",
+    "url": "https://github.com/x64dbg/x64dbg"
+  },
+  {
+    "name": "parcel-bundler/parcel",
+    "url": "https://github.com/parcel-bundler/parcel"
+  },
+  {
+    "name": "agalwood/Motrix",
+    "url": "https://github.com/agalwood/Motrix"
+  },
+  {
+    "name": "meilisearch/meilisearch",
+    "url": "https://github.com/meilisearch/meilisearch"
+  },
+  {
+    "name": "babel/babel",
+    "url": "https://github.com/babel/babel"
+  },
+  {
+    "name": "gorhill/uBlock",
+    "url": "https://github.com/gorhill/uBlock"
+  },
+  {
+    "name": "astaxie/build-web-application-with-golang",
+    "url": "https://github.com/astaxie/build-web-application-with-golang"
+  },
+  {
+    "name": "romkatv/powerlevel10k",
+    "url": "https://github.com/romkatv/powerlevel10k"
+  },
+  {
+    "name": "laurent22/joplin",
+    "url": "https://github.com/laurent22/joplin"
+  },
+  {
+    "name": "Z4nzu/hackingtool",
+    "url": "https://github.com/Z4nzu/hackingtool"
+  },
+  {
+    "name": "rust-unofficial/awesome-rust",
+    "url": "https://github.com/rust-unofficial/awesome-rust"
+  },
+  {
+    "name": "vercel/hyper",
+    "url": "https://github.com/vercel/hyper"
+  },
+  {
+    "name": "square/retrofit",
+    "url": "https://github.com/square/retrofit"
+  },
+  {
+    "name": "pixijs/pixijs",
+    "url": "https://github.com/pixijs/pixijs"
+  },
+  {
+    "name": "firstcontributions/first-contributions",
+    "url": "https://github.com/firstcontributions/first-contributions"
+  },
+  {
+    "name": "pmndrs/zustand",
+    "url": "https://github.com/pmndrs/zustand"
+  },
+  {
+    "name": "FFmpeg/FFmpeg",
+    "url": "https://github.com/FFmpeg/FFmpeg"
+  },
+  {
+    "name": "nocodb/nocodb",
+    "url": "https://github.com/nocodb/nocodb"
+  },
+  {
+    "name": "withastro/astro",
+    "url": "https://github.com/withastro/astro"
+  },
+  {
+    "name": "pandas-dev/pandas",
+    "url": "https://github.com/pandas-dev/pandas"
+  },
+  {
+    "name": "go-gitea/gitea",
+    "url": "https://github.com/go-gitea/gitea"
+  },
+  {
+    "name": "k88hudson/git-flight-rules",
+    "url": "https://github.com/k88hudson/git-flight-rules"
+  },
+  {
+    "name": "microsoft/generative-ai-for-beginners",
+    "url": "https://github.com/microsoft/generative-ai-for-beginners"
+  },
+  {
+    "name": "google/zx",
+    "url": "https://github.com/google/zx"
+  },
+  {
+    "name": "isocpp/CppCoreGuidelines",
+    "url": "https://github.com/isocpp/CppCoreGuidelines"
+  },
+  {
+    "name": "huginn/huginn",
+    "url": "https://github.com/huginn/huginn"
+  },
+  {
+    "name": "jakevdp/PythonDataScienceHandbook",
+    "url": "https://github.com/jakevdp/PythonDataScienceHandbook"
+  },
+  {
+    "name": "poteto/hiring-without-whiteboards",
+    "url": "https://github.com/poteto/hiring-without-whiteboards"
+  },
+  {
+    "name": "yarnpkg/yarn",
+    "url": "https://github.com/yarnpkg/yarn"
+  },
+  {
+    "name": "ruanyf/weekly",
+    "url": "https://github.com/ruanyf/weekly"
+  },
+  {
+    "name": "hashicorp/terraform",
+    "url": "https://github.com/hashicorp/terraform"
+  },
+  {
+    "name": "dypsilon/frontend-dev-bookmarks",
+    "url": "https://github.com/dypsilon/frontend-dev-bookmarks"
+  },
+  {
+    "name": "appwrite/appwrite",
+    "url": "https://github.com/appwrite/appwrite"
+  },
+  {
+    "name": "Asabeneh/30-Days-Of-JavaScript",
+    "url": "https://github.com/Asabeneh/30-Days-Of-JavaScript"
+  },
+  {
+    "name": "bailicangdu/vue2-elm",
+    "url": "https://github.com/bailicangdu/vue2-elm"
+  },
+  {
+    "name": "grpc/grpc",
+    "url": "https://github.com/grpc/grpc"
+  },
+  {
+    "name": "Unitech/pm2",
+    "url": "https://github.com/Unitech/pm2"
+  },
+  {
+    "name": "starship/starship",
+    "url": "https://github.com/starship/starship"
+  },
+  {
+    "name": "Alamofire/Alamofire",
+    "url": "https://github.com/Alamofire/Alamofire"
+  },
+  {
+    "name": "discourse/discourse",
+    "url": "https://github.com/discourse/discourse"
+  },
+  {
+    "name": "n8n-io/n8n",
+    "url": "https://github.com/n8n-io/n8n"
+  },
+  {
+    "name": "streamich/react-use",
+    "url": "https://github.com/streamich/react-use"
+  },
+  {
+    "name": "brillout/awesome-react-components",
+    "url": "https://github.com/brillout/awesome-react-components"
+  },
+  {
+    "name": "yangshun/front-end-interview-handbook",
+    "url": "https://github.com/yangshun/front-end-interview-handbook"
+  },
+  {
+    "name": "nlohmann/json",
+    "url": "https://github.com/nlohmann/json"
+  },
+  {
+    "name": "nwjs/nw.js",
+    "url": "https://github.com/nwjs/nw.js"
+  },
+  {
+    "name": "styled-components/styled-components",
+    "url": "https://github.com/styled-components/styled-components"
+  },
+  {
+    "name": "apache/dubbo",
+    "url": "https://github.com/apache/dubbo"
+  },
+  {
+    "name": "dkhamsing/open-source-ios-apps",
+    "url": "https://github.com/dkhamsing/open-source-ios-apps"
+  },
+  {
+    "name": "Leaflet/Leaflet",
+    "url": "https://github.com/Leaflet/Leaflet"
+  },
+  {
+    "name": "type-challenges/type-challenges",
+    "url": "https://github.com/type-challenges/type-challenges"
+  },
+  {
+    "name": "akullpp/awesome-java",
+    "url": "https://github.com/akullpp/awesome-java"
+  },
+  {
+    "name": "GitSquared/edex-ui",
+    "url": "https://github.com/GitSquared/edex-ui"
+  },
+  {
+    "name": "TanStack/query",
+    "url": "https://github.com/TanStack/query"
+  },
+  {
+    "name": "react-hook-form/react-hook-form",
+    "url": "https://github.com/react-hook-form/react-hook-form"
+  },
+  {
+    "name": "serhii-londar/open-source-mac-os-apps",
+    "url": "https://github.com/serhii-londar/open-source-mac-os-apps"
+  },
+  {
+    "name": "faif/python-patterns",
+    "url": "https://github.com/faif/python-patterns"
+  },
+  {
+    "name": "dcloudio/uni-app",
+    "url": "https://github.com/dcloudio/uni-app"
+  },
+  {
+    "name": "Homebrew/brew",
+    "url": "https://github.com/Homebrew/brew"
+  },
+  {
+    "name": "THUDM/ChatGLM-6B",
+    "url": "https://github.com/THUDM/ChatGLM-6B"
+  },
+  {
+    "name": "vuetifyjs/vuetify",
+    "url": "https://github.com/vuetifyjs/vuetify"
+  },
+  {
+    "name": "quilljs/quill",
+    "url": "https://github.com/quilljs/quill"
+  },
+  {
+    "name": "geekan/MetaGPT",
+    "url": "https://github.com/geekan/MetaGPT"
+  },
+  {
+    "name": "Dogfalo/materialize",
+    "url": "https://github.com/Dogfalo/materialize"
+  },
+  {
+    "name": "skylot/jadx",
+    "url": "https://github.com/skylot/jadx"
+  },
+  {
+    "name": "RocketChat/Rocket.Chat",
+    "url": "https://github.com/RocketChat/Rocket.Chat"
+  },
+  {
+    "name": "alex/what-happens-when",
+    "url": "https://github.com/alex/what-happens-when"
+  },
+  {
+    "name": "fastlane/fastlane",
+    "url": "https://github.com/fastlane/fastlane"
+  },
+  {
+    "name": "kelseyhightower/kubernetes-the-hard-way",
+    "url": "https://github.com/kelseyhightower/kubernetes-the-hard-way"
+  },
+  {
+    "name": "nolimits4web/swiper",
+    "url": "https://github.com/nolimits4web/swiper"
+  },
+  {
+    "name": "jgraph/drawio",
+    "url": "https://github.com/jgraph/drawio"
+  },
+  {
+    "name": "hexojs/hexo",
+    "url": "https://github.com/hexojs/hexo"
+  },
+  {
+    "name": "apache/spark",
+    "url": "https://github.com/apache/spark"
+  },
+  {
+    "name": "PaddlePaddle/PaddleOCR",
+    "url": "https://github.com/PaddlePaddle/PaddleOCR"
+  },
+  {
+    "name": "microsoft/monaco-editor",
+    "url": "https://github.com/microsoft/monaco-editor"
+  },
+  {
+    "name": "apachecn/ailearning",
+    "url": "https://github.com/apachecn/ailearning"
+  },
+  {
+    "name": "hpcaitech/ColossalAI",
+    "url": "https://github.com/hpcaitech/ColossalAI"
+  },
+  {
+    "name": "jeecgboot/jeecg-boot",
+    "url": "https://github.com/jeecgboot/jeecg-boot"
+  },
+  {
+    "name": "impress/impress.js",
+    "url": "https://github.com/impress/impress.js"
+  },
+  {
+    "name": "Kong/kong",
+    "url": "https://github.com/Kong/kong"
+  },
+  {
+    "name": "LeCoupa/awesome-cheatsheets",
+    "url": "https://github.com/LeCoupa/awesome-cheatsheets"
+  },
+  {
+    "name": "chubin/cheat.sh",
+    "url": "https://github.com/chubin/cheat.sh"
+  },
+  {
+    "name": "psf/black",
+    "url": "https://github.com/psf/black"
+  },
+  {
+    "name": "floodsung/Deep-Learning-Papers-Reading-Roadmap",
+    "url": "https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap"
+  },
+  {
+    "name": "dbeaver/dbeaver",
+    "url": "https://github.com/dbeaver/dbeaver"
+  },
+  {
+    "name": "evanw/esbuild",
+    "url": "https://github.com/evanw/esbuild"
+  },
+  {
+    "name": "php/php-src",
+    "url": "https://github.com/php/php-src"
+  },
+  {
+    "name": "PhilJay/MPAndroidChart",
+    "url": "https://github.com/PhilJay/MPAndroidChart"
+  },
+  {
+    "name": "videojs/video.js",
+    "url": "https://github.com/videojs/video.js"
+  },
+  {
+    "name": "prisma/prisma",
+    "url": "https://github.com/prisma/prisma"
+  },
+  {
+    "name": "Light-City/CPlusPlusThings",
+    "url": "https://github.com/Light-City/CPlusPlusThings"
+  },
+  {
+    "name": "alist-org/alist",
+    "url": "https://github.com/alist-org/alist"
+  },
+  {
+    "name": "google-research/bert",
+    "url": "https://github.com/google-research/bert"
+  },
+  {
+    "name": "tabler/tabler",
+    "url": "https://github.com/tabler/tabler"
+  },
+  {
+    "name": "getsentry/sentry",
+    "url": "https://github.com/getsentry/sentry"
+  },
+  {
+    "name": "wg/wrk",
+    "url": "https://github.com/wg/wrk"
+  },
+  {
+    "name": "bannedbook/fanqiang",
+    "url": "https://github.com/bannedbook/fanqiang"
+  },
+  {
+    "name": "FreeCodeCampChina/freecodecamp.cn",
+    "url": "https://github.com/FreeCodeCampChina/freecodecamp.cn"
+  },
+  {
+    "name": "LAION-AI/Open-Assistant",
+    "url": "https://github.com/LAION-AI/Open-Assistant"
+  },
+  {
+    "name": "sudheerj/reactjs-interview-questions",
+    "url": "https://github.com/sudheerj/reactjs-interview-questions"
+  },
+  {
+    "name": "pyenv/pyenv",
+    "url": "https://github.com/pyenv/pyenv"
+  },
+  {
+    "name": "chakra-ui/chakra-ui",
+    "url": "https://github.com/chakra-ui/chakra-ui"
+  },
+  {
+    "name": "google/styleguide",
+    "url": "https://github.com/google/styleguide"
+  },
+  {
+    "name": "metabase/metabase",
+    "url": "https://github.com/metabase/metabase"
+  },
+  {
+    "name": "acmesh-official/acme.sh",
+    "url": "https://github.com/acmesh-official/acme.sh"
+  },
+  {
+    "name": "freefq/free",
+    "url": "https://github.com/freefq/free"
+  },
+  {
+    "name": "lyswhut/lx-music-desktop",
+    "url": "https://github.com/lyswhut/lx-music-desktop"
+  },
+  {
+    "name": "phaserjs/phaser",
+    "url": "https://github.com/phaserjs/phaser"
+  },
+  {
+    "name": "iina/iina",
+    "url": "https://github.com/iina/iina"
+  },
+  {
+    "name": "opentofu/manifesto",
+    "url": "https://github.com/opentofu/manifesto"
+  },
+  {
+    "name": "0voice/interview_internal_reference",
+    "url": "https://github.com/0voice/interview_internal_reference"
+  },
+  {
+    "name": "pingcap/tidb",
+    "url": "https://github.com/pingcap/tidb"
+  },
+  {
+    "name": "Stability-AI/stablediffusion",
+    "url": "https://github.com/Stability-AI/stablediffusion"
+  },
+  {
+    "name": "preactjs/preact",
+    "url": "https://github.com/preactjs/preact"
+  },
+  {
+    "name": "eugenp/tutorials",
+    "url": "https://github.com/eugenp/tutorials"
+  },
+  {
+    "name": "QSCTech/zju-icicles",
+    "url": "https://github.com/QSCTech/zju-icicles"
+  },
+  {
+    "name": "spf13/cobra",
+    "url": "https://github.com/spf13/cobra"
+  },
+  {
+    "name": "slatedocs/slate",
+    "url": "https://github.com/slatedocs/slate"
+  },
+  {
+    "name": "dylanaraps/pure-bash-bible",
+    "url": "https://github.com/dylanaraps/pure-bash-bible"
+  },
+  {
+    "name": "DovAmir/awesome-design-patterns",
+    "url": "https://github.com/DovAmir/awesome-design-patterns"
+  },
+  {
+    "name": "ant-design/ant-design-pro",
+    "url": "https://github.com/ant-design/ant-design-pro"
+  },
+  {
+    "name": "oobabooga/text-generation-webui",
+    "url": "https://github.com/oobabooga/text-generation-webui"
+  },
+  {
+    "name": "GokuMohandas/Made-With-ML",
+    "url": "https://github.com/GokuMohandas/Made-With-ML"
+  },
+  {
+    "name": "gto76/python-cheatsheet",
+    "url": "https://github.com/gto76/python-cheatsheet"
+  },
+  {
+    "name": "AobingJava/JavaFamily",
+    "url": "https://github.com/AobingJava/JavaFamily"
+  },
+  {
+    "name": "go-gorm/gorm",
+    "url": "https://github.com/go-gorm/gorm"
+  },
+  {
+    "name": "open-guides/og-aws",
+    "url": "https://github.com/open-guides/og-aws"
+  },
+  {
+    "name": "lerna/lerna",
+    "url": "https://github.com/lerna/lerna"
+  },
+  {
+    "name": "cli/cli",
+    "url": "https://github.com/cli/cli"
+  },
+  {
+    "name": "vlang/v",
+    "url": "https://github.com/vlang/v"
+  },
+  {
+    "name": "sickcodes/Docker-OSX",
+    "url": "https://github.com/sickcodes/Docker-OSX"
+  },
+  {
+    "name": "exacity/deeplearningbook-chinese",
+    "url": "https://github.com/exacity/deeplearningbook-chinese"
+  },
+  {
+    "name": "satwikkansal/wtfpython",
+    "url": "https://github.com/satwikkansal/wtfpython"
+  },
+  {
+    "name": "google/leveldb",
+    "url": "https://github.com/google/leveldb"
+  },
+  {
+    "name": "alvarotrigo/fullPage.js",
+    "url": "https://github.com/alvarotrigo/fullPage.js"
+  },
+  {
+    "name": "istio/istio",
+    "url": "https://github.com/istio/istio"
+  },
+  {
+    "name": "byoungd/English-level-up-tips",
+    "url": "https://github.com/byoungd/English-level-up-tips"
+  },
+  {
+    "name": "XingangPan/DragGAN",
+    "url": "https://github.com/XingangPan/DragGAN"
+  },
+  {
+    "name": "koalaman/shellcheck",
+    "url": "https://github.com/koalaman/shellcheck"
+  },
+  {
+    "name": "vim/vim",
+    "url": "https://github.com/vim/vim"
+  },
+  {
+    "name": "koajs/koa",
+    "url": "https://github.com/koajs/koa"
+  },
+  {
+    "name": "mingrammer/diagrams",
+    "url": "https://github.com/mingrammer/diagrams"
+  },
+  {
+    "name": "geekxh/hello-algorithm",
+    "url": "https://github.com/geekxh/hello-algorithm"
+  },
+  {
+    "name": "NervJS/taro",
+    "url": "https://github.com/NervJS/taro"
+  },
+  {
+    "name": "sahat/hackathon-starter",
+    "url": "https://github.com/sahat/hackathon-starter"
+  },
+  {
+    "name": "shadowsocks/shadowsocks-android",
+    "url": "https://github.com/shadowsocks/shadowsocks-android"
+  },
+  {
+    "name": "airbnb/lottie-android",
+    "url": "https://github.com/airbnb/lottie-android"
+  },
+  {
+    "name": "nativefier/nativefier",
+    "url": "https://github.com/nativefier/nativefier"
+  },
+  {
+    "name": "alibaba/arthas",
+    "url": "https://github.com/alibaba/arthas"
+  },
+  {
+    "name": "localsend/localsend",
+    "url": "https://github.com/localsend/localsend"
+  },
+  {
+    "name": "chenfei-wu/TaskMatrix",
+    "url": "https://github.com/chenfei-wu/TaskMatrix"
+  },
+  {
+    "name": "TencentARC/GFPGAN",
+    "url": "https://github.com/TencentARC/GFPGAN"
+  },
+  {
+    "name": "nodejs/node-v0.x-archive",
+    "url": "https://github.com/nodejs/node-v0.x-archive"
+  },
+  {
+    "name": "SheetJS/sheetjs",
+    "url": "https://github.com/SheetJS/sheetjs"
+  },
+  {
+    "name": "lllyasviel/Fooocus",
+    "url": "https://github.com/lllyasviel/Fooocus"
+  },
+  {
+    "name": "coreybutler/nvm-windows",
+    "url": "https://github.com/coreybutler/nvm-windows"
+  },
+  {
+    "name": "apache/airflow",
+    "url": "https://github.com/apache/airflow"
+  },
+  {
+    "name": "odoo/odoo",
+    "url": "https://github.com/odoo/odoo"
+  },
+  {
+    "name": "bumptech/glide",
+    "url": "https://github.com/bumptech/glide"
+  },
+  {
+    "name": "bradtraversy/50projects50days",
+    "url": "https://github.com/bradtraversy/50projects50days"
+  },
+  {
+    "name": "dotnet/aspnetcore",
+    "url": "https://github.com/dotnet/aspnetcore"
+  },
+  {
+    "name": "mitmproxy/mitmproxy",
+    "url": "https://github.com/mitmproxy/mitmproxy"
+  },
+  {
+    "name": "unknwon/the-way-to-go_ZH_CN",
+    "url": "https://github.com/unknwon/the-way-to-go_ZH_CN"
+  },
+  {
+    "name": "formulahendry/955.WLB",
+    "url": "https://github.com/formulahendry/955.WLB"
+  },
+  {
+    "name": "curl/curl",
+    "url": "https://github.com/curl/curl"
+  },
+  {
+    "name": "jondot/awesome-react-native",
+    "url": "https://github.com/jondot/awesome-react-native"
+  },
+  {
+    "name": "ClickHouse/ClickHouse",
+    "url": "https://github.com/ClickHouse/ClickHouse"
+  },
+  {
+    "name": "carbon-app/carbon",
+    "url": "https://github.com/carbon-app/carbon"
+  },
+  {
+    "name": "denysdovhan/wtfjs",
+    "url": "https://github.com/denysdovhan/wtfjs"
+  },
+  {
+    "name": "BVLC/caffe",
+    "url": "https://github.com/BVLC/caffe"
+  },
+  {
+    "name": "openai/gym",
+    "url": "https://github.com/openai/gym"
+  },
+  {
+    "name": "freeCodeCamp/devdocs",
+    "url": "https://github.com/freeCodeCamp/devdocs"
+  },
+  {
+    "name": "zenorocha/clipboard.js",
+    "url": "https://github.com/zenorocha/clipboard.js"
+  },
+  {
+    "name": "babysor/MockingBird",
+    "url": "https://github.com/babysor/MockingBird"
+  },
+  {
+    "name": "date-fns/date-fns",
+    "url": "https://github.com/date-fns/date-fns"
+  },
+  {
+    "name": "testerSunshine/12306",
+    "url": "https://github.com/testerSunshine/12306"
+  },
+  {
+    "name": "lm-sys/FastChat",
+    "url": "https://github.com/lm-sys/FastChat"
+  },
+  {
+    "name": "shadowsocks/shadowsocks",
+    "url": "https://github.com/shadowsocks/shadowsocks"
+  },
+  {
+    "name": "jaredpalmer/formik",
+    "url": "https://github.com/jaredpalmer/formik"
+  },
+  {
+    "name": "aria2/aria2",
+    "url": "https://github.com/aria2/aria2"
+  },
+  {
+    "name": "naptha/tesseract.js",
+    "url": "https://github.com/naptha/tesseract.js"
+  },
+  {
+    "name": "xitu/gold-miner",
+    "url": "https://github.com/xitu/gold-miner"
+  },
+  {
+    "name": "AFNetworking/AFNetworking",
+    "url": "https://github.com/AFNetworking/AFNetworking"
+  },
+  {
+    "name": "adobe/brackets",
+    "url": "https://github.com/adobe/brackets"
+  },
+  {
+    "name": "typeorm/typeorm",
+    "url": "https://github.com/typeorm/typeorm"
+  },
+  {
+    "name": "jesseduffield/lazydocker",
+    "url": "https://github.com/jesseduffield/lazydocker"
+  },
+  {
+    "name": "junegunn/vim-plug",
+    "url": "https://github.com/junegunn/vim-plug"
+  },
+  {
+    "name": "Kong/insomnia",
+    "url": "https://github.com/Kong/insomnia"
+  },
+  {
+    "name": "google/googletest",
+    "url": "https://github.com/google/googletest"
+  },
+  {
+    "name": "huihut/interview",
+    "url": "https://github.com/huihut/interview"
+  },
+  {
+    "name": "pocketbase/pocketbase",
+    "url": "https://github.com/pocketbase/pocketbase"
+  },
+  {
+    "name": "Blankj/AndroidUtilCode",
+    "url": "https://github.com/Blankj/AndroidUtilCode"
+  },
+  {
+    "name": "gulpjs/gulp",
+    "url": "https://github.com/gulpjs/gulp"
+  },
+  {
+    "name": "immutable-js/immutable-js",
+    "url": "https://github.com/immutable-js/immutable-js"
+  },
+  {
+    "name": "tmux/tmux",
+    "url": "https://github.com/tmux/tmux"
+  },
+  {
+    "name": "WerWolv/ImHex",
+    "url": "https://github.com/WerWolv/ImHex"
+  },
+  {
+    "name": "netty/netty",
+    "url": "https://github.com/netty/netty"
+  },
+  {
+    "name": "rapid7/metasploit-framework",
+    "url": "https://github.com/rapid7/metasploit-framework"
+  },
+  {
+    "name": "sorrycc/awesome-javascript",
+    "url": "https://github.com/sorrycc/awesome-javascript"
+  },
+  {
+    "name": "google-research/google-research",
+    "url": "https://github.com/google-research/google-research"
+  },
+  {
+    "name": "dani-garcia/vaultwarden",
+    "url": "https://github.com/dani-garcia/vaultwarden"
+  },
+  {
+    "name": "XX-net/XX-Net",
+    "url": "https://github.com/XX-net/XX-Net"
+  },
+  {
+    "name": "trpc/trpc",
+    "url": "https://github.com/trpc/trpc"
+  },
+  {
+    "name": "photoprism/photoprism",
+    "url": "https://github.com/photoprism/photoprism"
+  },
+  {
+    "name": "microsoft/DeepSpeed",
+    "url": "https://github.com/microsoft/DeepSpeed"
+  },
+  {
+    "name": "novuhq/novu",
+    "url": "https://github.com/novuhq/novu"
+  },
+  {
+    "name": "bigskysoftware/htmx",
+    "url": "https://github.com/bigskysoftware/htmx"
+  },
+  {
+    "name": "tldraw/tldraw",
+    "url": "https://github.com/tldraw/tldraw"
+  },
+  {
+    "name": "fxsjy/jieba",
+    "url": "https://github.com/fxsjy/jieba"
+  },
+  {
+    "name": "atlassian/react-beautiful-dnd",
+    "url": "https://github.com/atlassian/react-beautiful-dnd"
+  },
+  {
+    "name": "jgm/pandoc",
+    "url": "https://github.com/jgm/pandoc"
+  },
+  {
+    "name": "docker/compose",
+    "url": "https://github.com/docker/compose"
+  },
+  {
+    "name": "suno-ai/bark",
+    "url": "https://github.com/suno-ai/bark"
+  },
+  {
+    "name": "google/material-design-lite",
+    "url": "https://github.com/google/material-design-lite"
+  },
+  {
+    "name": "hankcs/HanLP",
+    "url": "https://github.com/hankcs/HanLP"
+  },
+  {
+    "name": "zxing/zxing",
+    "url": "https://github.com/zxing/zxing"
+  },
+  {
+    "name": "1c7/chinese-independent-developer",
+    "url": "https://github.com/1c7/chinese-independent-developer"
+  },
+  {
+    "name": "shadowsocks/ShadowsocksX-NG",
+    "url": "https://github.com/shadowsocks/ShadowsocksX-NG"
+  },
+  {
+    "name": "lapce/lapce",
+    "url": "https://github.com/lapce/lapce"
+  },
+  {
+    "name": "carbon-language/carbon-lang",
+    "url": "https://github.com/carbon-language/carbon-lang"
+  },
+  {
+    "name": "PKUanonym/REKCARC-TSC-UHT",
+    "url": "https://github.com/PKUanonym/REKCARC-TSC-UHT"
+  },
+  {
+    "name": "bevyengine/bevy",
+    "url": "https://github.com/bevyengine/bevy"
+  },
+  {
+    "name": "bilibili/ijkplayer",
+    "url": "https://github.com/bilibili/ijkplayer"
+  },
+  {
+    "name": "comfyanonymous/ComfyUI",
+    "url": "https://github.com/comfyanonymous/ComfyUI"
+  },
+  {
+    "name": "zhongyang219/TrafficMonitor",
+    "url": "https://github.com/zhongyang219/TrafficMonitor"
+  },
+  {
+    "name": "xkcoding/spring-boot-demo",
+    "url": "https://github.com/xkcoding/spring-boot-demo"
+  },
+  {
+    "name": "Ryujinx/Ryujinx",
+    "url": "https://github.com/Ryujinx/Ryujinx"
+  },
+  {
+    "name": "QuivrHQ/quivr",
+    "url": "https://github.com/QuivrHQ/quivr"
+  },
+  {
+    "name": "halfrost/LeetCode-Go",
+    "url": "https://github.com/halfrost/LeetCode-Go"
+  },
+  {
+    "name": "markedjs/marked",
+    "url": "https://github.com/markedjs/marked"
+  },
+  {
+    "name": "files-community/Files",
+    "url": "https://github.com/files-community/Files"
+  },
+  {
+    "name": "httpie/cli",
+    "url": "https://github.com/httpie/cli"
+  },
+  {
+    "name": "goabstract/Awesome-Design-Tools",
+    "url": "https://github.com/goabstract/Awesome-Design-Tools"
+  },
+  {
+    "name": "typicode/husky",
+    "url": "https://github.com/typicode/husky"
+  },
+  {
+    "name": "Trinea/android-open-project",
+    "url": "https://github.com/Trinea/android-open-project"
+  },
+  {
+    "name": "sharkdp/fd",
+    "url": "https://github.com/sharkdp/fd"
+  },
+  {
+    "name": "karpathy/nanoGPT",
+    "url": "https://github.com/karpathy/nanoGPT"
+  },
+  {
+    "name": "laravel/framework",
+    "url": "https://github.com/laravel/framework"
+  },
+  {
+    "name": "appsmithorg/appsmith",
+    "url": "https://github.com/appsmithorg/appsmith"
+  },
+  {
+    "name": "streamlit/streamlit",
+    "url": "https://github.com/streamlit/streamlit"
+  },
+  {
+    "name": "harness/gitness",
+    "url": "https://github.com/harness/gitness"
+  },
+  {
+    "name": "halo-dev/halo",
+    "url": "https://github.com/halo-dev/halo"
+  },
+  {
+    "name": "ccxt/ccxt",
+    "url": "https://github.com/ccxt/ccxt"
+  },
+  {
+    "name": "gofiber/fiber",
+    "url": "https://github.com/gofiber/fiber"
+  },
+  {
+    "name": "bayandin/awesome-awesomeness",
+    "url": "https://github.com/bayandin/awesome-awesomeness"
+  },
+  {
+    "name": "zed-industries/zed",
+    "url": "https://github.com/zed-industries/zed"
+  },
+  {
+    "name": "TheAlgorithms/JavaScript",
+    "url": "https://github.com/TheAlgorithms/JavaScript"
+  },
+  {
+    "name": "slidevjs/slidev",
+    "url": "https://github.com/slidevjs/slidev"
+  },
+  {
+    "name": "alebcay/awesome-shell",
+    "url": "https://github.com/alebcay/awesome-shell"
+  },
+  {
+    "name": "solidjs/solid",
+    "url": "https://github.com/solidjs/solid"
+  },
+  {
+    "name": "blueimp/jQuery-File-Upload",
+    "url": "https://github.com/blueimp/jQuery-File-Upload"
+  },
+  {
+    "name": "ray-project/ray",
+    "url": "https://github.com/ray-project/ray"
+  },
+  {
+    "name": "microsoft/AI-For-Beginners",
+    "url": "https://github.com/microsoft/AI-For-Beginners"
+  },
+  {
+    "name": "beego/beego",
+    "url": "https://github.com/beego/beego"
+  },
+  {
+    "name": "alibaba/easyexcel",
+    "url": "https://github.com/alibaba/easyexcel"
+  },
+  {
+    "name": "The-Run-Philosophy-Organization/run",
+    "url": "https://github.com/The-Run-Philosophy-Organization/run"
+  },
+  {
+    "name": "hasura/graphql-engine",
+    "url": "https://github.com/hasura/graphql-engine"
+  },
+  {
+    "name": "certbot/certbot",
+    "url": "https://github.com/certbot/certbot"
+  },
+  {
+    "name": "Asabeneh/30-Days-Of-Python",
+    "url": "https://github.com/Asabeneh/30-Days-Of-Python"
+  },
+  {
+    "name": "run-llama/llama_index",
+    "url": "https://github.com/run-llama/llama_index"
+  },
+  {
+    "name": "termux/termux-app",
+    "url": "https://github.com/termux/termux-app"
+  },
+  {
+    "name": "fastify/fastify",
+    "url": "https://github.com/fastify/fastify"
+  },
+  {
+    "name": "saadeghi/daisyui",
+    "url": "https://github.com/saadeghi/daisyui"
+  },
+  {
+    "name": "sqlmapproject/sqlmap",
+    "url": "https://github.com/sqlmapproject/sqlmap"
+  },
+  {
+    "name": "ggerganov/whisper.cpp",
+    "url": "https://github.com/ggerganov/whisper.cpp"
+  },
+  {
+    "name": "fengdu78/Coursera-ML-AndrewNg-Notes",
+    "url": "https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes"
+  },
+  {
+    "name": "mqyqingfeng/Blog",
+    "url": "https://github.com/mqyqingfeng/Blog"
+  },
+  {
+    "name": "Chanzhaoyu/chatgpt-web",
+    "url": "https://github.com/Chanzhaoyu/chatgpt-web"
+  },
+  {
+    "name": "ziadoz/awesome-php",
+    "url": "https://github.com/ziadoz/awesome-php"
+  },
+  {
+    "name": "2dust/v2rayNG",
+    "url": "https://github.com/2dust/v2rayNG"
+  },
+  {
+    "name": "ziglang/zig",
+    "url": "https://github.com/ziglang/zig"
+  },
+  {
+    "name": "Binaryify/NeteaseCloudMusicApi",
+    "url": "https://github.com/Binaryify/NeteaseCloudMusicApi"
+  },
+  {
+    "name": "toeverything/AFFiNE",
+    "url": "https://github.com/toeverything/AFFiNE"
+  },
+  {
+    "name": "ReactiveX/rxjs",
+    "url": "https://github.com/ReactiveX/rxjs"
+  },
+  {
+    "name": "colinhacks/zod",
+    "url": "https://github.com/colinhacks/zod"
+  },
+  {
+    "name": "amix/vimrc",
+    "url": "https://github.com/amix/vimrc"
+  },
+  {
+    "name": "alibaba/p3c",
+    "url": "https://github.com/alibaba/p3c"
+  },
+  {
+    "name": "lib-pku/libpku",
+    "url": "https://github.com/lib-pku/libpku"
+  },
+  {
+    "name": "immich-app/immich",
+    "url": "https://github.com/immich-app/immich"
+  },
+  {
+    "name": "docker/awesome-compose",
+    "url": "https://github.com/docker/awesome-compose"
+  },
+  {
+    "name": "swc-project/swc",
+    "url": "https://github.com/swc-project/swc"
+  },
+  {
+    "name": "ityouknow/spring-boot-examples",
+    "url": "https://github.com/ityouknow/spring-boot-examples"
+  },
+  {
+    "name": "joshbuchea/HEAD",
+    "url": "https://github.com/joshbuchea/HEAD"
+  },
+  {
+    "name": "yewstack/yew",
+    "url": "https://github.com/yewstack/yew"
+  },
+  {
+    "name": "helix-editor/helix",
+    "url": "https://github.com/helix-editor/helix"
+  },
+  {
+    "name": "nushell/nushell",
+    "url": "https://github.com/nushell/nushell"
+  },
+  {
+    "name": "CMU-Perceptual-Computing-Lab/openpose",
+    "url": "https://github.com/CMU-Perceptual-Computing-Lab/openpose"
+  },
+  {
+    "name": "mathiasbynens/dotfiles",
+    "url": "https://github.com/mathiasbynens/dotfiles"
+  },
+  {
+    "name": "niklasvh/html2canvas",
+    "url": "https://github.com/niklasvh/html2canvas"
+  },
+  {
+    "name": "geekcomputers/Python",
+    "url": "https://github.com/geekcomputers/Python"
+  },
+  {
+    "name": "vuejs/vue-cli",
+    "url": "https://github.com/vuejs/vue-cli"
+  },
+  {
+    "name": "SimplifyJobs/Summer2024-Internships",
+    "url": "https://github.com/SimplifyJobs/Summer2024-Internships"
+  },
+  {
+    "name": "ibraheemdev/modern-unix",
+    "url": "https://github.com/ibraheemdev/modern-unix"
+  },
+  {
+    "name": "pcottle/learnGitBranching",
+    "url": "https://github.com/pcottle/learnGitBranching"
+  },
+  {
+    "name": "huggingface/pytorch-image-models",
+    "url": "https://github.com/huggingface/pytorch-image-models"
+  },
+  {
+    "name": "airbnb/lottie-web",
+    "url": "https://github.com/airbnb/lottie-web"
+  },
+  {
+    "name": "foundation/foundation-sites",
+    "url": "https://github.com/foundation/foundation-sites"
+  },
+  {
+    "name": "reworkd/AgentGPT",
+    "url": "https://github.com/reworkd/AgentGPT"
+  },
+  {
+    "name": "hashicorp/vault",
+    "url": "https://github.com/hashicorp/vault"
+  },
+  {
+    "name": "logseq/logseq",
+    "url": "https://github.com/logseq/logseq"
+  },
+  {
+    "name": "zsh-users/zsh-autosuggestions",
+    "url": "https://github.com/zsh-users/zsh-autosuggestions"
+  },
+  {
+    "name": "jellyfin/jellyfin",
+    "url": "https://github.com/jellyfin/jellyfin"
+  },
+  {
+    "name": "DIYgod/RSSHub",
+    "url": "https://github.com/DIYgod/RSSHub"
+  },
+  {
+    "name": "ariya/phantomjs",
+    "url": "https://github.com/ariya/phantomjs"
+  },
+  {
+    "name": "react-boilerplate/react-boilerplate",
+    "url": "https://github.com/react-boilerplate/react-boilerplate"
+  },
+  {
+    "name": "0xAX/linux-insides",
+    "url": "https://github.com/0xAX/linux-insides"
+  },
+  {
+    "name": "python-poetry/poetry",
+    "url": "https://github.com/python-poetry/poetry"
+  },
+  {
+    "name": "vercel/swr",
+    "url": "https://github.com/vercel/swr"
+  },
+  {
+    "name": "symfony/symfony",
+    "url": "https://github.com/symfony/symfony"
+  },
+  {
+    "name": "ryanhanwu/How-To-Ask-Questions-The-Smart-Way",
+    "url": "https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way"
+  },
+  {
+    "name": "SeleniumHQ/selenium",
+    "url": "https://github.com/SeleniumHQ/selenium"
+  },
+  {
+    "name": "lukehoban/es6features",
+    "url": "https://github.com/lukehoban/es6features"
+  },
+  {
+    "name": "CSSEGISandData/COVID-19",
+    "url": "https://github.com/CSSEGISandData/COVID-19"
+  },
+  {
+    "name": "elsewhencode/project-guidelines",
+    "url": "https://github.com/elsewhencode/project-guidelines"
+  },
+  {
+    "name": "facebookresearch/fairseq",
+    "url": "https://github.com/facebookresearch/fairseq"
+  },
+  {
+    "name": "square/leakcanary",
+    "url": "https://github.com/square/leakcanary"
+  },
+  {
+    "name": "yunjey/pytorch-tutorial",
+    "url": "https://github.com/yunjey/pytorch-tutorial"
+  },
+  {
+    "name": "geekan/HowToLiveLonger",
+    "url": "https://github.com/geekan/HowToLiveLonger"
+  },
+  {
+    "name": "ehang-io/nps",
+    "url": "https://github.com/ehang-io/nps"
+  },
+  {
+    "name": "IanLunn/Hover",
+    "url": "https://github.com/IanLunn/Hover"
+  },
+  {
+    "name": "TheAlgorithms/C-Plus-Plus",
+    "url": "https://github.com/TheAlgorithms/C-Plus-Plus"
+  },
+  {
+    "name": "aosabook/500lines",
+    "url": "https://github.com/aosabook/500lines"
+  },
+  {
+    "name": "sequelize/sequelize",
+    "url": "https://github.com/sequelize/sequelize"
+  },
+  {
+    "name": "kilimchoi/engineering-blogs",
+    "url": "https://github.com/kilimchoi/engineering-blogs"
+  },
+  {
+    "name": "cockroachdb/cockroach",
+    "url": "https://github.com/cockroachdb/cockroach"
+  },
+  {
+    "name": "alibaba/nacos",
+    "url": "https://github.com/alibaba/nacos"
+  },
+  {
+    "name": "ianstormtaylor/slate",
+    "url": "https://github.com/ianstormtaylor/slate"
+  },
+  {
+    "name": "jqlang/jq",
+    "url": "https://github.com/jqlang/jq"
+  },
+  {
+    "name": "webtorrent/webtorrent",
+    "url": "https://github.com/webtorrent/webtorrent"
+  },
+  {
+    "name": "coqui-ai/TTS",
+    "url": "https://github.com/coqui-ai/TTS"
+  },
+  {
+    "name": "qishibo/AnotherRedisDesktopManager",
+    "url": "https://github.com/qishibo/AnotherRedisDesktopManager"
+  },
+  {
+    "name": "standard/standard",
+    "url": "https://github.com/standard/standard"
+  },
+  {
+    "name": "expo/expo",
+    "url": "https://github.com/expo/expo"
+  },
+  {
+    "name": "microsoft/calculator",
+    "url": "https://github.com/microsoft/calculator"
+  },
+  {
+    "name": "layui/layui",
+    "url": "https://github.com/layui/layui"
+  },
+  {
+    "name": "spacedriveapp/spacedrive",
+    "url": "https://github.com/spacedriveapp/spacedrive"
+  },
+  {
+    "name": "apolloconfig/apollo",
+    "url": "https://github.com/apolloconfig/apollo"
+  },
+  {
+    "name": "doocs/leetcode",
+    "url": "https://github.com/doocs/leetcode"
+  },
+  {
+    "name": "tatsu-lab/stanford_alpaca",
+    "url": "https://github.com/tatsu-lab/stanford_alpaca"
+  },
+  {
+    "name": "donnemartin/interactive-coding-challenges",
+    "url": "https://github.com/donnemartin/interactive-coding-challenges"
+  },
+  {
+    "name": "portainer/portainer",
+    "url": "https://github.com/portainer/portainer"
+  },
+  {
+    "name": "explosion/spaCy",
+    "url": "https://github.com/explosion/spaCy"
+  },
+  {
+    "name": "coolsnowwolf/lede",
+    "url": "https://github.com/coolsnowwolf/lede"
+  },
+  {
+    "name": "karanpratapsingh/system-design",
+    "url": "https://github.com/karanpratapsingh/system-design"
+  },
+  {
+    "name": "facebookresearch/detectron2",
+    "url": "https://github.com/facebookresearch/detectron2"
+  },
+  {
+    "name": "SortableJS/Sortable",
+    "url": "https://github.com/SortableJS/Sortable"
+  },
+  {
+    "name": "shengxinjing/programmer-job-blacklist",
+    "url": "https://github.com/shengxinjing/programmer-job-blacklist"
+  },
+  {
+    "name": "gradio-app/gradio",
+    "url": "https://github.com/gradio-app/gradio"
+  },
+  {
+    "name": "jaywcjlove/linux-command",
+    "url": "https://github.com/jaywcjlove/linux-command"
+  },
+  {
+    "name": "SerenityOS/serenity",
+    "url": "https://github.com/SerenityOS/serenity"
+  },
+  {
+    "name": "TeamNewPipe/NewPipe",
+    "url": "https://github.com/TeamNewPipe/NewPipe"
+  },
+  {
+    "name": "calcom/cal.com",
+    "url": "https://github.com/calcom/cal.com"
+  },
+  {
+    "name": "tastejs/todomvc",
+    "url": "https://github.com/tastejs/todomvc"
+  },
+  {
+    "name": "floating-ui/floating-ui",
+    "url": "https://github.com/floating-ui/floating-ui"
+  },
+  {
+    "name": "labstack/echo",
+    "url": "https://github.com/labstack/echo"
+  },
+  {
+    "name": "kodecocodes/swift-algorithm-club",
+    "url": "https://github.com/kodecocodes/swift-algorithm-club"
+  },
+  {
+    "name": "GitHubDaily/GitHubDaily",
+    "url": "https://github.com/GitHubDaily/GitHubDaily"
+  },
+  {
+    "name": "AykutSarac/jsoncrack.com",
+    "url": "https://github.com/AykutSarac/jsoncrack.com"
+  },
+  {
+    "name": "herrbischoff/awesome-macos-command-line",
+    "url": "https://github.com/herrbischoff/awesome-macos-command-line"
+  },
+  {
+    "name": "AMAI-GmbH/AI-Expert-Roadmap",
+    "url": "https://github.com/AMAI-GmbH/AI-Expert-Roadmap"
+  },
+  {
+    "name": "vuejs/vuex",
+    "url": "https://github.com/vuejs/vuex"
+  },
+  {
+    "name": "VincentGarreau/particles.js",
+    "url": "https://github.com/VincentGarreau/particles.js"
+  },
+  {
+    "name": "parallax/jsPDF",
+    "url": "https://github.com/parallax/jsPDF"
+  },
+  {
+    "name": "kubernetes/minikube",
+    "url": "https://github.com/kubernetes/minikube"
+  },
+  {
+    "name": "dromara/hutool",
+    "url": "https://github.com/dromara/hutool"
+  },
+  {
+    "name": "trailofbits/algo",
+    "url": "https://github.com/trailofbits/algo"
+  },
+  {
+    "name": "veggiemonk/awesome-docker",
+    "url": "https://github.com/veggiemonk/awesome-docker"
+  },
+  {
+    "name": "kenwheeler/slick",
+    "url": "https://github.com/kenwheeler/slick"
+  },
+  {
+    "name": "codepath/android_guides",
+    "url": "https://github.com/codepath/android_guides"
+  },
+  {
+    "name": "composer/composer",
+    "url": "https://github.com/composer/composer"
+  },
+  {
+    "name": "mlabonne/llm-course",
+    "url": "https://github.com/mlabonne/llm-course"
+  },
+  {
+    "name": "OAI/OpenAPI-Specification",
+    "url": "https://github.com/OAI/OpenAPI-Specification"
+  },
+  {
+    "name": "postcss/postcss",
+    "url": "https://github.com/postcss/postcss"
+  },
+  {
+    "name": "jashkenas/backbone",
+    "url": "https://github.com/jashkenas/backbone"
+  },
+  {
+    "name": "Ebazhanov/linkedin-skill-assessments-quizzes",
+    "url": "https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes"
+  },
+  {
+    "name": "caolan/async",
+    "url": "https://github.com/caolan/async"
+  },
+  {
+    "name": "transloadit/uppy",
+    "url": "https://github.com/transloadit/uppy"
+  },
+  {
+    "name": "lukasz-madon/awesome-remote-job",
+    "url": "https://github.com/lukasz-madon/awesome-remote-job"
+  },
+  {
+    "name": "jobbole/awesome-python-cn",
+    "url": "https://github.com/jobbole/awesome-python-cn"
+  },
+  {
+    "name": "mattermost/mattermost",
+    "url": "https://github.com/mattermost/mattermost"
+  },
+  {
+    "name": "facebookresearch/faiss",
+    "url": "https://github.com/facebookresearch/faiss"
+  },
+  {
+    "name": "acheong08/ChatGPT",
+    "url": "https://github.com/acheong08/ChatGPT"
+  },
+  {
+    "name": "lovell/sharp",
+    "url": "https://github.com/lovell/sharp"
+  },
+  {
+    "name": "Pythagora-io/gpt-pilot",
+    "url": "https://github.com/Pythagora-io/gpt-pilot"
+  },
+  {
+    "name": "google/jax",
+    "url": "https://github.com/google/jax"
+  },
+  {
+    "name": "GoogleChrome/lighthouse",
+    "url": "https://github.com/GoogleChrome/lighthouse"
+  },
+  {
+    "name": "lobehub/lobe-chat",
+    "url": "https://github.com/lobehub/lobe-chat"
+  },
+  {
+    "name": "typst/typst",
+    "url": "https://github.com/typst/typst"
+  },
+  {
+    "name": "hashicorp/consul",
+    "url": "https://github.com/hashicorp/consul"
+  },
+  {
+    "name": "wuyouzhuguli/SpringAll",
+    "url": "https://github.com/wuyouzhuguli/SpringAll"
+  },
+  {
+    "name": "cheeriojs/cheerio",
+    "url": "https://github.com/cheeriojs/cheerio"
+  },
+  {
+    "name": "lllyasviel/ControlNet",
+    "url": "https://github.com/lllyasviel/ControlNet"
+  },
+  {
+    "name": "ZuzooVn/machine-learning-for-software-engineers",
+    "url": "https://github.com/ZuzooVn/machine-learning-for-software-engineers"
+  },
+  {
+    "name": "alibaba/canal",
+    "url": "https://github.com/alibaba/canal"
+  },
+  {
+    "name": "open-mmlab/mmdetection",
+    "url": "https://github.com/open-mmlab/mmdetection"
+  },
+  {
+    "name": "influxdata/influxdb",
+    "url": "https://github.com/influxdata/influxdb"
+  },
+  {
+    "name": "remoteintech/remote-jobs",
+    "url": "https://github.com/remoteintech/remote-jobs"
+  },
+  {
+    "name": "alibaba/druid",
+    "url": "https://github.com/alibaba/druid"
+  },
+  {
+    "name": "balena-io/etcher",
+    "url": "https://github.com/balena-io/etcher"
+  },
+  {
+    "name": "realpython/python-guide",
+    "url": "https://github.com/realpython/python-guide"
+  },
+  {
+    "name": "pnpm/pnpm",
+    "url": "https://github.com/pnpm/pnpm"
+  },
+  {
+    "name": "ShareX/ShareX",
+    "url": "https://github.com/ShareX/ShareX"
+  },
+  {
+    "name": "zeromicro/go-zero",
+    "url": "https://github.com/zeromicro/go-zero"
+  },
+  {
+    "name": "ascoders/weekly",
+    "url": "https://github.com/ascoders/weekly"
+  },
+  {
+    "name": "v2fly/v2ray-core",
+    "url": "https://github.com/v2fly/v2ray-core"
+  },
+  {
+    "name": "encode/django-rest-framework",
+    "url": "https://github.com/encode/django-rest-framework"
+  },
+  {
+    "name": "fabricjs/fabric.js",
+    "url": "https://github.com/fabricjs/fabric.js"
+  },
+  {
+    "name": "pmndrs/react-spring",
+    "url": "https://github.com/pmndrs/react-spring"
+  },
+  {
+    "name": "tqdm/tqdm",
+    "url": "https://github.com/tqdm/tqdm"
+  },
+  {
+    "name": "jamiebuilds/the-super-tiny-compiler",
+    "url": "https://github.com/jamiebuilds/the-super-tiny-compiler"
+  },
+  {
+    "name": "facebook/rocksdb",
+    "url": "https://github.com/facebook/rocksdb"
+  },
+  {
+    "name": "ChartsOrg/Charts",
+    "url": "https://github.com/ChartsOrg/Charts"
+  },
+  {
+    "name": "Advanced-Frontend/Daily-Interview-Question",
+    "url": "https://github.com/Advanced-Frontend/Daily-Interview-Question"
+  },
+  {
+    "name": "apache/kafka",
+    "url": "https://github.com/apache/kafka"
+  },
+  {
+    "name": "remix-run/remix",
+    "url": "https://github.com/remix-run/remix"
+  },
+  {
+    "name": "AllThingsSmitty/css-protips",
+    "url": "https://github.com/AllThingsSmitty/css-protips"
+  },
+  {
+    "name": "jashkenas/underscore",
+    "url": "https://github.com/jashkenas/underscore"
+  },
+  {
+    "name": "alibaba/spring-cloud-alibaba",
+    "url": "https://github.com/alibaba/spring-cloud-alibaba"
+  },
+  {
+    "name": "JedWatson/react-select",
+    "url": "https://github.com/JedWatson/react-select"
+  },
+  {
+    "name": "mobxjs/mobx",
+    "url": "https://github.com/mobxjs/mobx"
+  },
+  {
+    "name": "Awesome-Windows/Awesome",
+    "url": "https://github.com/Awesome-Windows/Awesome"
+  },
+  {
+    "name": "nagadomi/waifu2x",
+    "url": "https://github.com/nagadomi/waifu2x"
+  },
+  {
+    "name": "penpot/penpot",
+    "url": "https://github.com/penpot/penpot"
+  },
+  {
+    "name": "crossoverJie/JCSprout",
+    "url": "https://github.com/crossoverJie/JCSprout"
+  },
+  {
+    "name": "Tencent/weui",
+    "url": "https://github.com/Tencent/weui"
+  },
+  {
+    "name": "YMFE/yapi",
+    "url": "https://github.com/YMFE/yapi"
+  },
+  {
+    "name": "digitalocean/nginxconfig.io",
+    "url": "https://github.com/digitalocean/nginxconfig.io"
+  },
+  {
+    "name": "facebook/folly",
+    "url": "https://github.com/facebook/folly"
+  },
+  {
+    "name": "Homebrew/legacy-homebrew",
+    "url": "https://github.com/Homebrew/legacy-homebrew"
+  },
+  {
+    "name": "usememos/memos",
+    "url": "https://github.com/usememos/memos"
+  },
+  {
+    "name": "qier222/YesPlayMusic",
+    "url": "https://github.com/qier222/YesPlayMusic"
+  },
+  {
+    "name": "lenve/vhr",
+    "url": "https://github.com/lenve/vhr"
+  },
+  {
+    "name": "immerjs/immer",
+    "url": "https://github.com/immerjs/immer"
+  },
+  {
+    "name": "chatchat-space/Langchain-Chatchat",
+    "url": "https://github.com/chatchat-space/Langchain-Chatchat"
+  },
+  {
+    "name": "ageron/handson-ml2",
+    "url": "https://github.com/ageron/handson-ml2"
+  },
+  {
+    "name": "geekcompany/ResumeSample",
+    "url": "https://github.com/geekcompany/ResumeSample"
+  },
+  {
+    "name": "fzaninotto/Faker",
+    "url": "https://github.com/fzaninotto/Faker"
+  },
+  {
+    "name": "wesbos/JavaScript30",
+    "url": "https://github.com/wesbos/JavaScript30"
+  },
+  {
+    "name": "Lightning-AI/pytorch-lightning",
+    "url": "https://github.com/Lightning-AI/pytorch-lightning"
+  },
+  {
+    "name": "alpinejs/alpine",
+    "url": "https://github.com/alpinejs/alpine"
+  },
+  {
+    "name": "GorvGoyl/Clone-Wars",
+    "url": "https://github.com/GorvGoyl/Clone-Wars"
+  },
+  {
+    "name": "pbatard/rufus",
+    "url": "https://github.com/pbatard/rufus"
+  },
+  {
+    "name": "codex-team/editor.js",
+    "url": "https://github.com/codex-team/editor.js"
+  },
+  {
+    "name": "houshanren/hangzhou_house_knowledge",
+    "url": "https://github.com/houshanren/hangzhou_house_knowledge"
+  },
+  {
+    "name": "viraptor/reverse-interview",
+    "url": "https://github.com/viraptor/reverse-interview"
+  },
+  {
+    "name": "Automattic/mongoose",
+    "url": "https://github.com/Automattic/mongoose"
+  },
+  {
+    "name": "milvus-io/milvus",
+    "url": "https://github.com/milvus-io/milvus"
+  },
+  {
+    "name": "angular/angular-cli",
+    "url": "https://github.com/angular/angular-cli"
+  },
+  {
+    "name": "codemirror/codemirror5",
+    "url": "https://github.com/codemirror/codemirror5"
+  },
+  {
+    "name": "docsifyjs/docsify",
+    "url": "https://github.com/docsifyjs/docsify"
+  },
+  {
+    "name": "ToolJet/ToolJet",
+    "url": "https://github.com/ToolJet/ToolJet"
+  },
+  {
+    "name": "nvie/gitflow",
+    "url": "https://github.com/nvie/gitflow"
+  },
+  {
+    "name": "rethinkdb/rethinkdb",
+    "url": "https://github.com/rethinkdb/rethinkdb"
+  },
+  {
+    "name": "xuxueli/xxl-job",
+    "url": "https://github.com/xuxueli/xxl-job"
+  },
+  {
+    "name": "donnemartin/data-science-ipython-notebooks",
+    "url": "https://github.com/donnemartin/data-science-ipython-notebooks"
+  },
+  {
+    "name": "OWASP/CheatSheetSeries",
+    "url": "https://github.com/OWASP/CheatSheetSeries"
+  },
+  {
+    "name": "aseprite/aseprite",
+    "url": "https://github.com/aseprite/aseprite"
+  },
+  {
+    "name": "maybe-finance/maybe",
+    "url": "https://github.com/maybe-finance/maybe"
+  },
+  {
+    "name": "ajaxorg/ace",
+    "url": "https://github.com/ajaxorg/ace"
+  },
+  {
+    "name": "k3s-io/k3s",
+    "url": "https://github.com/k3s-io/k3s"
+  },
+  {
+    "name": "CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers",
+    "url": "https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers"
+  },
+  {
+    "name": "GitbookIO/gitbook",
+    "url": "https://github.com/GitbookIO/gitbook"
+  },
+  {
+    "name": "cfenollosa/os-tutorial",
+    "url": "https://github.com/cfenollosa/os-tutorial"
+  },
+  {
+    "name": "JushBJJ/Mr.-Ranedeer-AI-Tutor",
+    "url": "https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor"
+  },
+  {
+    "name": "microsoft/Data-Science-For-Beginners",
+    "url": "https://github.com/microsoft/Data-Science-For-Beginners"
+  },
+  {
+    "name": "numpy/numpy",
+    "url": "https://github.com/numpy/numpy"
+  },
+  {
+    "name": "google/python-fire",
+    "url": "https://github.com/google/python-fire"
+  },
+  {
+    "name": "linexjlin/GPTs",
+    "url": "https://github.com/linexjlin/GPTs"
+  },
+  {
+    "name": "Pierian-Data/Complete-Python-3-Bootcamp",
+    "url": "https://github.com/Pierian-Data/Complete-Python-3-Bootcamp"
+  },
+  {
+    "name": "schollz/croc",
+    "url": "https://github.com/schollz/croc"
+  },
+  {
+    "name": "backstage/backstage",
+    "url": "https://github.com/backstage/backstage"
+  },
+  {
+    "name": "astral-sh/ruff",
+    "url": "https://github.com/astral-sh/ruff"
+  },
+  {
+    "name": "facebookresearch/Detectron",
+    "url": "https://github.com/facebookresearch/Detectron"
+  },
+  {
+    "name": "statelyai/xstate",
+    "url": "https://github.com/statelyai/xstate"
+  },
+  {
+    "name": "go-kit/kit",
+    "url": "https://github.com/go-kit/kit"
+  },
+  {
+    "name": "upscayl/upscayl",
+    "url": "https://github.com/upscayl/upscayl"
+  },
+  {
+    "name": "tj/commander.js",
+    "url": "https://github.com/tj/commander.js"
+  },
+  {
+    "name": "qiurunze123/miaosha",
+    "url": "https://github.com/qiurunze123/miaosha"
+  },
+  {
+    "name": "MonitorControl/MonitorControl",
+    "url": "https://github.com/MonitorControl/MonitorControl"
+  },
+  {
+    "name": "huiyadanli/RevokeMsgPatcher",
+    "url": "https://github.com/huiyadanli/RevokeMsgPatcher"
+  },
+  {
+    "name": "lutzroeder/netron",
+    "url": "https://github.com/lutzroeder/netron"
+  },
+  {
+    "name": "mckaywrigley/chatbot-ui",
+    "url": "https://github.com/mckaywrigley/chatbot-ui"
+  },
+  {
+    "name": "OpenBB-finance/OpenBBTerminal",
+    "url": "https://github.com/OpenBB-finance/OpenBBTerminal"
+  },
+  {
+    "name": "helm/helm",
+    "url": "https://github.com/helm/helm"
+  },
+  {
+    "name": "remy/nodemon",
+    "url": "https://github.com/remy/nodemon"
+  },
+  {
+    "name": "servo/servo",
+    "url": "https://github.com/servo/servo"
+  },
+  {
+    "name": "dokku/dokku",
+    "url": "https://github.com/dokku/dokku"
+  },
+  {
+    "name": "bvaughn/react-virtualized",
+    "url": "https://github.com/bvaughn/react-virtualized"
+  },
+  {
+    "name": "xinntao/Real-ESRGAN",
+    "url": "https://github.com/xinntao/Real-ESRGAN"
+  },
+  {
+    "name": "pola-rs/polars",
+    "url": "https://github.com/pola-rs/polars"
+  },
+  {
+    "name": "google/comprehensive-rust",
+    "url": "https://github.com/google/comprehensive-rust"
+  },
+  {
+    "name": "pmndrs/react-three-fiber",
+    "url": "https://github.com/pmndrs/react-three-fiber"
+  },
+  {
+    "name": "eugeneyan/applied-ml",
+    "url": "https://github.com/eugeneyan/applied-ml"
+  },
+  {
+    "name": "mpv-player/mpv",
+    "url": "https://github.com/mpv-player/mpv"
+  },
+  {
+    "name": "rstacruz/nprogress",
+    "url": "https://github.com/rstacruz/nprogress"
+  },
+  {
+    "name": "hashicorp/vagrant",
+    "url": "https://github.com/hashicorp/vagrant"
+  },
+  {
+    "name": "zhiwehu/Python-programming-exercises",
+    "url": "https://github.com/zhiwehu/Python-programming-exercises"
+  },
+  {
+    "name": "JakeChampion/fetch",
+    "url": "https://github.com/JakeChampion/fetch"
+  },
+  {
+    "name": "MichaelCade/90DaysOfDevOps",
+    "url": "https://github.com/MichaelCade/90DaysOfDevOps"
+  },
+  {
+    "name": "select2/select2",
+    "url": "https://github.com/select2/select2"
+  },
+  {
+    "name": "vadimdemedes/ink",
+    "url": "https://github.com/vadimdemedes/ink"
+  },
+  {
+    "name": "spf13/viper",
+    "url": "https://github.com/spf13/viper"
+  },
+  {
+    "name": "ggreer/the_silver_searcher",
+    "url": "https://github.com/ggreer/the_silver_searcher"
+  },
+  {
+    "name": "LC044/WeChatMsg",
+    "url": "https://github.com/LC044/WeChatMsg"
+  },
+  {
+    "name": "request/request",
+    "url": "https://github.com/request/request"
+  },
+  {
+    "name": "michalsnik/aos",
+    "url": "https://github.com/michalsnik/aos"
+  },
+  {
+    "name": "alibaba/fastjson",
+    "url": "https://github.com/alibaba/fastjson"
+  },
+  {
+    "name": "Modernizr/Modernizr",
+    "url": "https://github.com/Modernizr/Modernizr"
+  },
+  {
+    "name": "JakeWharton/butterknife",
+    "url": "https://github.com/JakeWharton/butterknife"
+  },
+  {
+    "name": "facebookresearch/fastText",
+    "url": "https://github.com/facebookresearch/fastText"
+  },
+  {
+    "name": "fastai/fastai",
+    "url": "https://github.com/fastai/fastai"
+  },
+  {
+    "name": "cmderdev/cmder",
+    "url": "https://github.com/cmderdev/cmder"
+  },
+  {
+    "name": "dmlc/xgboost",
+    "url": "https://github.com/dmlc/xgboost"
+  },
+  {
+    "name": "dwmkerr/hacker-laws",
+    "url": "https://github.com/dwmkerr/hacker-laws"
+  },
+  {
+    "name": "swagger-api/swagger-ui",
+    "url": "https://github.com/swagger-api/swagger-ui"
+  },
+  {
+    "name": "nextcloud/server",
+    "url": "https://github.com/nextcloud/server"
+  },
+  {
+    "name": "dnSpy/dnSpy",
+    "url": "https://github.com/dnSpy/dnSpy"
+  },
+  {
+    "name": "StevenBlack/hosts",
+    "url": "https://github.com/StevenBlack/hosts"
+  },
+  {
+    "name": "mongodb/mongo",
+    "url": "https://github.com/mongodb/mongo"
+  },
+  {
+    "name": "llvm/llvm-project",
+    "url": "https://github.com/llvm/llvm-project"
+  },
+  {
+    "name": "freqtrade/freqtrade",
+    "url": "https://github.com/freqtrade/freqtrade"
+  },
+  {
+    "name": "sampotts/plyr",
+    "url": "https://github.com/sampotts/plyr"
+  },
+  {
+    "name": "google/mediapipe",
+    "url": "https://github.com/google/mediapipe"
+  },
+  {
+    "name": "gchq/CyberChef",
+    "url": "https://github.com/gchq/CyberChef"
+  },
+  {
+    "name": "coder2gwy/coder2gwy",
+    "url": "https://github.com/coder2gwy/coder2gwy"
+  },
+  {
+    "name": "powerline/fonts",
+    "url": "https://github.com/powerline/fonts"
+  },
+  {
+    "name": "directus/directus",
+    "url": "https://github.com/directus/directus"
+  },
+  {
+    "name": "sindresorhus/awesome-electron",
+    "url": "https://github.com/sindresorhus/awesome-electron"
+  },
+  {
+    "name": "zadam/trilium",
+    "url": "https://github.com/zadam/trilium"
+  },
+  {
+    "name": "pjreddie/darknet",
+    "url": "https://github.com/pjreddie/darknet"
+  },
+  {
+    "name": "ycm-core/YouCompleteMe",
+    "url": "https://github.com/ycm-core/YouCompleteMe"
+  },
+  {
+    "name": "quasarframework/quasar",
+    "url": "https://github.com/quasarframework/quasar"
+  },
+  {
+    "name": "spipm/Depix",
+    "url": "https://github.com/spipm/Depix"
+  },
+  {
+    "name": "hollischuang/toBeTopJavaer",
+    "url": "https://github.com/hollischuang/toBeTopJavaer"
+  },
+  {
+    "name": "surrealdb/surrealdb",
+    "url": "https://github.com/surrealdb/surrealdb"
+  },
+  {
+    "name": "emscripten-core/emscripten",
+    "url": "https://github.com/emscripten-core/emscripten"
+  },
+  {
+    "name": "mbeaudru/modern-js-cheatsheet",
+    "url": "https://github.com/mbeaudru/modern-js-cheatsheet"
+  },
+  {
+    "name": "iawia002/lux",
+    "url": "https://github.com/iawia002/lux"
+  },
+  {
+    "name": "terryum/awesome-deep-learning-papers",
+    "url": "https://github.com/terryum/awesome-deep-learning-papers"
+  },
+  {
+    "name": "ageron/handson-ml",
+    "url": "https://github.com/ageron/handson-ml"
+  },
+  {
+    "name": "littlecodersh/ItChat",
+    "url": "https://github.com/littlecodersh/ItChat"
+  },
+  {
+    "name": "qianguyihao/Web",
+    "url": "https://github.com/qianguyihao/Web"
+  },
+  {
+    "name": "akveo/ngx-admin",
+    "url": "https://github.com/akveo/ngx-admin"
+  },
+  {
+    "name": "nothings/stb",
+    "url": "https://github.com/nothings/stb"
+  },
+  {
+    "name": "proxyee-down-org/proxyee-down",
+    "url": "https://github.com/proxyee-down-org/proxyee-down"
+  },
+  {
+    "name": "qbittorrent/qBittorrent",
+    "url": "https://github.com/qbittorrent/qBittorrent"
+  },
+  {
+    "name": "apache/incubator-seata",
+    "url": "https://github.com/apache/incubator-seata"
+  },
+  {
+    "name": "SDWebImage/SDWebImage",
+    "url": "https://github.com/SDWebImage/SDWebImage"
+  },
+  {
+    "name": "getredash/redash",
+    "url": "https://github.com/getredash/redash"
+  },
+  {
+    "name": "airbnb/lottie-ios",
+    "url": "https://github.com/airbnb/lottie-ios"
+  },
+  {
+    "name": "signalapp/Signal-Android",
+    "url": "https://github.com/signalapp/Signal-Android"
+  },
+  {
+    "name": "deezer/spleeter",
+    "url": "https://github.com/deezer/spleeter"
+  },
+  {
+    "name": "kataras/iris",
+    "url": "https://github.com/kataras/iris"
+  },
+  {
+    "name": "vercel/turbo",
+    "url": "https://github.com/vercel/turbo"
+  },
+  {
+    "name": "Vision-CAIR/MiniGPT-4",
+    "url": "https://github.com/Vision-CAIR/MiniGPT-4"
+  },
+  {
+    "name": "imDazui/Tvlist-awesome-m3u-m3u8",
+    "url": "https://github.com/imDazui/Tvlist-awesome-m3u-m3u8"
+  },
+  {
+    "name": "nicolargo/glances",
+    "url": "https://github.com/nicolargo/glances"
+  },
+  {
+    "name": "nylas/nylas-mail",
+    "url": "https://github.com/nylas/nylas-mail"
+  },
+  {
+    "name": "haizlin/fe-interview",
+    "url": "https://github.com/haizlin/fe-interview"
+  },
+  {
+    "name": "discordjs/discord.js",
+    "url": "https://github.com/discordjs/discord.js"
+  },
+  {
+    "name": "derailed/k9s",
+    "url": "https://github.com/derailed/k9s"
+  },
+  {
+    "name": "s0md3v/roop",
+    "url": "https://github.com/s0md3v/roop"
+  },
+  {
+    "name": "rollup/rollup",
+    "url": "https://github.com/rollup/rollup"
+  },
+  {
+    "name": "taichi-dev/taichi",
+    "url": "https://github.com/taichi-dev/taichi"
+  },
+  {
+    "name": "python-telegram-bot/python-telegram-bot",
+    "url": "https://github.com/python-telegram-bot/python-telegram-bot"
+  },
+  {
+    "name": "scwang90/SmartRefreshLayout",
+    "url": "https://github.com/scwang90/SmartRefreshLayout"
+  },
+  {
+    "name": "google-research/tuning_playbook",
+    "url": "https://github.com/google-research/tuning_playbook"
+  },
+  {
+    "name": "zbezj/HEU_KMS_Activator",
+    "url": "https://github.com/zbezj/HEU_KMS_Activator"
+  },
+  {
+    "name": "pypa/pipenv",
+    "url": "https://github.com/pypa/pipenv"
+  },
+  {
+    "name": "greenrobot/EventBus",
+    "url": "https://github.com/greenrobot/EventBus"
+  },
+  {
+    "name": "dotnet-architecture/eShopOnContainers",
+    "url": "https://github.com/dotnet-architecture/eShopOnContainers"
+  },
+  {
+    "name": "tokio-rs/tokio",
+    "url": "https://github.com/tokio-rs/tokio"
+  },
+  {
+    "name": "react-native-elements/react-native-elements",
+    "url": "https://github.com/react-native-elements/react-native-elements"
+  },
+  {
+    "name": "microsoft/autogen",
+    "url": "https://github.com/microsoft/autogen"
+  },
+  {
+    "name": "kuchin/awesome-cto",
+    "url": "https://github.com/kuchin/awesome-cto"
+  },
+  {
+    "name": "nsqio/nsq",
+    "url": "https://github.com/nsqio/nsq"
+  },
+  {
+    "name": "zhayujie/chatgpt-on-wechat",
+    "url": "https://github.com/zhayujie/chatgpt-on-wechat"
+  },
+  {
+    "name": "refinedev/refine",
+    "url": "https://github.com/refinedev/refine"
+  },
+  {
+    "name": "fish-shell/fish-shell",
+    "url": "https://github.com/fish-shell/fish-shell"
+  },
+  {
+    "name": "openfaas/faas",
+    "url": "https://github.com/openfaas/faas"
+  },
+  {
+    "name": "feathericons/feather",
+    "url": "https://github.com/feathericons/feather"
+  },
+  {
+    "name": "telegramdesktop/tdesktop",
+    "url": "https://github.com/telegramdesktop/tdesktop"
+  },
+  {
+    "name": "ApolloAuto/apollo",
+    "url": "https://github.com/ApolloAuto/apollo"
+  },
+  {
+    "name": "rxhanson/Rectangle",
+    "url": "https://github.com/rxhanson/Rectangle"
+  },
+  {
+    "name": "vuejs/devtools",
+    "url": "https://github.com/vuejs/devtools"
+  },
+  {
+    "name": "datasciencemasters/go",
+    "url": "https://github.com/datasciencemasters/go"
+  },
+  {
+    "name": "withfig/autocomplete",
+    "url": "https://github.com/withfig/autocomplete"
+  },
+  {
+    "name": "matteocrippa/awesome-swift",
+    "url": "https://github.com/matteocrippa/awesome-swift"
+  },
+  {
+    "name": "Asabeneh/30-Days-Of-React",
+    "url": "https://github.com/Asabeneh/30-Days-Of-React"
+  },
+  {
+    "name": "localForage/localForage",
+    "url": "https://github.com/localForage/localForage"
+  },
+  {
+    "name": "viatsko/awesome-vscode",
+    "url": "https://github.com/viatsko/awesome-vscode"
+  },
+  {
+    "name": "eslint/eslint",
+    "url": "https://github.com/eslint/eslint"
+  },
+  {
+    "name": "mozilla/DeepSpeech",
+    "url": "https://github.com/mozilla/DeepSpeech"
+  },
+  {
+    "name": "vercel/pkg",
+    "url": "https://github.com/vercel/pkg"
+  },
+  {
+    "name": "ReactiveX/RxSwift",
+    "url": "https://github.com/ReactiveX/RxSwift"
+  },
+  {
+    "name": "mantinedev/mantine",
+    "url": "https://github.com/mantinedev/mantine"
+  },
+  {
+    "name": "mbadolato/iTerm2-Color-Schemes",
+    "url": "https://github.com/mbadolato/iTerm2-Color-Schemes"
+  },
+  {
+    "name": "ossrs/srs",
+    "url": "https://github.com/ossrs/srs"
+  },
+  {
+    "name": "tailwindlabs/headlessui",
+    "url": "https://github.com/tailwindlabs/headlessui"
+  },
+  {
+    "name": "microsoft/cascadia-code",
+    "url": "https://github.com/microsoft/cascadia-code"
+  },
+  {
+    "name": "yeasy/docker_practice",
+    "url": "https://github.com/yeasy/docker_practice"
+  },
+  {
+    "name": "openssl/openssl",
+    "url": "https://github.com/openssl/openssl"
+  },
+  {
+    "name": "matterport/Mask_RCNN",
+    "url": "https://github.com/matterport/Mask_RCNN"
+  },
+  {
+    "name": "mli/paper-reading",
+    "url": "https://github.com/mli/paper-reading"
+  },
+  {
+    "name": "angular/components",
+    "url": "https://github.com/angular/components"
+  },
+  {
+    "name": "OpenZeppelin/openzeppelin-contracts",
+    "url": "https://github.com/OpenZeppelin/openzeppelin-contracts"
+  },
+  {
+    "name": "KRTirtho/spotube",
+    "url": "https://github.com/KRTirtho/spotube"
+  },
+  {
+    "name": "TanStack/table",
+    "url": "https://github.com/TanStack/table"
+  },
+  {
+    "name": "CymChad/BaseRecyclerViewAdapterHelper",
+    "url": "https://github.com/CymChad/BaseRecyclerViewAdapterHelper"
+  },
+  {
+    "name": "utmapp/UTM",
+    "url": "https://github.com/utmapp/UTM"
+  },
+  {
+    "name": "rwaldron/idiomatic.js",
+    "url": "https://github.com/rwaldron/idiomatic.js"
+  },
+  {
+    "name": "tmrts/go-patterns",
+    "url": "https://github.com/tmrts/go-patterns"
+  },
+  {
+    "name": "lizongying/my-tv",
+    "url": "https://github.com/lizongying/my-tv"
+  },
+  {
+    "name": "YunaiV/ruoyi-vue-pro",
+    "url": "https://github.com/YunaiV/ruoyi-vue-pro"
+  },
+  {
+    "name": "mdbootstrap/mdb-ui-kit",
+    "url": "https://github.com/mdbootstrap/mdb-ui-kit"
+  },
+  {
+    "name": "sirupsen/logrus",
+    "url": "https://github.com/sirupsen/logrus"
+  },
+  {
+    "name": "firecracker-microvm/firecracker",
+    "url": "https://github.com/firecracker-microvm/firecracker"
+  },
+  {
+    "name": "iview/iview",
+    "url": "https://github.com/iview/iview"
+  },
+  {
+    "name": "hwdsl2/setup-ipsec-vpn",
+    "url": "https://github.com/hwdsl2/setup-ipsec-vpn"
+  },
+  {
+    "name": "marmelab/react-admin",
+    "url": "https://github.com/marmelab/react-admin"
+  },
+  {
+    "name": "Wox-launcher/Wox",
+    "url": "https://github.com/Wox-launcher/Wox"
+  },
+  {
+    "name": "outline/outline",
+    "url": "https://github.com/outline/outline"
+  },
+  {
+    "name": "hammerjs/hammer.js",
+    "url": "https://github.com/hammerjs/hammer.js"
+  },
+  {
+    "name": "johnpapa/angular-styleguide",
+    "url": "https://github.com/johnpapa/angular-styleguide"
+  },
+  {
+    "name": "neoclide/coc.nvim",
+    "url": "https://github.com/neoclide/coc.nvim"
+  },
+  {
+    "name": "rome/tools",
+    "url": "https://github.com/rome/tools"
+  },
+  {
+    "name": "inconshreveable/ngrok",
+    "url": "https://github.com/inconshreveable/ngrok"
+  },
+  {
+    "name": "sdras/awesome-actions",
+    "url": "https://github.com/sdras/awesome-actions"
+  },
+  {
+    "name": "Netflix/Hystrix",
+    "url": "https://github.com/Netflix/Hystrix"
+  },
+  {
+    "name": "svc-develop-team/so-vits-svc",
+    "url": "https://github.com/svc-develop-team/so-vits-svc"
+  },
+  {
+    "name": "envoyproxy/envoy",
+    "url": "https://github.com/envoyproxy/envoy"
+  },
+  {
+    "name": "zyedidia/micro",
+    "url": "https://github.com/zyedidia/micro"
+  },
+  {
+    "name": "makeplane/plane",
+    "url": "https://github.com/makeplane/plane"
+  },
+  {
+    "name": "zloirock/core-js",
+    "url": "https://github.com/zloirock/core-js"
+  },
+  {
+    "name": "VundleVim/Vundle.vim",
+    "url": "https://github.com/VundleVim/Vundle.vim"
+  },
+  {
+    "name": "charmbracelet/bubbletea",
+    "url": "https://github.com/charmbracelet/bubbletea"
+  },
+  {
+    "name": "vapor/vapor",
+    "url": "https://github.com/vapor/vapor"
+  },
+  {
+    "name": "dimsemenov/PhotoSwipe",
+    "url": "https://github.com/dimsemenov/PhotoSwipe"
+  },
+  {
+    "name": "tinygrad/tinygrad",
+    "url": "https://github.com/tinygrad/tinygrad"
+  },
+  {
+    "name": "Igglybuff/awesome-piracy",
+    "url": "https://github.com/Igglybuff/awesome-piracy"
+  },
+  {
+    "name": "heartcombo/devise",
+    "url": "https://github.com/heartcombo/devise"
+  },
+  {
+    "name": "dragonflydb/dragonfly",
+    "url": "https://github.com/dragonflydb/dragonfly"
+  },
+  {
+    "name": "restic/restic",
+    "url": "https://github.com/restic/restic"
+  },
+  {
+    "name": "ueberdosis/tiptap",
+    "url": "https://github.com/ueberdosis/tiptap"
+  },
+  {
+    "name": "DrKLO/Telegram",
+    "url": "https://github.com/DrKLO/Telegram"
+  },
+  {
+    "name": "AvaloniaUI/Avalonia",
+    "url": "https://github.com/AvaloniaUI/Avalonia"
+  },
+  {
+    "name": "NativeScript/NativeScript",
+    "url": "https://github.com/NativeScript/NativeScript"
+  },
+  {
+    "name": "gitlabhq/gitlabhq",
+    "url": "https://github.com/gitlabhq/gitlabhq"
+  },
+  {
+    "name": "VSCodium/vscodium",
+    "url": "https://github.com/VSCodium/vscodium"
+  },
+  {
+    "name": "locustio/locust",
+    "url": "https://github.com/locustio/locust"
+  },
+  {
+    "name": "chubin/wttr.in",
+    "url": "https://github.com/chubin/wttr.in"
+  },
+  {
+    "name": "ramda/ramda",
+    "url": "https://github.com/ramda/ramda"
+  },
+  {
+    "name": "alibaba/flutter-go",
+    "url": "https://github.com/alibaba/flutter-go"
+  },
+  {
+    "name": "filebrowser/filebrowser",
+    "url": "https://github.com/filebrowser/filebrowser"
+  },
+  {
+    "name": "jumpserver/jumpserver",
+    "url": "https://github.com/jumpserver/jumpserver"
+  },
+  {
+    "name": "keon/algorithms",
+    "url": "https://github.com/keon/algorithms"
+  },
+  {
+    "name": "gedoor/legado",
+    "url": "https://github.com/gedoor/legado"
+  },
+  {
+    "name": "goldbergyoni/javascript-testing-best-practices",
+    "url": "https://github.com/goldbergyoni/javascript-testing-best-practices"
+  },
+  {
+    "name": "doczjs/docz",
+    "url": "https://github.com/doczjs/docz"
+  },
+  {
+    "name": "syl20bnr/spacemacs",
+    "url": "https://github.com/syl20bnr/spacemacs"
+  },
+  {
+    "name": "kahun/awesome-sysadmin",
+    "url": "https://github.com/kahun/awesome-sysadmin"
+  },
+  {
+    "name": "Textualize/textual",
+    "url": "https://github.com/Textualize/textual"
+  },
+  {
+    "name": "celery/celery",
+    "url": "https://github.com/celery/celery"
+  },
+  {
+    "name": "requarks/wiki",
+    "url": "https://github.com/requarks/wiki"
+  },
+  {
+    "name": "FlowiseAI/Flowise",
+    "url": "https://github.com/FlowiseAI/Flowise"
+  },
+  {
+    "name": "pure-css/pure",
+    "url": "https://github.com/pure-css/pure"
+  },
+  {
+    "name": "vnpy/vnpy",
+    "url": "https://github.com/vnpy/vnpy"
+  },
+  {
+    "name": "rwf2/Rocket",
+    "url": "https://github.com/rwf2/Rocket"
+  },
+  {
+    "name": "homebridge/homebridge",
+    "url": "https://github.com/homebridge/homebridge"
+  },
+  {
+    "name": "grafana/k6",
+    "url": "https://github.com/grafana/k6"
+  },
+  {
+    "name": "android/architecture-components-samples",
+    "url": "https://github.com/android/architecture-components-samples"
+  },
+  {
+    "name": "ogham/exa",
+    "url": "https://github.com/ogham/exa"
+  },
+  {
+    "name": "dapr/dapr",
+    "url": "https://github.com/dapr/dapr"
+  },
+  {
+    "name": "reduxjs/react-redux",
+    "url": "https://github.com/reduxjs/react-redux"
+  },
+  {
+    "name": "react-navigation/react-navigation",
+    "url": "https://github.com/react-navigation/react-navigation"
+  },
+  {
+    "name": "apache/skywalking",
+    "url": "https://github.com/apache/skywalking"
+  },
+  {
+    "name": "t3-oss/create-t3-app",
+    "url": "https://github.com/t3-oss/create-t3-app"
+  },
+  {
+    "name": "libuv/libuv",
+    "url": "https://github.com/libuv/libuv"
+  },
+  {
+    "name": "fyne-io/fyne",
+    "url": "https://github.com/fyne-io/fyne"
+  },
+  {
+    "name": "github/copilot-docs",
+    "url": "https://github.com/github/copilot-docs"
+  },
+  {
+    "name": "MostlyAdequate/mostly-adequate-guide",
+    "url": "https://github.com/MostlyAdequate/mostly-adequate-guide"
+  },
+  {
+    "name": "elixir-lang/elixir",
+    "url": "https://github.com/elixir-lang/elixir"
+  },
+  {
+    "name": "ai/nanoid",
+    "url": "https://github.com/ai/nanoid"
+  },
+  {
+    "name": "eriklindernoren/ML-From-Scratch",
+    "url": "https://github.com/eriklindernoren/ML-From-Scratch"
+  },
+  {
+    "name": "apache/flink",
+    "url": "https://github.com/apache/flink"
+  },
+  {
+    "name": "StreisandEffect/streisand",
+    "url": "https://github.com/StreisandEffect/streisand"
+  },
+  {
+    "name": "flameshot-org/flameshot",
+    "url": "https://github.com/flameshot-org/flameshot"
+  },
+  {
+    "name": "changkun/modern-cpp-tutorial",
+    "url": "https://github.com/changkun/modern-cpp-tutorial"
+  },
+  {
+    "name": "element-plus/element-plus",
+    "url": "https://github.com/element-plus/element-plus"
+  },
+  {
+    "name": "datawhalechina/pumpkin-book",
+    "url": "https://github.com/datawhalechina/pumpkin-book"
+  }
+]

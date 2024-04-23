@@ -1,0 +1,1662 @@
+[
+  {
+    "Issue_Title": "Accessibility: Additional Themes",
+    "Issue_Url": "https://github.com/freeCodeCamp/freeCodeCamp/issues/54475",
+    "Issue_Created_At": "2024-04-21T15:30:48Z",
+    "Issue_Body": "### Is your feature request related to a problem? Please describe.  I'm hard of sight and find it hard to read off of dark mode. When I use light mode they tend to be too bright, causing other visual issuers.  ### Describe the solution you'd like  Addition of additional themes (Such as Solarised Light)  ### Describe alternatives you've considered  Possibly adjusting the current light mode to be slightly darker  ### Additional context  _No response_",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "ShadowOfNyxx"
+  },
+  {
+    "Issue_Title": "Depth of knowledge of a particular stage in the roadmap",
+    "Issue_Url": "https://github.com/kamranahmedse/developer-roadmap/issues/5538",
+    "Issue_Created_At": "2024-04-22T07:06:19Z",
+    "Issue_Body": "### Feature Description  It would be very helpful to know how much of a particular stage a learner needs to know at a particular stage for them to proceed to the next stage without going down the spiral of tutorial hell and spending too much time learning things that are not important or can be as clear at that particular stage of the learning. I am using your roadmaps but quite often, I find myself learning too much of things which I forget later on since they weren't as important at that particular stage and need to relearn everything from the beginning when the time comes for them. Like for example I was learning Pandas in a particular roadmap and I learning many different functions that are useful but I didn't use many of them apart from a 2-3 I can easily name and remember and the rest I forgot. Then whenever I need to use any of the other functions, I have to go through all the documentation and use cases all over again to understand how they are used to make sense and all that previous time I spent learning them feels wasted since they were not required at that earlier stage.",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "rafeysayeed"
+  },
+  {
+    "Issue_Title": "Add personal anecdotes helpful for newbies to gain experience related knowledge as they go",
+    "Issue_Url": "https://github.com/kamranahmedse/developer-roadmap/issues/5536",
+    "Issue_Created_At": "2024-04-22T04:46:00Z",
+    "Issue_Body": "### Feature Description  Can I be possible for people to add their personal anecdotes throughout the roadmap stages so that they can experience related knowledge throughout the journey of following through the roadmap. It would really help to learn from senior more experienced people. These anecdotes can be the form of comments throughout the roadmap stages.",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "rafeysayeed"
+  },
+  {
+    "Issue_Title": "Tes",
+    "Issue_Url": "https://github.com/kamranahmedse/developer-roadmap/issues/5535",
+    "Issue_Created_At": "2024-04-21T20:14:40Z",
+    "Issue_Body": "https://github.com/CopilotKit/CopilotKit/releases/tag/%40copilotkit/shared%400.8.0",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "luqmandaut2511"
+  },
+  {
+    "Issue_Title": "Grammatical Issue",
+    "Issue_Url": "https://github.com/kamranahmedse/developer-roadmap/issues/5534",
+    "Issue_Created_At": "2024-04-21T09:53:12Z",
+    "Issue_Body": "### What is the URL where the issue is happening  https://roadmap.sh/java  ### What browsers are you seeing the problem on?  Chrome  ### Describe the Bug  Description of \"Memory Management\" says, \"In Java, memory management is the process of allocation and de-allocation of objects, called Memory management.\"  It can be rephrased or simply drop the \"called Memory Management\" at the end.  ### Output from browser console (if any)  _No response_  ### Participation  - [X] I am willing to submit a pull request for this issue.",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "Harshithalwan"
+  },
+  {
+    "Issue_Title": "Learing question",
+    "Issue_Url": "https://github.com/practical-tutorials/project-based-learning/issues/552",
+    "Issue_Created_At": "2024-04-21T12:28:28Z",
+    "Issue_Body": "I saw the JS todo list project and only thing it says \"append the code in file\" without any explanation about specific code of line why it was written Like they wrote Parse.JSON but there is no explanation to it what it do? I know little bit that's why I undetstood that but what about the rest of the code.",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "uuc110"
+  },
+  {
+    "Issue_Title": "iOS Privacy Manifest for Flutter Modules",
+    "Issue_Url": "https://github.com/flutter/flutter/issues/147140",
+    "Issue_Created_At": "2024-04-21T16:52:27Z",
+    "Issue_Body": "As per the new guidelines for iOS Privacy Manifest need to be added in the iOS apps being submitted from May 1, 2024. Flutter community is active working on the changes required for apps and packages.  However, there does not seem to be much resources about adding the Privacy Manifests for Flutter Modules and how to go about these for Module specific code.  Needed help with defining manifests for the Flutter Modules",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "imHarshBhatia"
+  },
+  {
+    "Issue_Title": "Unity WebGL game running in Flutter WebView unable to connect to game server",
+    "Issue_Url": "https://github.com/flutter/flutter/issues/147135",
+    "Issue_Created_At": "2024-04-21T09:38:33Z",
+    "Issue_Body": "**Question:**  I'm facing an issue with a Unity WebGL game hosted within a Flutter WebView, where the game is unable to establish a connection to the game server. Here are the details:  **Problem:**  - I have a Unity WebGL game running within a WebView in a Flutter app. - The Unity game needs to connect to a game server to fetch game data and resources. - However, when the Unity game attempts to connect to the game server, it fails to establish a connection.  **Observations:**  - I've monitored network traffic using Wireshark and observed that when the Flutter app runs the Unity WebGL game in the WebView, the game does not appear to make any outbound connections to the internet. - The game server is accessible and functional, as confirmed by other clients connecting successfully. - The Flutter app has opened a socket and is receiving game requirements via Socket.IO. These requirements include the URL of the game server. - The Unity game within the WebView should receive the game server URL from the Flutter app and use it to establish a connection to the server.  **Questions:**  - Has anyone encountered similar issues with Unity WebGL games hosted within Flutter WebViews failing to connect to game servers? - Are there any known limitations or configuration settings in Flutter WebViews that could prevent outbound network connections from Unity WebGL content? - Are there any recommended approaches or best practices for enabling Unity WebGL games within Flutter apps to establish connections to external game servers? - Any insights or suggestions on how to troubleshoot or resolve this issue would be greatly appreciated.  Thank you for your assistance! ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "Jalili-73"
+  },
+  {
+    "Issue_Title": "What is happening",
+    "Issue_Url": "https://github.com/microsoft/vscode/issues/210863",
+    "Issue_Created_At": "2024-04-22T02:55:47Z",
+    "Issue_Body": "my vs code is like tis freezing i dont know what is happening on my screen it is not my screen problems cuz when I screenshot i screen shot it and it does not happen to my other applitcation ![image](https://github.com/microsoft/vscode/assets/140998767/a0d632db-cd48-41cd-8dbc-e6475aa25218) ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "justday0727"
+  },
+  {
+    "Issue_Title": "[DynamicHead - Microsoft] Implementation request",
+    "Issue_Url": "https://github.com/huggingface/transformers/issues/30369",
+    "Issue_Created_At": "2024-04-21T10:08:44Z",
+    "Issue_Body": "### Model description  Hi there!  I was wondering if anyone has tried to implement Microsoft's DyHead? If not, I would like to contribute the implementation by adding a new model to the library. Is there any interest in a PR for this model?  Here a short explanation from their official implementation: _\"In this paper, we present a novel dynamic head framework to unify object detection heads with attentions. By coherently combining multiple self-attention mechanisms between feature levels for scale-awareness, among spatial locations for spatial-awareness, and within output channels for task-awareness, the proposed approach significantly improves the representation ability of object detection heads without any computational overhead.\"_  ### Open source status  - [X] The model implementation is available - [X] The model weights are available  ### Provide useful links for the implementation  GitHub Repository: [Link](https://github.com/microsoft/DynamicHead/tree/master) Paper: [Link](https://arxiv.org/pdf/2106.08322.pdf)",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "lsch0lz"
+  },
+  {
+    "Issue_Title": "Moving and resizing window with modifier key and mouse",
+    "Issue_Url": "https://github.com/microsoft/PowerToys/issues/32566",
+    "Issue_Created_At": "2024-04-22T07:48:40Z",
+    "Issue_Body": "### Description of the new feature / enhancement  When pressing alt and left-clicking within a window, the window can be moved. When pressing alt and right-clicking near a corner of a window, the window is resized from that corner outwards.  For both, the standard window movement and resizing functionality is activated. When combined with the shortcut defined for FancyZones, the FancyZones functionality can be activated easily without having to select the titlebar.  ### Scenario when this would be used?  It makes it very efficient and easy to quickly manage windows on different large screens, as most power users are probably using in their day-to-day workflow.  It also makes it a lot easier to move a window seeing how the title bar space reserved for moving a window differs a lot between applications. - OneNote has a very big zone in the title bar - Browsers such as Edge usually have a very small zone when there are a lot of tabs open  ### Supporting information  This is the functionality provided by external utilities such as - https://stefansundin.github.io/altdrag/ - https://github.com/RamonUnch/AltSnap/releases",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "abhowitzer"
+  },
+  {
+    "Issue_Title": "[ImageResizer] Add Description to *Fallback encoder* setting",
+    "Issue_Url": "https://github.com/microsoft/PowerToys/issues/32564",
+    "Issue_Created_At": "2024-04-21T19:06:31Z",
+    "Issue_Body": "### Description of the new feature / enhancement  The *Fallback encoder* setting should be obvious what it is a fallback for.  ### Scenario when this would be used?  Viewing the ImageResizer settings  ### Supporting information  The ImageResizer provides the *Fallback encoder* setting. It is not obvious what it is a fallback for.  [The documentation on *Fallback encoding*](https://learn.microsoft.com/en-us/windows/powertoys/image-resizer#fallback-encoding) describes it. ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "Kissaki"
+  },
+  {
+    "Issue_Title": "Keyboard manager-layout specific remapping",
+    "Issue_Url": "https://github.com/microsoft/PowerToys/issues/32560",
+    "Issue_Created_At": "2024-04-21T13:24:40Z",
+    "Issue_Body": "### Description of the new feature / enhancement  Allow key mapping specific just for one keyboard layout  ### Scenario when this would be used?  when using multiple keyboard layouts for different languages, some of them qwerty, some of them qwertz, remap y/z just for some layout to achieve writing y/z always with the same button at the keyboard.  ### Supporting information  _No response_",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "fvymazal"
+  },
+  {
+    "Issue_Title": " How does Virtual Display implement input event control?",
+    "Issue_Url": "https://github.com/Genymobile/scrcpy/issues/4873",
+    "Issue_Created_At": "2024-04-22T07:50:32Z",
+    "Issue_Body": "hi, great product! !  One question, I created Virtual Display on my android device. Then display a specified third-party application on the Virtual Display, which will not affect the display content of the home screen. Then I specify the display id through scrcpy --display. I can see the third-party application interface on the computer and can also do input event control. How is this achieved?  I am also sharing the content of virtual display to the browser through similar webrtc, but when I receive the browser event in Android and trigger the event through injectInputEvent,\"I InputDispatcher: Dropping event because there is no touched foreground window appears. in display 34 or gesture monitor to receive it\" arised in the Log. How to modify the event handling of virtual display?",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "BarleyXu"
+  },
+  {
+    "Issue_Title": "ubuntu signal-desktop: no camera detected",
+    "Issue_Url": "https://github.com/Genymobile/scrcpy/issues/4871",
+    "Issue_Created_At": "2024-04-21T23:45:53Z",
+    "Issue_Body": " -- [ ] I have read the [FAQ](https://github.com/Genymobile/scrcpy/blob/master/FAQ.md).  -- [ ] I have searched in existing [issues](https://github.com/Genymobile/scrcpy/issues).  **Environment**  - OS: Ubuntu 23.10  - scrcpy version: 2.4  - installation method: git (from source)  - Android version: lineage20 **Describe the bug** ubuntu Signal-desktop 7.5.1: no camera detected - camera works however with Telegram-desktop 4.16.8  ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "odembuba"
+  },
+  {
+    "Issue_Title": "Adding postprocessing support to the three. js editor",
+    "Issue_Url": "https://github.com/mrdoob/three.js/issues/28182",
+    "Issue_Created_At": "2024-04-22T07:17:59Z",
+    "Issue_Body": "### Description  Adding postprocessing support to the three. js editor  ### Solution  postprocessing.js  ### Alternatives  postprocessing.js  ### Additional context  _No response_",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "WREQI"
+  },
+  {
+    "Issue_Title": "Pipes Api not working",
+    "Issue_Url": "https://github.com/angular/angular/issues/55452",
+    "Issue_Created_At": "2024-04-21T15:10:33Z",
+    "Issue_Body": "### Describe the problem that you experienced  when clicking on the Pipes API documentation : For a complete list of built-in pipes, see the [**pipes API documentation**] , it was supposed to open the pipes api but it shows the Page Not Found page.  ### Enter the URL of the topic with the problem  https://angular.dev/api/common#pipes   ### Describe what you were looking for in the documentation  I was looking for the API documentation of Piping  ### Describe the actions that led you to experience the problem  By clicking on the pipe API documentation.   ### Describe what you want to experience that would fix the problem  Add the pipes API documentation component  ### Add a screenshot if that helps illustrate the problem  _No response_  ### If this problem caused an exception or error, please paste it here  _No response_  ### If the problem is browser-specific, please specify the device, OS, browser, and version  _No response_  ### Provide any additional information here in as much as detail as you can  _No response_",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "SalmaanMushtaq"
+  },
+  {
+    "Issue_Title": "vec not free memory.",
+    "Issue_Url": "https://github.com/rust-lang/rust/issues/124249",
+    "Issue_Created_At": "2024-04-22T05:59:34Z",
+    "Issue_Body": "vec not free momeny. ![vectest](https://github.com/rust-lang/rust/assets/24538563/e9f64693-83d4-4d79-a52f-b11ac6766031) [main.zip](https://github.com/rust-lang/rust/files/15058207/main.zip) ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "zhangxize"
+  },
+  {
+    "Issue_Title": "[docs] need for a blog about how to optimize MUI",
+    "Issue_Url": "https://github.com/mui/material-ui/issues/41992",
+    "Issue_Created_At": "2024-04-21T18:14:33Z",
+    "Issue_Body": "### Related page  https://mui.com/material-ui/guides/minimizing-bundle-size/  ### Kind of issue  Missing information  ### Issue description  I think we definitely need some blog posts about how to make your SPA app faster when using MUI. I also experienced MUI performance hits in my ReactJS app and did not know what should I do except looking for a needle in a haystack. It was a real pain in the neck.  So now I think you have a very good understanding of what might goes wrong when using MUI and just jot them down in a blog post so that people like me have a place to look for possible explanation. Also it will help us to understand what we are doing that is wrong and needs to be changed.  ### Context  Having a better understanding on how to use MUI in a performant fashion without feeling overwhelmed and possibly not ending up saying \"I cut my losses!\" or \"I decided it was not worth it!\". I already feel that so many devs are in my shoes and just wanted to voice it.  I also do not see making my own custom components using a css lib like tailwind as a viable and feasible answer since I really do not wanna spent hours and hours to create, maintain, write tests, debug, take care of accessibility issues on my own :sweat_smile:.  Please share your thought with me and if your think I am missing something please point it out.  Thanks for the wonderful MUI and this lovely support.  **Search keywords**: optimization, performance, MUI, material UI",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "kasir-barati"
+  },
+  {
+    "Issue_Title": "Editor crashes when changing type of node after editing child scene",
+    "Issue_Url": "https://github.com/godotengine/godot/issues/90989",
+    "Issue_Created_At": "2024-04-21T19:06:49Z",
+    "Issue_Body": "### Tested versions  v4.2.2.stable.official [15073afe3]  ### System information  Godot v4.2.2.stable - Windows 10.0.22631 - GLES3 (Compatibility) - NVIDIA GeForce RTX 4080 Laptop GPU (NVIDIA; 31.0.15.4633) - AMD Ryzen 9 7940HS w/ Radeon 780M Graphics (16 Threads)  ### Issue description  When one scene is instantiated in another, and I edit the child scene, then changing the type of the parent scene causes the engine to crash. (Expected behavior: Not doing that.)  ### Steps to reproduce  With the MRP: 1. Rename the root node in child_scene, or change its type. 2. Right click the root node in main_scene, click 'Change Type', and try to change it.  ### Minimal reproduction project (MRP)  [change node crash test.zip](https://github.com/godotengine/godot/files/15053183/change.node.crash.test.zip) ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "emanresU102396"
+  },
+  {
+    "Issue_Title": "Missing translation in localise - examples",
+    "Issue_Url": "https://github.com/home-assistant/core/issues/115946",
+    "Issue_Created_At": "2024-04-22T07:47:49Z",
+    "Issue_Body": "### The problem  Found missing text in localise (all examples). Reference to source code: https://github.com/home-assistant/core/blob/de75f8223517029abc1fe94af731a15a55e08df1/homeassistant/components/calendar/services.yaml#L34  Screenshot ![Snag_1c90707f_Examples](https://github.com/home-assistant/core/assets/61636045/f53ea9f6-6706-415c-a8b8-6216f47f2e10)   ### What version of Home Assistant Core has the issue?  2024.4.3  ### What was the last working version of Home Assistant Core?  not relevant  ### What type of installation are you running?  Home Assistant OS ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "misa1515"
+  },
+  {
+    "Issue_Title": "Core cannot update ",
+    "Issue_Url": "https://github.com/home-assistant/core/issues/115941",
+    "Issue_Created_At": "2024-04-22T03:15:14Z",
+    "Issue_Body": "### The problem  Hi everone! I have a problem to update my ha core. The actual version is 2023.12.4 and i would like to install the last one 2024.4.3 available, but when i start the process to upgrade it never finish the process.    ### What version of Home Assistant Core has the issue?  2023.12.4  ### What was the last working version of Home Assistant Core?  2023.12.4  ### What type of installation are you running?  Home Assistant OS  ### Integration causing the issue  _No response_  ### Link to integration documentation on our website  _No response_  ### Diagnostics information  _No response_  ### Example YAML snippet  _No response_  ### Anything in the logs that might be useful for us?  _No response_  ### Additional information  _No response_",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "alexdsnunes"
+  },
+  {
+    "Issue_Title": "Lutron Integration not pulling in wood tilt blinds",
+    "Issue_Url": "https://github.com/home-assistant/core/issues/115940",
+    "Issue_Created_At": "2024-04-22T02:15:08Z",
+    "Issue_Body": "### The problem  A Lutron system (RadioRa) has three shade groups - Group 1 with two roller shades, Group 2 with two wood tilt blinds (manual raise/lower), Group 3 with one wood tilt blind (manual raise/lower). When integrated within HA, Group 1 with roller shades properly is imported in HA. Group 2 and 3 with the wood tilt blinds do not appear within HA.  ### What version of Home Assistant Core has the issue?  \tcore-2024.4.3  ### What was the last working version of Home Assistant Core?  _No response_  ### What type of installation are you running?  Home Assistant OS  ### Integration causing the issue  Lutron Caseta  ### Link to integration documentation on our website  https://www.home-assistant.io/integrations/lutron_caseta  ### Diagnostics information  [config_entry-lutron_caseta-99a84eb99851f30993ca478d5f0deced.json](https://github.com/home-assistant/core/files/15056372/config_entry-lutron_caseta-99a84eb99851f30993ca478d5f0deced.json)   ### Example YAML snippet  _No response_  ### Anything in the logs that might be useful for us?  _No response_  ### Additional information  _No response_",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "tyjthomas"
+  },
+  {
+    "Issue_Title": "Integration Openweathermap: forecast_temperature_low unknown",
+    "Issue_Url": "https://github.com/home-assistant/core/issues/115935",
+    "Issue_Created_At": "2024-04-21T20:48:03Z",
+    "Issue_Body": "### The problem  The value for sensor.openweathermap_forecast_temperature_low always shows as _'unknown'_  ### What version of Home Assistant Core has the issue?  core-2024.4.3  ### What was the last working version of Home Assistant Core?  _No response_  ### What type of installation are you running?  Home Assistant OS  ### Integration causing the issue  Openweathermap  ### Link to integration documentation on our website  https://www.home-assistant.io/integrations/openweathermap/  ### Diagnostics information  _No response_  ### Example YAML snippet  _No response_  ### Anything in the logs that might be useful for us?  _No response_  ### Additional information  The other Openweathermap weather conditions data listed in the documentation are populated properly, but sensor.openweathermap_forecast_temperature_low does not.    This is unrelated to any YAML or automations.  It shows as _'unknown'_ in the Developer Tools",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "heyitsyang"
+  },
+  {
+    "Issue_Title": "Missing translation in localise \" Integration error: .... not found.\"",
+    "Issue_Url": "https://github.com/home-assistant/core/issues/115933",
+    "Issue_Created_At": "2024-04-21T20:23:52Z",
+    "Issue_Body": "### The problem  Found missing text in localise. Reference to source code: Sentence not found in source code  ![1713729030501_IntegrationError](https://github.com/home-assistant/core/assets/61636045/35d015de-1122-478a-93c7-b2503360bdb1)   ### What version of Home Assistant Core has the issue?  2024.4.3  ### What was the last working version of Home Assistant Core?  not relevant  ### What type of installation are you running?  Home Assistant OS ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "misa1515"
+  },
+  {
+    "Issue_Title": "Missing translation in localise \" object has no attribute\"",
+    "Issue_Url": "https://github.com/home-assistant/core/issues/115932",
+    "Issue_Created_At": "2024-04-21T20:15:36Z",
+    "Issue_Body": "### The problem  The problem Found missing text in localise. Reference to source code: Sentence not found in source code  ![1713729030479_ObjectHasNoAttribute](https://github.com/home-assistant/core/assets/61636045/99a849f0-17e6-4277-b43a-70899ac49b50)   ### What version of Home Assistant Core has the issue?  2024.4.3  ### What was the last working version of Home Assistant Core?  not relevant  ### What type of installation are you running?  Home Assistant OS",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "misa1515"
+  },
+  {
+    "Issue_Title": "Fibaro FGBHMS-001 Homekit Bluetooth Motion Sensor reports with huge delay",
+    "Issue_Url": "https://github.com/home-assistant/core/issues/115925",
+    "Issue_Created_At": "2024-04-21T15:28:49Z",
+    "Issue_Body": "### The problem  The Fibaro FGBHMS-001 is the Bluetooth version of the Fibaro FGMS-001 ZWave PIR. It is meant to be directly connected to a homepod or iDevice.  Although it can be easily connected to the Homekit controller integration, once connected, it either has an enormous delay in reporting events or it becomes stuck on a random event it has reported (it has reported motion for an entire day or more and only recovered when I reloaded the integration). However, it never becomes unresponsive.  Its built in LED always reacts to detection events as it should, indicating that the device is making correct detections.  The device is located about 3 meters away, line of sight, from the RPi 4. I have also placed a Bluetooth proxy beacon about a meter away and the issue is not improved, even though it reports a signal strength of between -50 to -60 db. A replacement Shelly Motion BLU, placed in the same location, works perfectly.  ### What version of Home Assistant Core has the issue?  core-2024.4.3  ### What was the last working version of Home Assistant Core?  _No response_  ### What type of installation are you running?  Home Assistant OS  ### Integration causing the issue  Homekit controller  ### Link to integration documentation on our website  https://www.home-assistant.io/integrations/homekit_controller  ### Diagnostics information  [homekit_controller-46d2100df3de8d7f8314dea85b2113c5-FIBARO Motion Sensor-aaa5fa5e746beaf7a48773bfe14dfaba.json](https://github.com/home-assistant/core/files/15052384/homekit_controller-46d2100df3de8d7f8314dea85b2113c5-FIBARO.Motion.Sensor-aaa5fa5e746beaf7a48773bfe14dfaba.json)  ### Example YAML snippet  _No response_  ### Anything in the logs that might be useful for us?  _No response_  ### Additional information  _No response_",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "dbfhvsfvdg"
+  },
+  {
+    "Issue_Title": "Enphase Envoy integration is not showing the Envoy Lifetime battery energy charged and discharged entities",
+    "Issue_Url": "https://github.com/home-assistant/core/issues/115923",
+    "Issue_Created_At": "2024-04-21T12:22:29Z",
+    "Issue_Body": "### The problem  As described on https://www.home-assistant.io/integrations/enphase_envoy/#energy-dashboard I would like to add the batteries to the energy dashboard, but these entities don't exist. They did exist when using the DEV version which I just removed - I migrated to the core version this weekend (they were called sensor.mrsolar_battery_energy_discharged and sensor.mrsolar_battery_energy_charged).  ### What version of Home Assistant Core has the issue?  core-2024.4.3  ### What was the last working version of Home Assistant Core?  core-2024.4.3  ### What type of installation are you running?  Home Assistant OS  ### Integration causing the issue  Enphase Envoy  ### Link to integration documentation on our website  https://www.home-assistant.io/integrations/enphase_envoy#energy-dashboard  ### Diagnostics information  [config_entry-enphase_envoy-bb07a766489112773117444b52a434b5.json](https://github.com/home-assistant/core/files/15051886/config_entry-enphase_envoy-bb07a766489112773117444b52a434b5.json)   ### Example YAML snippet  _No response_  ### Anything in the logs that might be useful for us?  _No response_  ### Additional information  _No response_",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "jupsoleil"
+  },
+  {
+    "Issue_Title": "Cannot delete a device(vehicle)",
+    "Issue_Url": "https://github.com/home-assistant/core/issues/115913",
+    "Issue_Created_At": "2024-04-21T08:52:33Z",
+    "Issue_Body": "### The problem  I have two vehicle devices in my Renault integration. One is connected and working fine and the second one I have sold and disconnected from my Renault account. Both vehicles appear in the integration but there is no option to remove a vehicle. How to remove a vehicle device without deleting the integration?  And the entities of the second vehicle are unavailable and have the message: \"_This entity is no longer being provided by the renault integration. If the entity is no longer in use, delete it in settings._\"  ### What version of Home Assistant Core has the issue?  core-2024.4.3  ### What was the last working version of Home Assistant Core?  _No response_  ### What type of installation are you running?  Home Assistant OS  ### Integration causing the issue  Renault  ### Link to integration documentation on our website  https://www.home-assistant.io/integrations/renault  ### Diagnostics information  _No response_  ### Example YAML snippet  _No response_  ### Anything in the logs that might be useful for us?  _No response_  ### Additional information  _No response_",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "victor987"
+  },
+  {
+    "Issue_Title": "How to start elasticsearch through  org.elasticsearch.bootstrap.Elasticsearch.main() on the 8.13 branch",
+    "Issue_Url": "https://github.com/elastic/elasticsearch/issues/107670",
+    "Issue_Created_At": "2024-04-22T01:00:35Z",
+    "Issue_Body": "I wish to start Elasticsearch by calling the org.elasticsearch.bootstrap.Elasticsearch.main() method rather than using alternative startup methods. Is this approach feasible, and if so, what steps must I follow to implement it?",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "fruitsalad11"
+  },
+  {
+    "Issue_Title": "[Feature Request]: Persist language filter selection for masks",
+    "Issue_Url": "https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/issues/4551",
+    "Issue_Created_At": "2024-04-22T07:36:21Z",
+    "Issue_Body": "### Problem Description  Selecting a given language filter for 'masks' fails to persist between starts, or if you navigate to a chat then back to the masks page.  Most of the masks are in chinese and I can't see a way to delete them, so this is a key one for internationalisation.  ### Solution Description  1. Persist the language filter in config and persist after restart 2. Allow deletion of the 'built in' masks that lack a delete option.  ### Alternatives Considered  _No response_  ### Additional Context  _No response_",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "glinkot"
+  },
+  {
+    "Issue_Title": "Image not rendering in mermaid live",
+    "Issue_Url": "https://github.com/mermaid-js/mermaid/issues/5477",
+    "Issue_Created_At": "2024-04-21T18:32:07Z",
+    "Issue_Body": "### Description  From #4736 , the image is not rendering again. Yes, I have added \"securityLevel\": \"loose\".  ### Steps to reproduce  https://mermaid.live/edit#pako:eNpNUU1TpDAQ_StUX9QqYIYA4WNXLXfHoyc9KXvoIQGyQkIlYXbHKf67YcZRc-r0637vdfcBasU4lND06l_dobbe06aSnnu_Xn6KofWMrq8vOmtHU65WA9cDChb-NaHS7fkb9KpVodm1Fzee5oPa8WDgfz5YguDm90uDZYPBFqXXKL0VjHH5Dd9cnnAzCim5vvrxBd1f3nknsEanhoHmVitv5LrD0dxegQ8fJtwMh6WvAtvxgVdQupChfq2gkrOrm0aGlt8zYZUGx9gb7gNOVj3uZQ2l1RM_F20EthqHzyp-bHo4beq4MB9GlFAe4D-UNA5JmkQkoSnNSJbnPuyhJHEaFkVCSLGOoiglSTL78KaUY12HeU6SNKckIyQuaJ760CtkXC-Mdj8uMq0w1snUSjaiXfKT7l36fIkFDlthu2kb1mpYGcGW63W7gq4ooTmSmNMsxjSOWb2NirwhSdSwbB0RhHk--n8-ulkGn98BKuijPQ  ### Screenshots  _No response_  ### Code Sample  _No response_  ### Setup  - Mermaid version: - Browser and Version: [Chrome, Edge, Firefox]  ### Suggested Solutions  _No response_  ### Additional Context  _No response_",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "WillianGruber"
+  },
+  {
+    "Issue_Title": "Feature Request: Support for Bun.js",
+    "Issue_Url": "https://github.com/nestjs/nest/issues/13476",
+    "Issue_Created_At": "2024-04-22T08:25:28Z",
+    "Issue_Body": "### Is there an existing issue that is already proposing this?  - [X] I have searched the existing issues  ### Is your feature request related to a problem? Please describe it  Will Bunjs be supported in the future?  ### Describe the solution you'd like  I would like to propose that NestJS adds support for Bun.js as an alternative to Node.js. Bun.js has been gaining popularity due to its high performance and built-in package manager, which could benefit NestJS users looking for more efficient server-side solutions.  ### Teachability, documentation, adoption, migration strategy  I would like to propose that NestJS adds support for Bun.js as an alternative to Node.js. Bun.js has been gaining popularity due to its high performance and built-in package manager, which could benefit NestJS users looking for more efficient server-side solutions.  ### What is the motivation / use case for changing the behavior?  I would like to propose that NestJS adds support for Bun.js as an alternative to Node.js. Bun.js has been gaining popularity due to its high performance and built-in package manager, which could benefit NestJS users looking for more efficient server-side solutions.",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "1096396089"
+  },
+  {
+    "Issue_Title": "Rustdesk aggressively accessing registry",
+    "Issue_Url": "https://github.com/rustdesk/rustdesk/issues/7792",
+    "Issue_Created_At": "2024-04-22T02:19:14Z",
+    "Issue_Body": "### Bug Description  I ran sysinternals process monitor while having an open session on the client machine, and on the client, rustdesk kinda reads and writes aggressively / high frequency into the registry. is this normal?  ### How to Reproduce  -  ### Expected Behavior  -  ### Operating system(s) on local side and remote side  Win 10  ### RustDesk Version(s) on local side and remote side  1.2.3-1  ### Screenshots  ![image](https://github.com/rustdesk/rustdesk/assets/45887282/5baff186-5306-4c54-ba69-8d5492dfe17d)    ### Additional Context  -a",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "hp8wvvvgnj6asjm7"
+  },
+  {
+    "Issue_Title": "Authentication: SAML login button cannot be displayed",
+    "Issue_Url": "https://github.com/grafana/grafana/issues/86647",
+    "Issue_Created_At": "2024-04-22T02:46:25Z",
+    "Issue_Body": "### What happened?  When I set the \"enable\" for auth.saml to true, I cannot see the SAML login button on the login page. The configuration file is defaults.ini, which is located at /usr/share/grafana/conf within the Grafana container. In contrast, when I set the \"enable\" for auth.generic_oauth to true, I am able to see the corresponding login button.  ### What did you expect to happen?  I can see SAML login button when I set auth.saml.enabled is true.  ### Did this work before?  I have not noticed. This is my first time to use Grafana.  ### How do we reproduce it?  1.  Deploy the Grafana container using grafana/grafana-enterprise:latest. 2.  Enter the container and modify /usr/share/grafana/defaults.ini to set the enabled value of auth.saml to true. 3.  Restart the container. 4.  Enter the URL of the Grafana login page in the browser and check the page.    ### Is the bug inside a dashboard panel?  _No response_  ### Environment (with versions)?  Grafana:  v10.4.0 (03f502a94d17f7dc4e6c34acdf8428aedd986e4c) OS:  Grafana Docker Image (grafana/grafana-enterprise:latest) Browser: Chrome   ### Grafana platform?  Docker  ### Datasource(s)?  _No response_",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "tkf0618"
+  },
+  {
+    "Issue_Title": "bing: json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "Issue_Url": "https://github.com/xtekky/gpt4free/issues/1876",
+    "Issue_Created_At": "2024-04-22T04:10:13Z",
+    "Issue_Body": "provider bing error:  ... File \"/home/kasm-user/.pyenv/versions/3.11.7/lib/python3.11/json/decoder.py\", line 355, in raw_decode     raise JSONDecodeError(\"Expecting value\", s, err.value) from None  json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "bsbrother"
+  },
+  {
+    "Issue_Title": "You Have A typo here it should CONTROL not CNTROL",
+    "Issue_Url": "https://github.com/chrislgarry/Apollo-11/issues/912",
+    "Issue_Created_At": "2024-04-21T15:02:01Z",
+    "Issue_Body": "https://github.com/chrislgarry/Apollo-11/blob/337bb1c12bae686bdb63d4c4ee9c349f9f1ae4be/Luminary099/MAIN.agc#L88",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "Jackcybox007"
+  },
+  {
+    "Issue_Title": "[feat]: swap fixed height for a p-[10px] tag in Input component",
+    "Issue_Url": "https://github.com/shadcn-ui/ui/issues/3568",
+    "Issue_Created_At": "2024-04-22T00:33:19Z",
+    "Issue_Body": "### Feature description  My suggestion is to use a fixed padding over fixed height for an input component because a fixed padding allows the input component to adapt better to different screen sizes and device orientations. In contrast, fixed height can lead to inconsistency in appearance, especially on devices with varying screen dimensions and padding creates breathing space around the input field, enhancing the overall visual appeal and readability. It prevents the input field from appearing cramped, which can happen when using fixed height, especially if the content length varies. In summary, opting for fixed padding (such as a p-[10px]) in an input component contribute to a more user-friendly and visually pleasing interface overall.  ### Affected component/components  Input  ### Additional Context  I spent several minutes debugging my style tree before thinking of checking the auto generated source, my bad.  ### Before submitting  - [X] I've made research efforts and searched the documentation - [X] I've searched for existing issues and PRs",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "vr1eva"
+  },
+  {
+    "Issue_Title": "How to create customised vocal models to use with train-text-from-scratch ?",
+    "Issue_Url": "https://github.com/ggerganov/llama.cpp/issues/6817",
+    "Issue_Created_At": "2024-04-22T00:37:04Z",
+    "Issue_Body": "I made some experiments with train-text-from-scratch, we must specify a vocab model, where to find it or how to create it ? I find the file ggml-vocab-llama.gguf on hugging face, but i prefer to create a new one to support additionnal languages and not only english, please share your ideas, thank you",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "lbarasc"
+  },
+  {
+    "Issue_Title": "Implement ANPD (3x speedup, lossless)",
+    "Issue_Url": "https://github.com/ggerganov/llama.cpp/issues/6813",
+    "Issue_Created_At": "2024-04-21T21:02:33Z",
+    "Issue_Body": "[A new paper](https://arxiv.org/abs/2404.08698) has described ANPD. According to the paper, ANPD can speed up a LLM by 3x, without any drop in generation quality. The paper also lists multiple advantages of ANPD over speculative techniques that may already be found in llama.cpp.",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "trudnorx"
+  },
+  {
+    "Issue_Title": "Only when streaming with AV1-SVT encoder to Youtube, the stream does not restore it self if frames have dropped. other encoders do restore the stream when connection stabilizes",
+    "Issue_Url": "https://github.com/obsproject/obs-studio/issues/10584",
+    "Issue_Created_At": "2024-04-21T18:31:37Z",
+    "Issue_Body": "### Operating System Info  Windows 10  ### Other OS  _No response_  ### OBS Studio Version  30.1.2  ### OBS Studio Version (Other)  _No response_  ### OBS Studio Log URL  https://obsproject.com/logs/0E2OEckpOnAee6kh  ### OBS Studio Crash Log URL  _No response_  ### Expected Behavior  OBS with AV1-SVT encoder selected should continue the stream to YouTube after frames dropped. and connection has stabilized.  ### Current Behavior  Only when using the new AV1-SVT this happen, if for example you are streaming, and you upload a big file, saturating your upload speed, the stream naturally will drop frames, but after you stop uploading the big file. the stream will keep permanently dropping frames forever. even though the internet is very stable. I thoroughly tested this with all other encoders except AV1-AOM. they all restore the stream once connection is stabilized ![OBS](https://github.com/obsproject/obs-studio/assets/23524925/39f77667-5faa-4a4e-a697-3176cd3868ef)   ### Steps to Reproduce  1.Stream to YouTube with AV1-SVT 2.reproduce by getting it to dropframes: I can do it by saturating my upload speed. like uploading a big file 3.Stop the thing that causes it to dropframes. it will not restore the stream and it will keep dropping frames ...   ### Anything else we should know?  I seen many others on reddit they have this exact issue. I tried the other Youtube servers same issue, but this issue does not exist when using other encoders like x264, NVENC, H264",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "lieno"
+  },
+  {
+    "Issue_Title": "Pull multiple chunks in parallel",
+    "Issue_Url": "https://github.com/ollama/ollama/issues/3808",
+    "Issue_Created_At": "2024-04-22T02:12:07Z",
+    "Issue_Body": "I am not sure if this has been proposed earlier or not, but having the capability of pulling models using multiple parallel processes would be very useful, especially for larger models which takes quite a lot of time (at least in my network bandwidth) to download. If this is accepted, I'd love to work on this feature :)",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "frankhart2018"
+  },
+  {
+    "Issue_Title": "Error: unable to initialize llm library extract binaries: expected payloads not included in this build of ollama",
+    "Issue_Url": "https://github.com/ollama/ollama/issues/3807",
+    "Issue_Created_At": "2024-04-22T02:00:37Z",
+    "Issue_Body": "### What is the issue?  Error: unable to initialize llm library extract binaries: expected payloads not included in this build of ollama ??  ### OS  Windows  ### GPU  Nvidia  ### CPU  _No response_  ### Ollama version  _No response_",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "ricesin888"
+  },
+  {
+    "Issue_Title": "Advertise existence to local network using NSD or mDNS SD",
+    "Issue_Url": "https://github.com/ollama/ollama/issues/3802",
+    "Issue_Created_At": "2024-04-21T17:26:49Z",
+    "Issue_Body": "It would be very cool if ollama could publish itself to the local network as a discoverable service such that other devices on the local network could use NSD to discover that there is an instance locally accessible. this would greatly help unify how companion applications work (e.g. a mobile app that would let you remotely query the ollama on the local network)",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "majestrate"
+  },
+  {
+    "Issue_Title": "got error msg : \"Error: invalid file magic\" whle creating custom model causallm_7b.Q5_K_M.gguf ",
+    "Issue_Url": "https://github.com/ollama/ollama/issues/3801",
+    "Issue_Created_At": "2024-04-21T17:14:45Z",
+    "Issue_Body": "### What is the issue?  Hi, I tried to create a new model using this [CausalLM](https://huggingface.co/TheBloke/CausalLM-7B-GGUF/tree/main)  but i didn't work and gave me this output. How can I solve the issue?  error msg: transferring model data creating model layer Error: invalid file magic  model file FROM ./causallm_7b.Q5_K_M.gguf terminal command: ollama create c7b -f ./causallm.mf  ### OS  macOS  ### GPU  _No response_  ### CPU  _No response_  ### Ollama version  0.1.3.2",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "AInlpAbly"
+  },
+  {
+    "Issue_Title": "Can this library utilize Intel's UHD graphics cards?",
+    "Issue_Url": "https://github.com/ollama/ollama/issues/3798",
+    "Issue_Created_At": "2024-04-21T15:24:36Z",
+    "Issue_Body": "My question is that most of the models are supported/backed by cuda to run on NVIDIA's cards, but what about Intel?  Many machines (most probably consumer grade intel laptops) still have intel gpus (UHD cards) so will ollama add a support  for them?  Or intel gpus are just too hard to be used?  Cause to run those big models like llama 2 7b is still slow on cpu, so utilizing uhd cards might make them a little faster than the cpu and might just reduce the latency  I mean like libraries like open vino can even use intel uhd cards",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "Meshwa428"
+  },
+  {
+    "Issue_Title": "Support logit_bias",
+    "Issue_Url": "https://github.com/ollama/ollama/issues/3795",
+    "Issue_Created_At": "2024-04-21T12:49:02Z",
+    "Issue_Body": "Just want to put on the record that I'd love to see support for the logit_bias parameter for the chat/completions endpoint.",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "jmccrosky"
+  },
+  {
+    "Issue_Title": "how to double click in alacritty to enter into one folder and show all things?",
+    "Issue_Url": "https://github.com/alacritty/alacritty/issues/7926",
+    "Issue_Created_At": "2024-04-22T02:14:28Z",
+    "Issue_Body": "I have one question : how to double click one folder to enter into it and show all things in this folder, just like ranger? does alacritty support this feature? ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "qbai"
+  },
+  {
+    "Issue_Title": "Agnostic Atheist AI not Normal",
+    "Issue_Url": "https://github.com/meta-llama/llama/issues/1108",
+    "Issue_Created_At": "2024-04-22T03:58:31Z",
+    "Issue_Body": "Why did you make an agnostic/atheist AI? Is this really the best stance an AI can have?",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "JairusDavid"
+  },
+  {
+    "Issue_Title": "Source error",
+    "Issue_Url": "https://github.com/zylon-ai/private-gpt/issues/1875",
+    "Issue_Created_At": "2024-04-22T07:53:14Z",
+    "Issue_Body": "Hello, I am able to successfully deploy privateugpt to my device, but I have encountered several issues and hope to receive your help. 1. When I use the query file function, if there is no content in my local database to answer, its response appears to be correct, but the source is incorrect. After that, the source of the question I ask will remain unchanged unless I restart privateugpt. 2. When I use privateugpt, when I ask a question in a local database that has no answer, the original text it finds sometimes scores higher than when it has an answer. What is the principle of this problem and how can I solve it?",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "zhaoyong5555"
+  },
+  {
+    "Issue_Title": "Unable to change the no. of lines of User Input Textbox",
+    "Issue_Url": "https://github.com/zylon-ai/private-gpt/issues/1874",
+    "Issue_Created_At": "2024-04-22T03:43:26Z",
+    "Issue_Body": "Hi,      I spent hours trying to find where I can adjust the textbox lines so by default it displays 5 lines instead of 1 line upon opening the privategpt interface. I am able to adjust everything else (the options on the left, the title, the chat conversation/history(gr.Chatbot), the system prompt textbox) except the user input textbox. I can't seem to find where the gradio Textbox for that is? Any help is greatly appreciated, thank you so much.  Kind Regards, Anabelle",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "anabellechan"
+  },
+  {
+    "Issue_Title": "In Bulma 1 breadcrumbs seem to be broken",
+    "Issue_Url": "https://github.com/jgthms/bulma/issues/3796",
+    "Issue_Created_At": "2024-04-22T00:04:09Z",
+    "Issue_Body": "In bulma 0.9.4 when using breadcrumbs the active breadcrumb is a different color than the ones that are inactive. In bulma 1.0.0 they are all the same color in light theme. In the dark theme this does not seem to be an issue.  ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "mikesmartbonds"
+  },
+  {
+    "Issue_Title": "[FR] [Mobile] recurring reminders, link to block, protect a page",
+    "Issue_Url": "https://github.com/AppFlowy-IO/AppFlowy/issues/5179",
+    "Issue_Created_At": "2024-04-22T06:52:40Z",
+    "Issue_Body": "### Description  Excellent application. I use it on Win, Android and Linux, without problems. Very useful to be able to \"link\" the different pages. Although it has calendar reminders and tasks, these cannot be recurring. You could have some more general classification system, such as Personal, Work, etc., so you don't have everything in sight. It would be very important to be able to treat the texts as blocks and be able to block the application with a password or similar.  ### Impact  Mobile users  ### Additional Context  _No response_",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "annieappflowy"
+  },
+  {
+    "Issue_Title": "bug: deploy script fails CI when a languages doesn't generate a PDF file",
+    "Issue_Url": "https://github.com/tldr-pages/tldr/issues/12661",
+    "Issue_Created_At": "2024-04-22T04:15:16Z",
+    "Issue_Body": "Due to rendering constraints (broken typeface/blank rendering), we exclude some languages from the tldr-book PDF generation script.  i.e.   https://github.com/tldr-pages/tldr/blob/d8eadb4b5e2a3806c0a0ed4d9f036ea9897bef3e/scripts/pdf/build-pdf.sh#L1-L59  https://github.com/tldr-pages/tldr/blob/d8eadb4b5e2a3806c0a0ed4d9f036ea9897bef3e/.github/workflows/ci.yml#L45-L55  When we merge PRs from any of these languages the resulting [CI run to main](https://github.com/tldr-pages/tldr/actions/runs/8778269570/job/24084513592) fails without updating any assets as no PDF is generated (and artefacts for these languages aren't updated unless they are committed along with a change to a supported language [i.e. English page] which generates a PDF file).  I've included a permalink of the current deploy script for you to look over.  https://github.com/tldr-pages/tldr/blob/d8eadb4b5e2a3806c0a0ed4d9f036ea9897bef3e/scripts/deploy.sh#L1-L66  cc @acuteenvy",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "kbdharun"
+  },
+  {
+    "Issue_Title": "Typo in README",
+    "Issue_Url": "https://github.com/NationalSecurityAgency/ghidra/issues/6452",
+    "Issue_Created_At": "2024-04-22T07:00:46Z",
+    "Issue_Body": "**Describe the bug** There's a typo in README. It says: \"...to develop Ghidra and other cybersecurity tools for NSA to help protect our nation and its allies...\" It should say instead: \"...to develop Ghidra and other cybersecurity tools for _the_ NSA to help protect our nation and its allies...\"  **To reproduce** 1. Read README  **Expected behavior** The word \"the\" should be included in README.  **Screenshots** ![nsa spelling error](https://github.com/NationalSecurityAgency/ghidra/assets/100822843/8b7f531a-eafd-4233-868e-5a3140a29516)   **Attachments**   **Environment (please complete the following information):**  - OS: Windows 10 Pro  - Java Version: N/A  - Ghidra Version: 11.0.3  - Ghidra Origin: GitHub",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "phofers"
+  },
+  {
+    "Issue_Title": "..",
+    "Issue_Url": "https://github.com/NationalSecurityAgency/ghidra/issues/6451",
+    "Issue_Created_At": "2024-04-21T14:52:17Z",
+    "Issue_Body": "![images](https://github.com/NationalSecurityAgency/ghidra/assets/167695898/8b861934-0815-44e3-97a5-e48342bc02b9) ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "pahixo"
+  },
+  {
+    "Issue_Title": "%info ubuntu 22 no output",
+    "Issue_Url": "https://github.com/OpenInterpreter/open-interpreter/issues/1218",
+    "Issue_Created_At": "2024-04-21T10:40:30Z",
+    "Issue_Body": "### Describe the bug  ![image](https://github.com/OpenInterpreter/open-interpreter/assets/4324290/df2e6d64-25ec-4108-8ab6-f6011d169790)   ### Reproduce  interpreter -l -m openai/lmstudio %info   ### Expected behavior  Print out debug info  ### Screenshots  _No response_  ### Open Interpreter version  0.2.4  ### Python version  3.10  ### Operating System name and version  Ubuntu 22.04  ### Additional context  _No response_",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "Notnaton"
+  },
+  {
+    "Issue_Title": "How to show count in screen using yolov5",
+    "Issue_Url": "https://github.com/ultralytics/yolov5/issues/12947",
+    "Issue_Created_At": "2024-04-22T03:39:07Z",
+    "Issue_Body": "### Search before asking  - [X] I have searched the YOLOv5 [issues](https://github.com/ultralytics/yolov5/issues) and [discussions](https://github.com/ultralytics/yolov5/discussions) and found no similar questions.   ### Question  I would like to show the count of objects in the screen using yolov5. I'm using a webcam as the source and i would like to show the objects it counts in the screen also together with the bounding boxes. I've tried adding lines of code in detect.py but nothing works, it always generated an error  ### Additional  _No response_",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "tasyoooo"
+  },
+  {
+    "Issue_Title": "Allow to use export advanced with selection only",
+    "Issue_Url": "https://github.com/jgraph/drawio-desktop/issues/1703",
+    "Issue_Created_At": "2024-04-21T08:46:05Z",
+    "Issue_Body": "* [x] I agree to follow the [Code of Conduct](https://github.com/jgraph/drawio-desktop/blob/master/CODE_OF_CONDUCT.md) that this project adheres to. * [x] I have searched the issue tracker for a feature request that matches the one I want to file, without success.  **Is your feature request related to a problem? Please describe.** The default export for PDF and PNG supports exporting only the selection. The problem is that I would like to adjust the size of the export, since the PDF gets broken into many smaller pdf-s when exported at 100%. This can only be done in the advanced export. Which does not support exporting selection only ![image](https://github.com/jgraph/drawio-desktop/assets/2664857/05448641-9d69-45f6-a7be-30ee96707c2c) ![image](https://github.com/jgraph/drawio-desktop/assets/2664857/63c6ba58-f67c-47cf-8f7a-59f405ebeeb8)  **Describe the solution you'd like** I would like to have the option to export only selection from the advanced page  **Describe alternatives you've considered** An alternative is copying all the content to a new page and exporting that with advanced.  **Additional context** I tried this only on desktop draw.io! ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "BoKKeR"
+  },
+  {
+    "Issue_Title": "Add comaptibility matrix",
+    "Issue_Url": "https://github.com/etcd-io/etcd/issues/17838",
+    "Issue_Created_At": "2024-04-22T08:20:34Z",
+    "Issue_Body": "### What would you like to be added?  I would like to see a table showing versions of etcd and their kubernetes minimum and maximum support like other cncf projects.  ### Why is this needed?  This would make it easier for everyone to know whats compatible.",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "smyja"
+  },
+  {
+    "Issue_Title": "Gas",
+    "Issue_Url": "https://github.com/ethereum/go-ethereum/issues/29601",
+    "Issue_Created_At": "2024-04-21T12:58:29Z",
+    "Issue_Body": " Dear Ethereum Community,  I am currently working on a project involving Ethereum smart contracts and I am seeking guidance on optimizing gas usage to enhance efficiency and reduce transaction costs. Specifically, I am interested in understanding best practices for minimizing gas consumption in complex smart contracts, particularly those involving frequent state changes or large data operations.  Could anyone provide insights or resources on strategies for gas optimization? Additionally, I would appreciate recommendations for tools or frameworks that facilitate gas-efficient smart contract development.  Your expertise and assistance in this matter would be greatly appreciated.  Thank you.  Sincerely, [JOOKPOWER]",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "JOOKPOWER"
+  },
+  {
+    "Issue_Title": "Timeline views to toggle from",
+    "Issue_Url": "https://github.com/mastodon/mastodon/issues/30020",
+    "Issue_Created_At": "2024-04-21T19:40:10Z",
+    "Issue_Body": "### Pitch  The idea is to toggle from diffirent Views of a timeline in a setting.  This would releaf the perception on the phone by lets just say an Art View. Where I only want to see Art at the moment.   ### Motivation  Psychological this helps to keep the overstimulus down. And still get exsited about the new thing happening on mastodon. So very important to add.",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "lukiworker"
+  },
+  {
+    "Issue_Title": "Suggest allowing use of WebP and Brotli to lighten loads on servers/client that support it.",
+    "Issue_Url": "https://github.com/mastodon/mastodon/issues/30019",
+    "Issue_Created_At": "2024-04-21T17:58:43Z",
+    "Issue_Body": "### Pitch  Integrating support for the now-well-tested WebP image format (Accept: image/webp) and Brotli compression (Accept-Encoding: br) would reduce bandwidth demands significantly, eg during a preview stampede.  ### Motivation  Save bandwidth all round (and reduce climate change)!",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "DamonHD"
+  },
+  {
+    "Issue_Title": "QUERY support",
+    "Issue_Url": "https://github.com/square/okhttp/issues/8380",
+    "Issue_Created_At": "2024-04-21T18:34:11Z",
+    "Issue_Body": "https://github.com/nodejs/node/issues/51562  For the http get with body community ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "yschimke"
+  },
+  {
+    "Issue_Title": "Make MarkText a Portable app",
+    "Issue_Url": "https://github.com/marktext/marktext/issues/3795",
+    "Issue_Created_At": "2024-04-21T12:12:11Z",
+    "Issue_Body": "for those like me, that want MarkText to use for work but restricted to install on a company computer. please create a portable version. ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "MarDiLe"
+  },
+  {
+    "Issue_Title": "[3.0] error on boot.js TypeError: next.runImage.call is not a function",
+    "Issue_Url": "https://github.com/meteor/meteor/issues/13104",
+    "Issue_Created_At": "2024-04-21T12:53:17Z",
+    "Issue_Body": "Hello, I was trying to update our application to the latest RC and after updating I booted our application to get this error:  ![Selection_017](https://github.com/meteor/meteor/assets/6644545/6edd5f70-056a-436d-8a55-4d6031fc3a17) ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "harryadel"
+  },
+  {
+    "Issue_Title": "LSPosed error(Please report this to the Magisk developer)",
+    "Issue_Url": "https://github.com/topjohnwu/Magisk/issues/8006",
+    "Issue_Created_At": "2024-04-22T01:59:35Z",
+    "Issue_Body": "In the LSPosed application, an error appears as in the given picture, I uploaded both the application logs (LSPosed) and the Magisk logs. ![LSPosed-error](https://github.com/topjohnwu/Magisk/assets/82382328/6f663db7-f773-446f-b648-2d4251af9b78) [LSPosed(modules-log)_2024-04-22T04_53_15.804557.zip](https://github.com/topjohnwu/Magisk/files/15056231/LSPosed.modules-log._2024-04-22T04_53_15.804557.zip) [LSPosed(verbose-log)_2024-04-22T04_54_05.377896.zip](https://github.com/topjohnwu/Magisk/files/15056232/LSPosed.verbose-log._2024-04-22T04_54_05.377896.zip) [magisk_log_2024-04-22T04.57.35.log](https://github.com/topjohnwu/Magisk/files/15056236/magisk_log_2024-04-22T04.57.35.log) ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "NicoaraAlex"
+  },
+  {
+    "Issue_Title": "Space at the end of the prompt",
+    "Issue_Url": "https://github.com/romkatv/powerlevel10k/issues/2651",
+    "Issue_Created_At": "2024-04-21T19:26:32Z",
+    "Issue_Body": "![image](https://github.com/romkatv/powerlevel10k/assets/14846427/714237af-3326-4bb0-95c0-9651af349b6f)  Is this something usual, having a blank space at the end of the prompt? I kinda annoys me, is there a way to remove it?",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "jasursadikov"
+  },
+  {
+    "Issue_Title": "Rich Text Editor: Checkbox list with bullet list as child",
+    "Issue_Url": "https://github.com/laurent22/joplin/issues/10342",
+    "Issue_Created_At": "2024-04-22T06:24:43Z",
+    "Issue_Body": "### Operating system  Windows  ### Joplin version  3.0.3  ### Desktop version info  Joplin 3.0.3 (prod, win32)  Client ID: 1558607a9c7a4a5aaf0e28ad094fcd55 Sync Version: 3 Profile Version: 47 Keychain Supported: Yes  Revision: e84ea8a  Backup: 1.4.1  ### Current behaviour  Create a checkbox list with a bullet list as child.   The Markdown editor behaves as expected: ![image](https://github.com/laurent22/joplin/assets/159024247/18f497c3-b2d0-4c97-ad40-11f9731935c5)  In the Rich Text Editor there is a bullet rendered inside a checkbox where only a bullet is expected: ![image](https://github.com/laurent22/joplin/assets/159024247/16a1c0f0-f90a-428d-9bda-fbb195a65b59)   ### Expected behaviour  The RTE should provide the same result als the markdown editor.  ### Logs  _No response_",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "ketek-cw"
+  },
+  {
+    "Issue_Title": "Create doc for Drawing option",
+    "Issue_Url": "https://github.com/laurent22/joplin/issues/10341",
+    "Issue_Created_At": "2024-04-21T15:22:48Z",
+    "Issue_Body": "### Operating system  Windows  ### Joplin version  3.0  ### Desktop version info  _No response_  ### Current behaviour  We currently don't have an doc for the drawing option, only [this section](https://joplinapp.org/news/20231204-release-2-13#drawing-option) in the news. So that should be expanded with information on how to use it on desktop and mobile, and what it can do.  ### Expected behaviour  _No response_  ### Logs  _No response_",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "laurent22"
+  },
+  {
+    "Issue_Title": "Sort type Newest for isues/pull request is not working",
+    "Issue_Url": "https://github.com/go-gitea/gitea/issues/30642",
+    "Issue_Created_At": "2024-04-22T06:52:32Z",
+    "Issue_Body": "### Description  The sort Newest is sorting the same as \"Recently updated\".  ### Gitea Version  1.21.11  ### Can you reproduce the bug on the Gitea demo site?  No  ### Log Gist  _No response_  ### Screenshots  ![image](https://github.com/go-gitea/gitea/assets/167179430/b26cc2e5-4767-48e0-b12f-676aa34361c6)  ### Git Version  1.21.11  ### Operating System  Linux  ### How are you running Gitea?  Building gitea by myself OS: Ubuntu 22.04 LTS gitea is running with systemd  ### Database  MSSQL",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "PDuijst"
+  },
+  {
+    "Issue_Title": "Broken avatar css on main page",
+    "Issue_Url": "https://github.com/go-gitea/gitea/issues/30624",
+    "Issue_Created_At": "2024-04-21T10:12:03Z",
+    "Issue_Body": "### Description  ![image](https://github.com/go-gitea/gitea/assets/23124682/acb452bd-c5f9-4ec9-bf02-7af647e81edf)  avatar is cun vertically  ![image](https://github.com/go-gitea/gitea/assets/23124682/15ce3360-2a66-4a7f-b935-5619f22959eb)   ### Gitea Version  trunk  ### Can you reproduce the bug on the Gitea demo site?  Yes  ### Log Gist  _No response_  ### Screenshots  _No response_  ### Git Version  _No response_  ### Operating System  _No response_  ### How are you running Gitea?  docker  ### Database  None",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "stuzer05"
+  },
+  {
+    "Issue_Title": "[gui] The new version doesn't work.",
+    "Issue_Url": "https://github.com/skylot/jadx/issues/2156",
+    "Issue_Created_At": "2024-04-22T05:26:29Z",
+    "Issue_Body": "### Issue details  I have the JDK21 environment inWindows 11 23h2, but it doesn't respond when I click.  ### Jadx version  1.5.0  ### Java version  21  ### OS  - [X] Windows - [ ] Linux - [ ] macOS",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "jkxbest"
+  },
+  {
+    "Issue_Title": "0x11. What happens when you type google.com in your browser and press Enter",
+    "Issue_Url": "https://github.com/alex/what-happens-when/issues/2103",
+    "Issue_Created_At": "2024-04-21T21:37:49Z",
+    "Issue_Body": "Folks on the Internet have been trying to put together a comprehensive answer to the question. Help them by submitting a pull request. Paste the link in your answer file.  a pull request.  from repository  https://github.com/alex/what-happens-when#the-g-key-is-pressed  for the repository https://github.com/BekiHabesha/alx-system_engineering-devops/tree/master/0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_enter  for the directory 0x11-what_happens_when_your_type_google_com_in_your_browser_and_press_enter  for the project  0x11. What happens when you type google.com in your browser and press Enter https://intranet.alxswe.com/projects/298",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "BekiHabesha"
+  },
+  {
+    "Issue_Title": "56ll",
+    "Issue_Url": "https://github.com/hexojs/hexo/issues/5477",
+    "Issue_Created_At": "2024-04-21T22:35:27Z",
+    "Issue_Body": "https://docs.digital.ai/bundle/dai-platform/page/account_settings.html",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "poloteambluemotion"
+  },
+  {
+    "Issue_Title": "pinned column persists after restart",
+    "Issue_Url": "https://github.com/dbeaver/dbeaver/issues/24121",
+    "Issue_Created_At": "2024-04-22T05:10:45Z",
+    "Issue_Body": "**Is your feature request related to a problem? Please describe.** When re-open a table/view, or start the dbeaver, the pinned columns are no longer pinned. Many a time we need some columns to be persistently pinned, so I hope there would be a feature that pinned columns will persist across sessions.   **Describe the solution you'd like** One way is the add an option in preferences to let users decide if they want pinned columns be persistent across sessions. I don't know how pinned columns are realized programmatically, but saving that state to a file could help persisting it across sessions.   Does anyone have any thoughts?",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "DavidHJong"
+  },
+  {
+    "Issue_Title": "My big wish: a blogging functionality and a frontend",
+    "Issue_Url": "https://github.com/metabase/metabase/issues/41676",
+    "Issue_Created_At": "2024-04-22T05:51:23Z",
+    "Issue_Body": "I'm sure you might be thinking _\"haven't you heard of Wordpress!?\"_ and I can imagine that you want to stay focused on what you do so well, but let me just chip in with what I think would bring crazy additional value to Metabase however it could be achieved: a built-in blogging functionality and a little frontend scaffolding to make it truly a self-contained data universe.  **Describe the solution you'd like**  I can see this sitting very naturally alongside the dashboard functionality and being very valuable when data teams are presenting internally or (in my use case, and I think this can be done well) when sharing some of the data that's behind authentication (in the \"Metaverse if you will!\") externally. Taking the data storytelling that Metabase does so well and putting a few words around it.  The \"website builder\" could be simply a static homepage generator which would automatically display for non-authenticated users (ie, the world at large) while those who are registered or want to register are directed towards a login. An obvious \"nice to have\" here would be the ability to embed any dashboard or embeddable object that's been created on the backend.  For example, an easy homepage template might be \"our last ten dashboards\" (filtering on those that are configured for public access).  **Describe alternatives you've considered**  The public dashboards are great but my mind turns to \"how can I take these standalone resources and bring them into something that connects the dots?\" And then I think about integrating all these visuals into a CMS. That's fine but I wonder if a frontend could do this.  **How important is this feature to you?**  I'm an open-source user attempting a very experimentary implementation for the purpose of creating an open access shared dataset visualisation library (sorry, that was a bit of a mouthful). In this use-case that's more storytelling than business data analysis quite important. For others, probably a lot less so.  **Additional context**  None. Enjoy Metabase a lot and think it's rather in unique in making data fun and friendly. The creative part of my brain naturally jumps to what other storytelling elements could be layered in! ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "danielrosehill"
+  },
+  {
+    "Issue_Title": "Notify a user that another user is editing the question in real time to avoid conflicts",
+    "Issue_Url": "https://github.com/metabase/metabase/issues/41673",
+    "Issue_Created_At": "2024-04-21T11:44:06Z",
+    "Issue_Body": "**Is your feature request related to a problem? Please describe.**  Yes, this feature request addresses the issue of concurrent editing conflicts. Currently, when multiple users edit the same query or dashboard simultaneously, confusion can arise. The first editor might be unaware of changes made by a second editor, potentially leading to overwritten edits. This can be frustrating for both users and hinder collaboration.  **Describe the solution you'd like**  I have two solution for it: - **Real-time editing notifications:** (Acknowledging complexity) Ideally, Metabase could display a message when a user opens a question for editing, indicating if another user is currently modifying it. This approach requires active monitoring of editor activity and might be more complex to implement. - **\"Save\" button revision notice:** A potentially simpler solution would be to leverage the existing revisions feature. Upon clicking \"Save,\" Metabase could display a notification if a new revision has been created since the user initially opened the resource for editing. This would alert the user to potential conflicts before saving their changes.  **Describe alternatives you've considered**  We haven't identified any effective workarounds within the current Metabase functionality. Manually checking for edits or relying solely on communication between users is not ideal and can hinder smooth collaboration.  **How important is this feature to you?**  This feature improves the user experience when teams are using Metabase collaboratively. It minimizes confusion, wasted effort caused by conflicting edits, and fosters a more productive collaborative environment.     Proposal for Notice on Save modal: ![image](https://github.com/metabase/metabase/assets/15375579/79ef9357-7c00-4501-90fc-1adcf0081d82)   Note: Edited by Gemini ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "mrp97"
+  },
+  {
+    "Issue_Title": "global sync load to avoid too much item in the channel",
+    "Issue_Url": "https://github.com/pingcap/tidb/issues/52797",
+    "Issue_Created_At": "2024-04-22T04:01:12Z",
+    "Issue_Body": "## Enhancement  Now, we need to put all sync load items into the channel, then the workers will get them to sync load through the single flight. we should put all sync load items into a single flight. then worker will deal with them.",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "hawkingrei"
+  },
+  {
+    "Issue_Title": "Feature request : Implement \"Ask\" option in download directory setting, so you are asked which folder to put the download into",
+    "Issue_Url": "https://github.com/localsend/localsend/issues/1281",
+    "Issue_Created_At": "2024-04-21T10:39:13Z",
+    "Issue_Body": "### Is your feature request related to a problem? Please describe.  Well its just a little annoying if you have your download directory set, and you wanna save to another folder you cant just quickly accept the transfer you must go into options then change the directory for it to download to.   ### Describe the solution you'd like  Implement \"Ask\" option in download directory setting, so you are asked which folder to put the download into when the transfer initially comes. This in addition to the current setting which allows you to select a default download folder  ### Describe alternatives you've considered  _No response_  ### Additional context  _No response_",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "capzrfun"
+  },
+  {
+    "Issue_Title": "Origin HTML/XML becomes overwritten if a translation is created in EN(US)",
+    "Issue_Url": "https://github.com/odoo/odoo/issues/162763",
+    "Issue_Created_At": "2024-04-21T13:39:17Z",
+    "Issue_Body": "Impacted versions: 16 \u0026 17  Steps to reproduce:  Scenario: Default language DE, additional languages FR, NL, EN etc. installed.  In Website Editor start to create a page in DE. HTML/XML is created correctly in DE with all codes, scripts, tags etc. You are able to edit HTML/XML in Editor and all is going fine. After you are satisfied with your page, in next step you create the translations in any language you want, all is going fine... The HTML/XML is still the origin that you've created. Now in final step you perhaps want to create the translation for EN(US), do it and your developed HTML/XML becomes directly overwritten by a variant from the EN(US) translation. From now on all is going wrong, the translations become unstable/unlogical/inconsistant, changes in HTML/XML will directly affect all other translations up to trace backs from Odoo.  To check this behaviour it is enough to create only a head-line with a test text in Website-Editor, no need to create a full page...  Also if you just (want to) change some little code in your default language all translations become affected, still if there were previous translations stored.  The affect does not appear if you decide to translate to EN(UK,CA...)  This remembers me to https://github.com/odoo/odoo/issues/124124 and https://github.com/odoo/odoo/issues/150829  Perhaps it's only a small workout to correct, otherwise we're building on sand... This behaviour i recognized after a client decided to expand his (non-english) web-site from one to some more different languages. Therefore - Be aware - Please don't try this in your production or own development environment, use RunBot or a blank database and you're save ;-)   Current behavior: overwriting origin HTML/XML after translation to en_US  Expected behavior: NOT overwriting origin HTML/XML after translation to en_US ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "rk-aix"
+  },
+  {
+    "Issue_Title": "HttpClient doesn't have authentication headers during OnInitialized or OnAfterRender when using global InteractiveAuto rendering",
+    "Issue_Url": "https://github.com/dotnet/aspnetcore/issues/55262",
+    "Issue_Created_At": "2024-04-21T16:31:14Z",
+    "Issue_Body": "### Is there an existing issue for this?  - [x] I have searched the existing issues  ### Describe the bug  The issue arises when using global interactive rendering and attempting to fetch data from an authorized endpoint during OnInitializedAsync or OnAfterRenderAsync events. In this scenario, the request gets redirected to the login page instead of the intended endpoint.  ### Expected Behavior  The request is sent to the right destination. The issue might be that the HttpClient lacks authorization headers during the initial server-side render when the server controls the request. This could be resolved by automatically passing the headers from the initial get request.  ### Steps To Reproduce  I've uploaded a repository [repo](https://github.com/AgenChicken24/Blazor-8-Bug)  demonstrating the issue. Apply the database migrations, then log in and try manually entering the endpoints \"/data\" to retrieve data and \"/upload\" to add data to the database. You can then go to the page called \"Bug\" and an error should occur.  Workaround 1: Change the global render mode from InteractiveAuto to InteractiveWebAssembly ![workaround](https://github.com/dotnet/aspnetcore/assets/64702468/09305ec9-5255-45f5-81cf-45e33f97cb01)  Workaround 2 (untested): Avoid using InteractiveAuto globally and set that page to render in \"InteractiveWebAssembly\" mode. Request the data on the initial render.  ### Exceptions (if any)  _No response_  ### .NET Version  8.204  ### Anything else?  _No response_",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "AgenChicken24"
+  },
+  {
+    "Issue_Title": "Circle CI openssl breakage on macos",
+    "Issue_Url": "https://github.com/curl/curl/issues/13438",
+    "Issue_Created_At": "2024-04-21T15:52:16Z",
+    "Issue_Body": "### I did this  I made [this PR](https://github.com/curl/curl/pull/13437)  The regular x86 macos CI jobs on Circle CI all fail, with unrelated problems. It seems configure cannot find OpenSSL in those builds.  [example build](https://app.circleci.com/pipelines/github/curl/curl/8274/workflows/cbd411bd-ccd5-4a0e-9def-467a210aee5f/jobs/81537)  OpenSSL is installed with homebrew and nothing has been changed in that setup recently. We also do OpenSSL builds on macOS on GitHub actions that work, so it does not seem to be an obvious homebrew related glitch?  ### I expected the following  The CI jobs to work fine.  ### curl/libcurl version  current git master  ### operating system  CI jobs on macOS",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "bagder"
+  },
+  {
+    "Issue_Title": "problem about ascend npu 910A",
+    "Issue_Url": "https://github.com/lm-sys/FastChat/issues/3268",
+    "Issue_Created_At": "2024-04-22T05:39:44Z",
+    "Issue_Body": "Whether this project is only adapted to the Ascend NPU 910B chip? I am trying to run fastchat vicuna-7b-v1.5 on Ascend NPU 910A chip, but the inference speed very very very slow, almost 5min/answer.",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "BruceWang1996"
+  },
+  {
+    "Issue_Title": "Application Error",
+    "Issue_Url": "https://github.com/Kong/insomnia/issues/7288",
+    "Issue_Created_At": "2024-04-22T06:06:58Z",
+    "Issue_Body": "### Expected Behavior  Network connectivity issue: Failed to load Organizations. Error invoking remote method 'insomniaFetch': Error: net::ERR_CONNECTION_TIMED_OUT   ### Actual Behavior  Error: Network connectivity issue: Failed to load Organizations. Error invoking remote method 'insomniaFetch': Error: net::ERR_CONNECTION_TIMED_OUT at Module.wy1 [as indexLoader] (file:///C:/Users/mehra/AppData/Local/insomnia/app-8.6.1/resources/app.asar/index-db9674c5.js:1511:3442) at async j5 (file:///C:/Users/mehra/AppData/Local/insomnia/app-8.6.1/resources/app.asar/index-db9674c5.js:55:3729) at async Promise.all (index 2) at async He (file:///C:/Users/mehra/AppData/Local/insomnia/app-8.6.1/resources/app.asar/index-db9674c5.js:54:23493) at async k1 (file:///C:/Users/mehra/AppData/Local/insomnia/app-8.6.1/resources/app.asar/index-db9674c5.js:54:18675) at async Ue (file:///C:/Users/mehra/AppData/Local/insomnia/app-8.6.1/resources/app.asar/index-db9674c5.js:54:16772) at async Object.s1 [as navigate] (file:///C:/Users/mehra/AppData/Local/insomnia/app-8.6.1/resources/app.asar/index-db9674c5.js:54:15304)  ### Reproduction Steps  _No response_  ### Is there an existing issue for this?  - [X] I have searched the [issue tracker](https://www.github.com/Kong/insomnia/issues) for this problem.  ### Additional Information  _No response_  ### Insomnia Version  8.6.1  ### What operating system are you using?  Windows  ### Operating System Version  windows 10 20h2  ### Installation method  doenload from insomnia.com  ### Last Known Working Insomnia version  _No response_",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "mgh121221"
+  },
+  {
+    "Issue_Title": "Insomnia UI Alignment: Left Pane Horizontal Lines Misaligned With Rest of App",
+    "Issue_Url": "https://github.com/Kong/insomnia/issues/7287",
+    "Issue_Created_At": "2024-04-22T02:59:28Z",
+    "Issue_Body": "### Expected Behavior  The horizontal lines align at the same height across the app for consistent visual experience.  ### Actual Behavior  The \"branch\" and \"collection name\" lines are lower than expected when compared to their neighbouring horizontal lines.  ### Reproduction Steps  1. Open GUI 2. Open a collection 3. Visually confirm lines are lower than expected  ![image](https://github.com/Kong/insomnia/assets/14937219/c31b1f45-5c4d-429c-b8c1-92db025165a1) ![image](https://github.com/Kong/insomnia/assets/14937219/15265935-4454-416f-9bee-e140dd3d1f06)   ### Is there an existing issue for this?  - [X] I have searched the [issue tracker](https://www.github.com/Kong/insomnia/issues) for this problem.  ### Additional Information  _No response_  ### Insomnia Version  8.6.1  ### What operating system are you using?  Windows  ### Operating System Version  Windows 10 Education 22H2  ### Installation method  Download from https://insomnia.rest/download  ### Last Known Working Insomnia version  _No response_",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "UnicodeTreason"
+  },
+  {
+    "Issue_Title": "Is it possible to clear out all records leaving the structure intact?",
+    "Issue_Url": "https://github.com/pocketbase/pocketbase/issues/4798",
+    "Issue_Created_At": "2024-04-21T23:50:43Z",
+    "Issue_Body": "I'm taking a SaaS class that uses Pocketbase.  In my code I'm receiving a 404 error \"Missing required record id\".  I've gone back through the instructions for each of the API rules and while I think I've been diligent, it's entirely possible I'm missing or misconfigured something.  What I want to do is import another student's database structure, but I don't want their data.  Is it possible to clear the data from a given data.db file and leave behind the structure?  Another option might be the ability to diff the two files using something like Meld?   At least that way I might be able to figure out where the discrepancy is.",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "delliottg"
+  },
+  {
+    "Issue_Title": " How to expose a Docker container port to one specific Docker network only, when a container is connected to multiple networks?",
+    "Issue_Url": "https://github.com/docker/compose/issues/11751",
+    "Issue_Created_At": "2024-04-22T01:21:53Z",
+    "Issue_Body": "### Description  Not staled: https://github.com/docker/compose/issues/8795",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "KES777"
+  },
+  {
+    "Issue_Title": "Syntax highlighting for javascript files not working",
+    "Issue_Url": "https://github.com/lapce/lapce/issues/3183",
+    "Issue_Created_At": "2024-04-21T17:58:54Z",
+    "Issue_Body": "## Lapce Version  The Lapce version you are using, which can be found in \"About Lapce\" at the top right settings icon.    - nightly  ## System information  the operating system used, including its version, e.g. Windows 10, Ubuntu 18.04  Ubuntu 22.04 Kernel 6.2.0-10027-tuxedo  ## Describe the bug Syntax highlighting for JS files does not work. Other filetypes (go, py, php) working fine. This is also on self compiled lapce.   ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "mosenturm"
+  },
+  {
+    "Issue_Title": "Can't use settings combo box in bottom of settings",
+    "Issue_Url": "https://github.com/lapce/lapce/issues/3182",
+    "Issue_Created_At": "2024-04-21T17:56:46Z",
+    "Issue_Body": "## Lapce Version  v0.3.1  ## System information  Windows 11  ## Describe the bug Go to settings, search for \"terminal\", scroll to bottom, try to change default profile  ## Additional information   https://github.com/lapce/lapce/assets/5781692/7f5eaecc-1438-4ebd-902a-653b65895913  ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "justanotheranonymoususer"
+  },
+  {
+    "Issue_Title": "Module docs don't appear in monolithic docs.rs page",
+    "Issue_Url": "https://github.com/bevyengine/bevy/issues/13055",
+    "Issue_Created_At": "2024-04-21T20:07:16Z",
+    "Issue_Body": "Every bevy crate has it's own docs.rs page, and also appears as modules within [the monolithic bevy documentation page](https://docs.rs/bevy/latest/bevy/). Users are usually directed to the monolithic docs, and it's what we link to on the website.  Unfortunately module level docs (like [this](https://github.com/bevyengine/bevy/blame/13cac2eeff7e3c4da7ae636ba3766f59b4e343d0/crates/bevy_reflect/src/lib.rs#L9)) don't display properly on the monolithic module page ([here](https://docs.rs/bevy/latest/bevy/reflect/index.html) for example). They do render properly on the individual crate docs ([this](https://docs.rs/bevy_reflect/latest/bevy_reflect/) is how the rendered docs should look). This means most users are loosing out on important structural documentation. ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "NthTensor"
+  },
+  {
+    "Issue_Title": "Mutable Animation Clips",
+    "Issue_Url": "https://github.com/bevyengine/bevy/issues/13052",
+    "Issue_Created_At": "2024-04-21T17:07:41Z",
+    "Issue_Body": "Hello,   I am trying to write a skeletal animation edition tool using bevy. However, the animation clips used by bevy are read only.  I understand that this is probably due to the fact that animation assets are tied to their loading files and the logic of having code modifying it can seem weird. However for a game editor I believe it would still make sense to have tools that allow animation edition within bevy ?   Would it be possible to have mutable access to VariableCurves or expose functions that would allow the modification of animation asset inside bevy ?   My goal is then to export this animation into a brand new animation file.   For now the only solution I can think of is to fork bevy and force this mutable animation setup OR make a new animation plugin which would consist of a lot of duplicated code. Another way would be to create a brand new AnimationClip everytime I make an edit using the only mutable function exposed by AnimationClip (add_curve_to_target) but this would kill my performance...   I'm failry new to Rust and Bevy so bare with me if there are obvious solutions.  Thanks ! ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "nzhao95"
+  },
+  {
+    "Issue_Title": "// comment or /* comment */ is no work",
+    "Issue_Url": "https://github.com/comfyanonymous/ComfyUI/issues/3315",
+    "Issue_Created_At": "2024-04-21T15:09:43Z",
+    "Issue_Body": "It seems that using \"convert\" to connect the prompt from external sources causes \"//\" to stop working. It works if you directly mention it in ClipTextEncode, but this is inconvenient. ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "za-wa-n-go"
+  },
+  {
+    "Issue_Title": "[Bug] game crash before game even opens",
+    "Issue_Url": "https://github.com/Ryujinx/Ryujinx/issues/6701",
+    "Issue_Created_At": "2024-04-21T22:22:52Z",
+    "Issue_Body": "### Description of the issue  I've been trying to play pokemon legends arceus on my PC but when I try to run it it gives me an error code  ### Reproduction steps  trying to load from file  ### Log file  [Ryujinx_1.1.1290_2024-04-21_18-09-40.log](https://github.com/Ryujinx/Ryujinx/files/15055230/Ryujinx_1.1.1290_2024-04-21_18-09-40.log)   ### OS  windows 10  ### Ryujinx version  1.1.1290  ### Game version  1.1.0  ### CPU  i5-6500  ### GPU  NVIDIA GeForce GTX 1660 SUPER  ### RAM  32GB  ### List of applied mods  _No response_  ### Additional context?  _No response_",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "PinkLizard3559"
+  },
+  {
+    "Issue_Title": "[Bug] Snack World: The Dungeon Crawl graphical glitches",
+    "Issue_Url": "https://github.com/Ryujinx/Ryujinx/issues/6699",
+    "Issue_Created_At": "2024-04-21T19:14:16Z",
+    "Issue_Body": "### Description of the issue  Sometimes after loading into a new zone the textures glitch. Like on the screenshot. ![image](https://github.com/Ryujinx/Ryujinx/assets/26042705/26ba96e1-02b5-46ea-ade8-26a0def29c59)  When switching back and forth a zone the texture glitch disappears. ![image](https://github.com/Ryujinx/Ryujinx/assets/26042705/c9a83377-f935-486d-bf9c-354a910e87ef)   ### Reproduction steps  I cannot say how to reproduce it properly, it occurs from time to time when loading into a zone.  ### Log file  [Ryujinx_1.1.1289_2024-04-21_20-30-22.log](https://github.com/Ryujinx/Ryujinx/files/15053209/Ryujinx_1.1.1289_2024-04-21_20-30-22.log)   ### OS  Windows 10  ### Ryujinx version  1.1.1289  ### Game version  v1.0.0  ### CPU  i5-12600K  ### GPU  NVIDIA RTX 3080 Ti  ### RAM  48GB  ### List of applied mods  _No response_  ### Additional context?  _No response_",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "MazeXP"
+  },
+  {
+    "Issue_Title": "[Bug] Games don't launch in Fullscreen",
+    "Issue_Url": "https://github.com/Ryujinx/Ryujinx/issues/6698",
+    "Issue_Created_At": "2024-04-21T19:13:27Z",
+    "Issue_Body": "### Description of the issue  I enabled the option \"Start Games in Fullscreen Mode\". But on builds newer than 1215, this is happening:  https://github.com/Ryujinx/Ryujinx/assets/41426906/dcbfbba8-62ea-4f32-aaf7-41a0dd4dd758  It works perfectly on version 1215 and older. I'm on Ubuntu 22.04. I don't have this issue on Windows 10.  ### Reproduction steps  Enable the option \"Start Games in Fullscreen Mode\" and launch a random game.  ### Log file  [Ryujinx_1.1.1289_2024-04-21_21-08-28.log](https://github.com/Ryujinx/Ryujinx/files/15053202/Ryujinx_1.1.1289_2024-04-21_21-08-28.log)   ### OS  Ubuntu 22.04  ### Ryujinx version  1.1.1289  ### Game version  _No response_  ### CPU  i7-11700B  ### GPU  NVIDIA GTX 1050  ### RAM  16GB  ### List of applied mods  _No response_  ### Additional context?  _No response_",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "Kupo91"
+  },
+  {
+    "Issue_Title": "m1 mac crashes all the time recently, used to be stable",
+    "Issue_Url": "https://github.com/Ryujinx/Ryujinx/issues/6697",
+    "Issue_Created_At": "2024-04-21T18:43:29Z",
+    "Issue_Body": "### Description of the issue  ryujinx crashes everytime I use it now, sometimes right away after I start a game sometimes a few minutes in.   ### Reproduction steps  all games crash after a few minutes   ### Log file  [Ryujinx_1.1.1289_2024-04-21_11-37-16.log](https://github.com/Ryujinx/Ryujinx/files/15053104/Ryujinx_1.1.1289_2024-04-21_11-37-16.log) [Ryujinx_1.1.1289_2024-04-21_11-29-50.log](https://github.com/Ryujinx/Ryujinx/files/15053105/Ryujinx_1.1.1289_2024-04-21_11-29-50.log) [Ryujinx_1.1.1249_2024-04-21_11-29-20.log](https://github.com/Ryujinx/Ryujinx/files/15053106/Ryujinx_1.1.1249_2024-04-21_11-29-20.log)   ### OS  mac os sonoma 14.4.1   ### Ryujinx version  1.1.1289  ### Game version  _No response_  ### CPU  m1 mac  ### GPU  silicon gpu  ### RAM  32gb  ### List of applied mods  none  ### Additional context?  _No response_",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "mxradio"
+  },
+  {
+    "Issue_Title": "[Bug] Ryujinx 1.1.1289 quit unexpectedly.",
+    "Issue_Url": "https://github.com/Ryujinx/Ryujinx/issues/6696",
+    "Issue_Created_At": "2024-04-21T16:57:39Z",
+    "Issue_Body": "### Description of the issue  Ryujinx crashing after shader compolation  ### Reproduction steps  install Ryujinx 1.1.1289 and try to run The Legend of Zelda: Breath of the Wild or any other game  ### Log file  [Ryujinx_1.1.1289_2024-04-21_19-45-17.log](https://github.com/Ryujinx/Ryujinx/files/15052779/Ryujinx_1.1.1289_2024-04-21_19-45-17.log) [Ryujinx_1.1.1289_2024-04-21_19-50-47.log](https://github.com/Ryujinx/Ryujinx/files/15052780/Ryujinx_1.1.1289_2024-04-21_19-50-47.log) [Ryujinx_1.1.1289_2024-04-21_19-54-55.log](https://github.com/Ryujinx/Ryujinx/files/15052781/Ryujinx_1.1.1289_2024-04-21_19-54-55.log)   ### OS  Sonoma 14.4.1 (23E224)  ### Ryujinx version  1.1.1289  ### Game version  1.1.1289  ### CPU  M1 max  ### GPU  _No response_  ### RAM  32 GB  ### List of applied mods  _No response_  ### Additional context?  _No response_",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "C0DDER"
+  },
+  {
+    "Issue_Title": "[Feature Request] Automatic pause function and detailed settings",
+    "Issue_Url": "https://github.com/Ryujinx/Ryujinx/issues/6694",
+    "Issue_Created_At": "2024-04-21T13:00:20Z",
+    "Issue_Body": "### Overview  I would like the emulation to run only when Ryujinx is active and to have the ability to automatically pause when it is not active.  ### Smaller details  - Pause everything when Ryujinx is not active This is useful if you want to stop time passing in the game, but it's hard to use if you want to keep it passing.  - Mute audio when Ryujinx is not active  Use when you don't want to stop Ryujinx but the background music is in the way.  - Prevents input when Ryujinx is not active.  Prevent controller input from entering Ryujinx side while working on other games or emus.  Many applications will not accept input unless the game screen is active, but Ryujinx does not, so we feel this setting is necessary.  ### Nature of request  It's inconvenient to use Ryujinx while interacting with other games and apps.  ### Why would this feature be useful?  When Ryujinx is in use and is no longer the active window due to other work being performed, you can choose to play/stop background music, progress/stop games, and enable/disable input from the controller. Automatically pausing or partially limiting these functions when they are not needed can reduce computer load and power consumption. Even if you switch windows frequently, you will not have to worry about pausing and unpausing Ryujinx.",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "github-1348A55"
+  },
+  {
+    "Issue_Title": "[Bug]: Unable to log in",
+    "Issue_Url": "https://github.com/QuivrHQ/quivr/issues/2464",
+    "Issue_Created_At": "2024-04-22T00:14:13Z",
+    "Issue_Body": "### What happened?  Step 5: Login to the app  You can now sign in to the app with admin@quivr.app \u0026 admin. You can access the app at http://localhost:3000/login.   I logged in using the username and password provided on your website, but it showed \"Failed to retrieve\".  ### Relevant log output  _No response_  ### Twitter / LinkedIn details  _No response_",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "tc0715888"
+  },
+  {
+    "Issue_Title": "Music Column Names in folders containing audio files",
+    "Issue_Url": "https://github.com/files-community/Files/issues/15244",
+    "Issue_Created_At": "2024-04-22T01:08:52Z",
+    "Issue_Body": "### What feature or improvement do you think would benefit Files?  I work a lot with folders containing audio files, these are audio tracks for English Language classes, and I rely on watching the corresponding tags to identify them, like this:    ![image](https://github.com/files-community/Files/assets/98641363/55b1359c-5842-49ef-874f-4908a409bba3)  While in FILES the only I get is this:  ![image](https://github.com/files-community/Files/assets/98641363/84829827-885e-4f8f-ada6-655ebd8cacff)  I use FILES every day for file exploring, but when I need to work with my audio files I'm obligated to use windows explorer. This is the only feature I need to switch to files completely.   ### Requirements  - This proposal will accomplish FILES to identify audio folders and show proper columns with tags view in details view  ### Files Version  3.3.0.0  ### Windows Version  10.0.22631.3520  ### Comments  _No response_",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "erikuzsempai"
+  },
+  {
+    "Issue_Title": "Late Storage update",
+    "Issue_Url": "https://github.com/files-community/Files/issues/15243",
+    "Issue_Created_At": "2024-04-21T16:40:28Z",
+    "Issue_Body": "### Description  When I delete something, the amount of free disk space doesn't change, but after a while (Quite a long time, 10-30 minutes ig) it is being updated  ### Steps To Reproduce  Uhhh, well, just delete something and then look at your free disk space at home page  ### Requirements  pls fix that  ### Files Version  3.3.0.0  ### Windows Version  22635.3430  ### Log File  [debug.log](https://github.com/files-community/Files/files/15052729/debug.log) ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "Aspirata"
+  },
+  {
+    "Issue_Title": "Misaligned OneDrive sync status icon in Grid layout",
+    "Issue_Url": "https://github.com/files-community/Files/issues/15242",
+    "Issue_Created_At": "2024-04-21T13:03:28Z",
+    "Issue_Body": "### Description  When a folder synced with OneDrive are displayed in grid layout, the sync status icon is misaligned with the file name. Even when there are no line breaks in any file name, this issue persists.  ![misaligned_onedrive](https://github.com/files-community/Files/assets/60002861/904bbadf-7647-4cc2-a1b9-85a6a9a36b92) __  ### Steps To Reproduce  1. Open a folder synced with OneDrive 2. Select 'Grid' in Layout options    ### Requirements  Expected behavior: Align the sync status icon with the first line of the file name.  ### Files Version  3.3.0.0  ### Windows Version  22631.3520  ### Log File  [debug.log](https://github.com/files-community/Files/files/15051994/debug.log) ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "jobsrobson"
+  },
+  {
+    "Issue_Title": "Husky cannot execute git commands on Mac computers.",
+    "Issue_Url": "https://github.com/typicode/husky/issues/1427",
+    "Issue_Created_At": "2024-04-22T03:04:14Z",
+    "Issue_Body": "I have a front-end project that uses husky to integrate git hooks to perform some automated operations. I execute some git commands in the Pre-commit and post-commit hooks, such as: git add . This works fine on windows, but on mac, the exact same configuration will fail when executing git commands.",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "Autumn-one"
+  },
+  {
+    "Issue_Title": "Chore: clean up start with templates and start from scratch for new signups.",
+    "Issue_Url": "https://github.com/appsmithorg/appsmith/issues/32840",
+    "Issue_Created_At": "2024-04-22T06:32:25Z",
+    "Issue_Body": "For a new user signup, we created 3 options earlier:  1. start with data 2. start from templates 3. start from scratch  Results of our experiments have shown that start from data is the best path and we don't require other 2 paths.  With this task lets take care of cleaning up unnecessary code and specs related to them.",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "rahulbarwal"
+  },
+  {
+    "Issue_Title": "[Bug]: Extra scroll bar appears on screen when scrolling from the bottom to the top of the property pane",
+    "Issue_Url": "https://github.com/appsmithorg/appsmith/issues/32838",
+    "Issue_Created_At": "2024-04-22T06:08:24Z",
+    "Issue_Body": "### Is there an existing issue for this?  - [X] I have searched the existing issues  ### Description  Extra scroll bar appears on screen when scrolling from the bottom to the top of the property pane. This occurs intermittently.  ### Steps To Reproduce  1. Open up any widget that has a long property pane, like table, input etc... 2. Scroll to the bottom of the property pane and pause for a few seconds 3. Scroll back up to the top and notice an extra scroll bar appear on screen  ### Public Sample App  _No response_  ### Environment  Deploy Preview  ### Severity  Low (Inconsistent UI/UX)  ### Issue video log  https://www.loom.com/share/e1a4d99ac4a842c58efda86d431d413d  ### Version  cloud",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "ramsaptami"
+  },
+  {
+    "Issue_Title": "feat: is it possible to recreate frontend(web) with nextjs? ",
+    "Issue_Url": "https://github.com/harness/gitness/issues/3503",
+    "Issue_Created_At": "2024-04-22T06:17:49Z",
+    "Issue_Body": "i want to create my own components but with nextjs.  need help!",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "ruru-m07"
+  },
+  {
+    "Issue_Title": "Release test dataset_shuffle_push_based_sort_1tb.aws failed",
+    "Issue_Url": "https://github.com/ray-project/ray/issues/44894",
+    "Issue_Created_At": "2024-04-22T07:10:29Z",
+    "Issue_Body": "Release test **dataset_shuffle_push_based_sort_1tb.aws** failed. See https://buildkite.com/ray-project/release/builds/13942#018f048f-8623-484b-962d-6f1beeca8f02 for more details.  Managed by OSS Test Policy",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "can-anyscale"
+  },
+  {
+    "Issue_Title": "Release test chaos_torch_batch_inference_16_gpu_300gb_raw.aws failed",
+    "Issue_Url": "https://github.com/ray-project/ray/issues/44892",
+    "Issue_Created_At": "2024-04-22T03:47:49Z",
+    "Issue_Body": "Release test **chaos_torch_batch_inference_16_gpu_300gb_raw.aws** failed. See https://buildkite.com/ray-project/release/builds/13918#018f03e4-c18f-4d80-983f-a145dbca1c34 for more details.  Managed by OSS Test Policy",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "can-anyscale"
+  },
+  {
+    "Issue_Title": "[Tune] Trials on pre-started game instances",
+    "Issue_Url": "https://github.com/ray-project/ray/issues/44890",
+    "Issue_Created_At": "2024-04-21T11:19:23Z",
+    "Issue_Body": "### Description  It does not seem possible to tell my gym environment, started using the register_env function, which unoccupied game instance it should connect to.  Even if you use a custom resource for every game instance and assign it inside an on_trial_start callback, based on occupied game instances, you can't provide this information to the environment.  The environment for the trial is created before the on_trial_start callback is executed and even if you lazy-load the environment you are unable to provide this information in any way.  ### Use case  I have multiple pre-started game instances which I can not start from code. For every trial I want Ray Tune to select a free instance and run the trial on that instance. This is an essential feature for training on ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "HalvarKelm"
+  },
+  {
+    "Issue_Title": "Beego v1 was upgraded to v2.1.0, and an error was reported",
+    "Issue_Url": "https://github.com/beego/beego/issues/5649",
+    "Issue_Created_At": "2024-04-22T02:24:25Z",
+    "Issue_Body": "error msg:  Error parsing request body:invalid semicolon separator in query",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "ZHOUXING1997"
+  },
+  {
+    "Issue_Title": "[Feature Request]: Change OpenAI default embedding model from \"text-embedding-ada-002\" to \"text-embedding-3-small\"",
+    "Issue_Url": "https://github.com/run-llama/llama_index/issues/12994",
+    "Issue_Created_At": "2024-04-21T10:16:05Z",
+    "Issue_Body": "### Feature Description  text-embedding-3-small model is better and less costly than the text-embedding-ada-002 model. So, it is beneficial to make the former model default. https://openai.com/blog/new-embedding-models-and-api-updates https://openai.com/pricing  ### Reason  _No response_  ### Value of Feature  _No response_",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "dsanr"
+  },
+  {
+    "Issue_Title": "OPTIONS HTTP method body processing",
+    "Issue_Url": "https://github.com/fastify/fastify/issues/5417",
+    "Issue_Created_At": "2024-04-21T19:58:31Z",
+    "Issue_Body": "### Prerequisites  - [X] I have written a descriptive issue title - [X] I have searched existing issues to ensure the issue has not already been raised   ### Issue  Should we be processing the body of OPTIONS requests?  [MDN says they cannot have a body](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/OPTIONS), and I couldn't find it in the RFC  That would mean placing OPTIONS next to GET and HEAD here:  https://github.com/fastify/fastify/blob/7942e38d78f9d98d92c17460681d7d42a278e7bd/lib/handleRequest.js#L23-L59",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "gurgunday"
+  },
+  {
+    "Issue_Title": "type changes in 3.23 broke semver",
+    "Issue_Url": "https://github.com/colinhacks/zod/issues/3431",
+    "Issue_Created_At": "2024-04-22T07:59:07Z",
+    "Issue_Body": "Hi Colin,  @t3-oss/t3-env has started failing in zod@3.23: https://github.com/t3-oss/t3-env/issues/222  We're not using any internal types which made me think you've unintentionally broken semver for this release?  See the source, we're basically just using ZodType:  - https://github.com/t3-oss/t3-env/blob/main/packages/core/src/index.ts - https://github.com/t3-oss/t3-env/blob/main/packages/nextjs/src/index.ts  We're also not really using the ZodType generics, so I don't think that change is relevant here. We're only using ZodType as a constraint",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "juliusmarminge"
+  },
+  {
+    "Issue_Title": "allocator: unexpected behavior when trying with asim ",
+    "Issue_Url": "https://github.com/cockroachdb/cockroach/issues/122778",
+    "Issue_Created_At": "2024-04-22T05:04:27Z",
+    "Issue_Body": "**Describe the problem**  Inspired by the recent allocator bug, I revisited my intern project and found a few other cases where the allocator fails to conform to the constraint. They are all edge cases, and it's unclear whether they share the same underlying root cause. I explained my observations in the comments for the test cases (I might be misunderstanding the expected behavior in some cases.)  Repro using the simulator: https://github.com/cockroachdb/cockroach/commit/a0cc7efea0abe67ac58dddff68f12dd0421de90  Jira issue: CRDB-38061",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "wenyihu6"
+  },
+  {
+    "Issue_Title": "Trigger select event when the same image is selected in gallery",
+    "Issue_Url": "https://github.com/gradio-app/gradio/issues/8091",
+    "Issue_Created_At": "2024-04-22T06:31:11Z",
+    "Issue_Body": "- [x] I have searched to see if a similar issue already exists.   Hi, is it possible to trigger a select event when a gallery item is clicked? Even for same item, click multiple times and trigger multiple times.",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "kexul"
+  },
+  {
+    "Issue_Title": "This is a small feature idea",
+    "Issue_Url": "https://github.com/calcom/cal.com/issues/14696",
+    "Issue_Created_At": "2024-04-22T05:40:18Z",
+    "Issue_Body": "This is a small feature idea,   I love the customisability you have on your app, allowing the us users to change the primary color of the booking form but what I would like to propose is allowing us to change the background color. It looks like you use shadCN UI and I think this feature would be easy to implement because of that. Just be able to change the foreground (text) and the background color would give us way more customisability to the form. Maybe even adding custom CSS but changing the background is the main thing I would want right now.  ![image](https://github.com/calcom/cal.com/assets/138677529/04a9b550-af55-4f80-ba10-6fd1f09e4e05) ![image](https://github.com/calcom/cal.com/assets/138677529/9225575c-4f89-4b60-afa5-42fa72a204ef) ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "mk6934"
+  },
+  {
+    "Issue_Title": "Yuan (rmb) payment option for Cal Stripe app?",
+    "Issue_Url": "https://github.com/calcom/cal.com/issues/14692",
+    "Issue_Created_At": "2024-04-22T02:39:58Z",
+    "Issue_Body": "Chinese customers can't book and pay on Cal because stripe plug in does not have an option for Yuan / RMB currency  ### Describe the solution you'd like  Add RMB, or better yet, make the app offer a choice of currency. (Because now I have a huge list of events for various currencies.)",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "lantai5"
+  },
+  {
+    "Issue_Title": "Top right section overflows in Event page",
+    "Issue_Url": "https://github.com/calcom/cal.com/issues/14682",
+    "Issue_Created_At": "2024-04-21T17:56:37Z",
+    "Issue_Body": "  ### Issue Summary  Not sure if this is a browser issue or not. But it kinda looks ugly when top right section is overflowing and it's blocking the stuff below it. Here are the examples.   ![cal2](https://github.com/calcom/cal.com/assets/125039325/6119cac1-96ea-4f30-ad58-fe6a6d4df149) ![cal3](https://github.com/calcom/cal.com/assets/125039325/e3bb392f-16ff-4ab1-a3d6-b7ef307800e3)  ### Steps to Reproduce   1. login 2. Open any event link   ### Expected Results  - The main section could use some more space at the top.  ### Technical details  - Browser Mozilla, Chrome  ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "Afrin127329"
+  },
+  {
+    "Issue_Title": "Fix dropdown-position of select element in Interactive Dialogs",
+    "Issue_Url": "https://github.com/mattermost/mattermost/issues/26831",
+    "Issue_Created_At": "2024-04-21T11:08:20Z",
+    "Issue_Body": "#### Summary In the case of scrollable interactive dialogs with a select field, the select dropdown is not scrolled.  #### Steps to reproduce  1. Make your window smaller 2. Open a long interactive dialogue with a select box 3. Click on the select box to show the drop down menu 4. Scroll down  #### Expected behavior Dropdown scrolls with dialogue content  #### Observed behavior (that appears unintentional)  Dropdown has a fixed position in the window ![Bildschirmfoto vom 2024-04-21 12-57-36](https://github.com/mattermost/mattermost/assets/5798989/26ad0e6f-6756-4c97-9809-2edb5829159f) ![Bildschirmfoto vom 2024-04-21 12-57-56](https://github.com/mattermost/mattermost/assets/5798989/9218332a-12f4-4481-b12e-20d7edb888b3)  #### Possible fixes Will provided in PR",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "annaos"
+  },
+  {
+    "Issue_Title": "antd Vercel build error",
+    "Issue_Url": "https://github.com/lobehub/lobe-chat/issues/2126",
+    "Issue_Created_At": "2024-04-21T08:41:08Z",
+    "Issue_Body": "![Screenshot_20240421_044019](https://github.com/lobehub/lobe-chat/assets/56714680/48e864bd-226c-46bc-bf47-32e7e624c604) ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "dillfrescott"
+  },
+  {
+    "Issue_Title": "Errored with the message \"Dependabot can't parse your pnpm-lock.yaml\"",
+    "Issue_Url": "https://github.com/pnpm/pnpm/issues/7987",
+    "Issue_Created_At": "2024-04-22T02:48:30Z",
+    "Issue_Body": "### Verify latest release  - [X] I verified that the issue exists in the latest pnpm release  ### pnpm version  9.0.5  ### Which area(s) of pnpm are affected? (leave empty if unsure)  Lockfile  ### Link to the code that reproduces this issue or a replay of the bug  _No response_  ### Reproduction steps  Create \"pnpm-lock.yaml\" using \"pnpm i\" and commit it to the GitHub repository. Dependabot prompts \"Error with message \"Dependabot cannot parse your pnpm-lock.yaml\"\"  ### Describe the Bug  1  ### Expected Behavior  1  ### Which Node.js version are you using?  v21.1.0  ### Which operating systems have you used?  - [X] macOS - [ ] Windows - [ ] Linux  ### If your OS is a Linux based, which one it is? (Include the version if relevant)  _No response_",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "Theo-messi"
+  },
+  {
+    "Issue_Title": "No notification toast",
+    "Issue_Url": "https://github.com/ShareX/ShareX/issues/7404",
+    "Issue_Created_At": "2024-04-21T15:49:23Z",
+    "Issue_Body": "I am on version 16.0.1, and as far as I can recall I have not been receiving any notifications after taking a screenshot. Is it still restricted to file saving on local storage? I thought this was updated to work regardless.  Please correct me if I am wrong",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "beyond9thousand"
+  },
+  {
+    "Issue_Title": "Directory path",
+    "Issue_Url": "https://github.com/ShareX/ShareX/issues/7403",
+    "Issue_Created_At": "2024-04-21T13:57:31Z",
+    "Issue_Body": "I specified, in the \"path\" presets, a specific directory for the personnal ShareX files. It works well.  But, **simultaneously**, ShareX has created an additional directory at the root of \"My documents\" directory.  Why ? I don't want it (I specified a specific directory at another place). If I suppress it, the sofware behave like all the presets were cancelled.   It seems that ShareX works with the two directories at the same time, the one I specified in the \"path preset\" and the one at the root of \"My document\" directory.   Could you help ?  ![Q0LBifld9m](https://github.com/ShareX/ShareX/assets/53442186/86bad491-fdbe-4d02-a1e4-7bdc890e2871) ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "francis33"
+  },
+  {
+    "Issue_Title": "Enable/Disable Screen Recordings Upon Sound Alerts Feature",
+    "Issue_Url": "https://github.com/ShareX/ShareX/issues/7402",
+    "Issue_Created_At": "2024-04-21T12:26:37Z",
+    "Issue_Body": "Could this feature be implemented?  Have ShareX trigger random lengths recordings at random times based upon specific audio signals.  For example, when the PC plays the \"Switch On\" audio signal, ShareX starts a recording.  Then after some random time interval elapses, the computer plays the \"Switch Off\"  audio signal and ShareX stops the recording.   ShareX would simply \"listen all day long to\" the computer for the said audio signals, and auto start and stop recordings (for example for a 10 hours period,  ShareX would record at random times between 10 and 200 clips based on  the audio alerts it hears from the computer).  I looked at this [Reddit ](https://www.reddit.com/r/pcmasterrace/comments/7txf1q/how_to_have_a_macro_triggered_by_a_sound_effect/) related AHK macro suggestion but I'm not sure how this could work with ShareX.",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "fixck"
+  },
+  {
+    "Issue_Title": "'circuit breaker is open','last resolver error: produced zero addresses'",
+    "Issue_Url": "https://github.com/zeromicro/go-zero/issues/4101",
+    "Issue_Created_At": "2024-04-22T06:00:40Z",
+    "Issue_Body": "Service A grpc invokes another service B, often :  'circuit breaker is open' or 'last resolver error: produced zero addresses' ;  \"circuit breaker is open\"  appear more often;   service B is good;  i want to try   turn off breaker,  so how to tun off it ? thanks ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "savinchen"
+  },
+  {
+    "Issue_Title": "fabric.Image.fromURL issue",
+    "Issue_Url": "https://github.com/fabricjs/fabric.js/issues/9810",
+    "Issue_Created_At": "2024-04-21T12:33:23Z",
+    "Issue_Body": "### CheckList  - [X] I agree to follow this project's Code of Conduct - [X] I have read and followed the [Contributing Guide](https://github.com/fabricjs/fabric.js/blob/master/CONTRIBUTING.md) - [X] I have read and followed the [Issue Tracker Guide](https://github.com/fabricjs/fabric.js/blob/master/CONTRIBUTING.md#%EF%B8%8F-issue-tracker) - [X] I have searched and referenced existing issues and discussions - [X] I am filing a **BUG** report. - [X] I have managed to reproduce the bug **after** upgrading to the **latest** version - [X] I have created an accurate and minimal reproduction  ### Version  5.3.0  ### In What environments are you experiencing the problem?  Firefox, Chrome  ### Node Version (if applicable)  None  ### Link To Reproduction  n/a  ### Steps To Reproduce  1. import a jpg file in canvas via fabric.Image.fromURL 2. save canvas with canvas.toSVG() 3. the created svg file contains some embedded junk instead of the jpg file 4. the issue does NOT exist if uploading a local file 5.   ### Expected Behavior  The url embedded jpg image should be saved in the svg file  ### Actual Behavior  the created svg file contains some embedded junk instead of the jpg file  ### Error Message \u0026 Stack Trace  _No response_",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "thomast68"
+  },
+  {
+    "Issue_Title": "[Bug]: The line shifts slightly after the mouse is released. (also on kitchensink)",
+    "Issue_Url": "https://github.com/fabricjs/fabric.js/issues/9809",
+    "Issue_Created_At": "2024-04-21T12:32:41Z",
+    "Issue_Body": "### CheckList  - [X] I agree to follow this project's Code of Conduct - [X] I have read and followed the [Contributing Guide](https://github.com/fabricjs/fabric.js/blob/master/CONTRIBUTING.md) - [X] I have read and followed the [Issue Tracker Guide](https://github.com/fabricjs/fabric.js/blob/master/CONTRIBUTING.md#%EF%B8%8F-issue-tracker) - [X] I have searched and referenced existing issues and discussions - [X] I am filing a **BUG** report. - [X] I have managed to reproduce the bug **after** upgrading to the **latest** version - [X] I have created an accurate and minimal reproduction  ### Version  5.3.0  ### In What environments are you experiencing the problem?  Chrome  ### Node Version (if applicable)  20.12.2  ### Link To Reproduction  http://fabricjs.com/kitchensink  ### Steps To Reproduce  1. Go to kitchensink (http://fabricjs.com/kitchensink), select canvas, enter free drawing mode, select sprary brush (it happens on any brush, but it will be easy to catch the misalignment very well while using spray brush) 2. zoom in on the canvas. 3. Click and drag on the canvas to draw a line. 4. Release the mouse button. 5. Observe that the particles shift slightly from where the mouse was released.  (screen recording available below)   ### Expected Behavior  When drawing a line on the canvas using the mouse, the drawn line should remain unchanged after the mouse button is released.  ### Actual Behavior  The line shifts slightly after the mouse is released.  https://github.com/fabricjs/fabric.js/assets/27687176/ffa49936-c6c8-4b24-9991-08eb7c686d13   ### ETC  Found relavant comment. (version 5.2.4) https://github.com/fabricjs/fabric.js/issues/347#issuecomment-1356842520  But changing border style won't help. ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "sunki-hong"
+  },
+  {
+    "Issue_Title": "bug: Prototype: \"Open overlay relative to position center\" doesn't work",
+    "Issue_Url": "https://github.com/penpot/penpot/issues/4479",
+    "Issue_Created_At": "2024-04-21T10:09:36Z",
+    "Issue_Body": "### Steps To Reproduce   1. Create a component with a main state and several instances as sub-states, like the Action Button in the example image  ![image](https://github.com/penpot/penpot/assets/3824360/dece5ab0-cb64-4a0c-913f-c10e6ce51ee3)  2. Link the main state to the first state with:     * Action: Open overlay     * Destination: the first sub-state instance     * Relative to: Action Button (self)     * Position: Center 3. Drag a copy of the main state inside a Board, and set a Flow start at the Board 4. Start the prototype   ### Expected behavior  When the action is triggered, the overlay should appear centered over the Action Button initial main state.  ![image](https://github.com/penpot/penpot/assets/3824360/1876d6a7-4007-4f81-8d91-810495c32c71)   ### Actual behavior  The overlay is opened at the top left of the Board.  ![image](https://github.com/penpot/penpot/assets/3824360/1b21f0ca-44f3-4ca7-a733-ac4896e9a4e8)  To fix the issue and make the overlay appear over the Action Button, _Position_ needs to be set manually instead.  ![image](https://github.com/penpot/penpot/assets/3824360/5381b0b1-ac79-4e1e-adae-7a86eb8fad3e)   ### Screenshots or video  _No response_  ### Desktop (please complete the following information)  _No response_  ### Smartphone (please complete the following information)  _No response_  ### Environment (please complete the following information)  _No response_  ### Frontend Stack Trace  _No response_  ### Backend Stack Trace  _No response_  ### Additional context  _No response_",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "dialmove"
+  },
+  {
+    "Issue_Title": "Edit in the same UIX as when you create a post",
+    "Issue_Url": "https://github.com/usememos/memos/issues/3261",
+    "Issue_Created_At": "2024-04-22T08:31:15Z",
+    "Issue_Body": "### Describe the solution you'd like  It would be great if you could edit a post within the same UI as when creating a post.  ![Edit](https://github.com/usememos/memos/assets/10601027/743af69d-079a-4f00-a901-f8fe8f2b3133) ![First post](https://github.com/usememos/memos/assets/10601027/c0dab807-f2e2-4f60-b46e-f5a47b76ad28)   ### Type of feature  User Interface (UI)  ### Additional context  _No response_",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "arthuragone"
+  },
+  {
+    "Issue_Title": "Add Possibility to add Collaborators on Memos",
+    "Issue_Url": "https://github.com/usememos/memos/issues/3258",
+    "Issue_Created_At": "2024-04-21T22:46:51Z",
+    "Issue_Body": "### Describe the solution you'd like  It would be great if I could add existing user (by username) as collaborator to the Memo I defined as public. What collaborators can do is that they can simply edit the Memo and add more info to the specific topic.  ### Type of feature  User Experience (UX)  ### Additional context  This is useful when I want to create some Travel guide or some other type of shared memo, where I would like to simply declare someone as collaborator so we can both contribute to the Guide/memo we are building.",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "vulovix"
+  },
+  {
+    "Issue_Title": "PWA Capabilities",
+    "Issue_Url": "https://github.com/usememos/memos/issues/3257",
+    "Issue_Created_At": "2024-04-21T17:42:12Z",
+    "Issue_Body": "### Describe the solution you'd like  It would be great if memos would have a true pwa with sharing and offline capabilities.  Maybe you could look at silverbullet.md. It has offline capabilities through pwa but no sharing functionality to share for example links directly to a new note. It's open source and uses typescript, which I've seen memos also uses, so maybe you could take their implementation for reference   ### Type of feature  User Experience (UX)  ### Additional context  _No response_",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "Venkman42"
+  },
+  {
+    "Issue_Title": "Please make it simple!",
+    "Issue_Url": "https://github.com/Lightning-AI/pytorch-lightning/issues/19793",
+    "Issue_Created_At": "2024-04-22T01:55:49Z",
+    "Issue_Body": "### Outline \u0026 Motivation  One thing tensorflow falls behind pytorch is its too complex designs, while pytorch is much simpler. But when I start to use pytorch-lightning, I feel that it is another tensorflow. So I beg your guys make thing simple. For a simple saving checkpoint function, I search the code from ModelCheckpoint, to trainer.save_checkpoint, and then checkpoint_connector.save_checkpoint, and then trainer.strategy.save_checkpoint, where is the end? How to ensure correctness under such complex designs? Please make it simple!  ### Pitch  The strategy design in tensorflow is too complex, DDP is just a simple all reduce of gradients. But in strategy or keras, things become very complex, the function call stacks are very deep that we could hard understand where is it doing the actual all reduce? Even the users spend weeks of time, they may not figure out what you are actually doing because there is call from module a to b, then to c, then to a, then to b, then I give up.  ### Additional context I suggest to implement things as what it is, stop over encapsulation, please follow the design patterns of pytorch and caffe, stop making simple functions complicated.  cc @justusschock @awaelchli",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "chengmengli06"
+  },
+  {
+    "Issue_Title": "[reopen] [proposal] auto polyfilling support via @babel/preset-env",
+    "Issue_Url": "https://github.com/angular/angular-cli/issues/27510",
+    "Issue_Created_At": "2024-04-22T07:56:36Z",
+    "Issue_Body": "### Command  build, serve  ---  I completely disagree with the fact that feature requests are closed without an exhaustive explanation. This is actually the scope of angular-cli. So, reopen: #17318   ---  ### Description  According to [Official Document](https://angular.io/guide/browser-support#polyfills), polyfills can only be included manually.  Sometimes we somehow use ESNext features like Array.prototype.flatMap but forget adding its polyfill into polyfills.ts, it accidentally breaks on some browsers.  ### Describe the solution you'd like  In https://github.com/alauda, we are using [@alauda/custom-webpack](https://www.npmjs.com/package/@alauda/custom-webpack) which pipes babel-loader after @ngtools/webpack in webpack config, so that we get auto polyfilling successfully via @babel/preset-env.  So I'm suggesting to add auto polyfilling support into @angular/cli.  ### Describe alternatives you've considered  If we can build all .ts via @ngtools/webpack with targeting esnext, then we can use babel to compiling all ES syntaxes totally but are able to get types metadata still at the same time.",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "MillerSvt"
+  },
+  {
+    "Issue_Title": "Table Component: Negative values are not sorting in column properly",
+    "Issue_Url": "https://github.com/ToolJet/ToolJet/issues/9453",
+    "Issue_Created_At": "2024-04-22T06:45:18Z",
+    "Issue_Body": "### What is the expected behaviour? When sorting a column of negative numbers in ascending order within a table component, the numbers should correctly display in ascending order. For example, given the values -2, -1, and -3, the sorted order should be -3, -2, -1.  ### What is the current behaviour? Currently, the sorting functionality does not handle negative numbers correctly. When attempting to sort a column containing the values -2, -1, and -3 in ascending order, the output is incorrectly displayed as -1, -2, -3.  ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "ShazanRizvi"
+  },
+  {
+    "Issue_Title": "Unnecessary auto-saves for minor canvas interactions -App builder",
+    "Issue_Url": "https://github.com/ToolJet/ToolJet/issues/9452",
+    "Issue_Created_At": "2024-04-22T05:00:38Z",
+    "Issue_Body": "### Current Behavior: The canvas auto-saves every time there is a change, including minor interactions like button clicks. This triggers unnecessary API calls.  ### Expected Behavior: The canvas should only auto-save for significant \"Actions\" that modify the canvas content (e.g., adding/removing components, changing properties/styles). Minor interactions, such as button clicks, should not trigger auto-saves.  **Note: This will be fixed in Grid PR**  **Future Suggestion:** 1. Introducing changes history with timeline",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "GrowwithNaveen"
+  },
+  {
+    "Issue_Title": "ServiceLB back after auto-upgrade; k3s seems to ignore parameters from systemd unit after upgrade",
+    "Issue_Url": "https://github.com/k3s-io/k3s/issues/9988",
+    "Issue_Created_At": "2024-04-21T16:19:26Z",
+    "Issue_Body": "**Environmental Info:** K3s Version: 1.27.7, 1.28.5, 1.29.3, applies to all of these  Node(s) CPU architecture, OS, and Version:  Debian 11, Debian 12, AMD64  Cluster Configuration: 3 servers, 3 agents  **Describe the bug:** When running K3s auto-upgrade service on the server nodes, suddenly K3s starts with ServiceLB enabled despite it being disabled in the systemd unit. I'm certain this has to do with how the auto upgrade job restarts the k3s binary, ignoring parameters set in the systemd unit.  **Steps To Reproduce:** 1. Run K3s with some custom parameters like disabling serviceLB or stuff like that from a systemd unit 2. Install and configure auto upgrade service according to https://docs.k3s.io/upgrades/automated 3. see that the newly started K3s ignores the parameters set in the systemd unit  **Expected behavior:** After the upgrade the parameters configured in the systemd unit should still be applied  **Actual behavior:** I can at least see serviceLB pods being created where none have been before (disabled in favor of MetalLB) ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "HWiese1980"
+  },
+  {
+    "Issue_Title": "Groq throwing \"403 Please enable cookies\" error",
+    "Issue_Url": "https://github.com/mckaywrigley/chatbot-ui/issues/1684",
+    "Issue_Created_At": "2024-04-22T07:48:03Z",
+    "Issue_Body": "Hi there!  The Groq API is returning 4xx error with html in the response. The error inside the HTML says \"403 Please enable cookies.\"  This is in both the chatbotui.com hosted version and in my personal host as well.  ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "mmahmad"
+  },
+  {
+    "Issue_Title": "When the AI finishes replying, the content the user is typing is cleared.",
+    "Issue_Url": "https://github.com/mckaywrigley/chatbot-ui/issues/1683",
+    "Issue_Created_At": "2024-04-22T03:13:27Z",
+    "Issue_Body": "website: www.chatbotui.com  ![show-error](https://github.com/mckaywrigley/chatbot-ui/assets/65017420/da7ac4a3-a1b6-41d3-8f67-5540e65328bf)  This is not an expected behavior for users. When the AI finishes replying, the content the user is typing should not be cleared.  ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "TimchaStudio"
+  },
+  {
+    "Issue_Title": "Video stutters when on fullscreen on one screen and other maximized window on second screen",
+    "Issue_Url": "https://github.com/mpv-player/mpv/issues/13966",
+    "Issue_Created_At": "2024-04-22T06:54:04Z",
+    "Issue_Body": "### Important Information  - mpv-x86_64-v3-20240421-git-b364e4a - Windows 11 23H2 22631.3447 - (https://sourceforge.net/projects/mpv-player-windows/files) - NVidia GTX 1070 8GB - Game Ready Driver - 552.22 - Apr 16, 2024  ### Reproduction steps  When I play fullscreen video on one screen and browsing internet on second screen with maximized browser than video stutters. Issue not exist when video isn't fullscreen or browser (example) isn't maximized or mpv.net windows is active.  Play video fullscreen with mpv.net on first screen and maximize browser or other windows on second screen, keep second screen window active.  ### Expected behavior  No stuttering.  ### Actual behavior  Stuttering  ### Sample files  https://github.com/mpv-player/mpv/assets/627198/ca646a4b-a652-45ba-a4ec-0693502ea59e  ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "karnasw"
+  },
+  {
+    "Issue_Title": "mouse clicking on window sometimes gets stuck and becomes a move cursor.",
+    "Issue_Url": "https://github.com/mpv-player/mpv/issues/13958",
+    "Issue_Created_At": "2024-04-21T13:18:53Z",
+    "Issue_Body": "### Important Information  Provide following Information: - mpv version: 38.0-2 - Linux: Manjaro - Source of the mpv binary: Manjaro repository - If known which version of mpv introduced the problem: 38.0-2  I had no issues with 37:0-3, but with the newer version, when I click on the mpv window after e.g. using the web browser, etc. the cursor doesn't just activate the window so that I can use keybind functions in mpv but rather sometimes gets stuck as a move cursor, and sometimes I have to keep on clicking until it becomes a normal cursor again before being able to access mpv keybind controls.  In addition when I double click on mpv to make it fullscreen, sometimes I have to click multiple times, because it gets stuck and becomes a move cursor instead.  Normally I have to long press to get the move cursor, and after letting go, the move cursor goes away which is how mpv 37:0-3 worked.  ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "hmm5"
+  },
+  {
+    "Issue_Title": "Lib update leads to console error and fails to render",
+    "Issue_Url": "https://github.com/swagger-api/swagger-ui/issues/9857",
+    "Issue_Created_At": "2024-04-22T08:32:25Z",
+    "Issue_Body": " ### Q\u0026A (please complete the following information)  - OS: Windows 10  - Browser: Vivaldi (Chromium)  - Version: 6.6 (122)  - Method of installation: npm  - Swagger-UI version: 5.16.2  ### Describe the bug you're encountering traverse 0.6.9 depends on [typed-array-byte-offset](https://github.com/inspect-js/typed-array-byte-offset). I opened a [Library Issue](https://github.com/inspect-js/typed-array-byte-offset/issues/2), but the author does not intend to support a browser context, but solely node. This contradicts the sole purpose of swagger-ui.  ### To reproduce...  Steps to reproduce the behavior: 1. npm install 2. npm start  ### Expected behavior Swagger API displayed  ### Screenshots ![image](https://github.com/swagger-api/swagger-ui/assets/1440823/6e5e0078-fe2e-44d2-88c7-6437e779d95c) ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "Christoph142"
+  },
+  {
+    "Issue_Title": "Make individual app boot methods more lazy",
+    "Issue_Url": "https://github.com/nextcloud/server/issues/44951",
+    "Issue_Created_At": "2024-04-22T06:42:20Z",
+    "Issue_Body": "While looking at some flamegraphs I noticed that we still have plenty of apps that have logic in the boot method that could be done far more lazy. Those would trigger larger chunks of dependency injection pulling in class instances that might not be needed (yet). While some dependencies might still be pulled in later there is definitiely potential for saving some load in the app boot process.  While every change itself might be rather small, this could add up in total to become a nice improvement.  A few examples that could be beneficial to move: - [ ] Mount provider registration (files_sharing, files_external, groupfolders, collectives, ...) - [ ] Some apps like files_sharing still register events in a non-lazy way - [ ] dav app hook manager pulls in lots of dependencies (https://github.com/nextcloud/server/blob/443b26761ddb80e8724b4eab1076f349cf62f6fd/apps/dav/lib/AppInfo/Application.php#L222) - [ ] Legacy resource provider (deck/talk) is not done fully lazy - [ ] Share provider registration requires to setup the ShareManager (currently only relevant for deck as talk is hard coded in server) - [ ] Comments event handler registration requires to pull in ICommentsManager https://github.com/nextcloud/server/blob/aa5f037af71c915424c6dcfd5ad2dc82797dc0d6/apps/comments/lib/AppInfo/Application.php#L86 - [ ] Legacy ISearch provider registration (could be dropped) - [ ] files_lock registering lock provider (while ILockManager is free of dependencies, LockProvider has quite some that might be not needed on every request)   - [ ] https://github.com/nextcloud/server/pull/44953   - [ ] https://github.com/nextcloud/files_lock/pull/297 - [ ] Register template creators (text/richdocuments/onlyoffice)   - [ ] https://github.com/nextcloud/server/pull/44952  ![xdebug _ocs_v2_php_apps_notifications_api_v2_notifications 1713767602 182289 xt gz](https://github.com/nextcloud/server/assets/3404133/0c0774de-7b5e-41fc-b716-b9c630922f4d) ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "juliushaertl"
+  },
+  {
+    "Issue_Title": "How to use spot market data, but trade using futures?",
+    "Issue_Url": "https://github.com/freqtrade/freqtrade/issues/10119",
+    "Issue_Created_At": "2024-04-22T03:29:01Z",
+    "Issue_Body": "How to use spot market data, but trade using futures? Because the futures market data always deviates from the spot. Thanks.",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "gmvp3"
+  },
+  {
+    "Issue_Title": "Auto refresh Kanban layout not working",
+    "Issue_Url": "https://github.com/directus/directus/issues/22276",
+    "Issue_Created_At": "2024-04-22T07:59:56Z",
+    "Issue_Body": "### Describe the Bug  Auto refresh in Kanban layout not working  - I'm using version 10.10.5   ### To Reproduce  - Use Kanban layout to manage collection - Turn on auto refresh after 10 seconds  ### Directus Version  v10.10.5  ### Hosting Strategy  Self-Hosted (Docker Image)",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "Danhhoa"
+  },
+  {
+    "Issue_Title": "Calendar and Kanban layout \"Download Page as CSV\" not working",
+    "Issue_Url": "https://github.com/directus/directus/issues/22275",
+    "Issue_Created_At": "2024-04-22T07:49:40Z",
+    "Issue_Body": "### Describe the Bug  For both the Calendar and Kanban layout the \"Download Page as CSV\" it not working.  ### To Reproduce  - Set layout to Calendar or Kanban - Click \"Download Page as CSV\" button  ### Directus Version  v10.10.7  ### Hosting Strategy  Self-Hosted (Docker Image)",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "hanneskuettner"
+  },
+  {
+    "Issue_Title": "All torrents missing after a reboot",
+    "Issue_Url": "https://github.com/qbittorrent/qBittorrent/issues/20746",
+    "Issue_Created_At": "2024-04-22T00:18:49Z",
+    "Issue_Body": "### qBittorrent \u0026 operating system versions  qBittorrent: 4.6.4 OS:  Arch Linux (up-to-date) Qt: 6.6.2 Libtorrent: 2.0.10.0 Boost: 1.83.0 OpenSSL: 3.2.1 zlib: 1.3.1  ### What is the problem?  Upon reboot all torrents in the list are missing.  I'm not sure how I'd recover them.  The latest log file shows that earlier this afternoon that:  (N) 2024-04-20T13:24:26 - Restored torrent. Torrent  -- (for example).  ### Steps to reproduce  Open qBittorrent Notice all torrents are missing Read logs  ### Additional context  _No response_  ### Log(s) \u0026 preferences file(s)  _No response_",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "doomikus"
+  },
+  {
+    "Issue_Title": "Smart Closing \u0026 Smart Shutdown / Restart seeding option",
+    "Issue_Url": "https://github.com/qbittorrent/qBittorrent/issues/20745",
+    "Issue_Created_At": "2024-04-21T20:38:30Z",
+    "Issue_Body": "### Suggestion  **Smart Closing:** When this option is ticked, closing qBittorrent will stop accepting new seeding queues, eventually close when all uploads are finished. **Smart Shutdown / Restart:** Above feature with capability to shut down or reboot the operating system, only accessible with a right-click context menu, or Tools(T) in toolbar.  ### Use case  When user installs a system update that requires a restart, and they can wait a bit, this feature will provide a more graceful program termination for the downloading end. (In my case I am the only seeder for a bunch of torrents simply because these are like 20 years old files).  Improving seeding on standard PC, which would save average user's cost on investing for a NAS or server, which increases the likelihood for them to donate. Consider this is valuable enough to be a premium add-on.",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "iAvoe"
+  },
+  {
+    "Issue_Title": "qBittorrent with NFS Drive",
+    "Issue_Url": "https://github.com/qbittorrent/qBittorrent/issues/20744",
+    "Issue_Created_At": "2024-04-21T16:41:48Z",
+    "Issue_Body": "### qBittorrent \u0026 operating system versions  qBittorrent: 4.6.4 (nox) OS: ArchLinux 6.8.7   ### What is the problem?  Can't shutdown properly and at boot can't skip hash check even with option --skip-hash  It's during over 2 days after every reboot to check torrents  ### Steps to reproduce  1. ArchLinux 2. NFS Drive 3. qbittorrent 4. shutdown now  ### Additional context  _No response_  ### Log(s) \u0026 preferences file(s)  _No response_",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "muellerjoel"
+  },
+  {
+    "Issue_Title": "[Bug]: MessageTokenLimiter ignored for output of Tools",
+    "Issue_Url": "https://github.com/microsoft/autogen/issues/2469",
+    "Issue_Created_At": "2024-04-21T19:00:09Z",
+    "Issue_Body": "### Describe the bug  MessageTokenLimiter works as expected for output not generated by Tools. However, when Tools are used, this appears not to be the case.  ### Steps to reproduce  - Create a custom tool that generates a large amount of data (in my case, the output of a swagger.json file) - Interact with the tool using a ConversableAgent that has a MessageTokenLimiter configured   ### Model Used  gpt-3.5-turbo  ### Expected Behavior  The truncated output should be sent to the GPT model, not the entire output, which triggers a rate limit  ### Screenshots and logs  In the screenshots, I show that even though the print statement mentions that the tokens were limited, it appears that the non-truncated output is sent to the GPT mode.  Output shows that the output of my tool is correctly being truncated ![image](https://github.com/microsoft/autogen/assets/2312803/ac9fa5fe-c5a6-46d0-87ac-89073292e1c0)  This seems to be ignored when calling the LLM though, showing a rate limit ![image](https://github.com/microsoft/autogen/assets/2312803/76e7a593-6dfa-4407-a832-c0c81f051d1b)   ### Additional Information  _No response_",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "daanraman"
+  },
+  {
+    "Issue_Title": "Bug: remove core-js from dependencies or upgrade to 3.37.0",
+    "Issue_Url": "https://github.com/feathericons/feather/issues/1240",
+    "Issue_Created_At": "2024-04-21T15:22:56Z",
+    "Issue_Body": "### Description  Fingerprinted CMS Components \u0026 Vulnerabilities Core-js version: 3.1.3 The component is outdated. No known security vulnerabilities found. Update to the most recent version 3.37.0.  ### Steps to reproduce  Used security check on my site : https://www.immuniweb.com/websec/ronnyroethof.nl/Y5MeafVP/  ### Version  https://unpkg.com/feather-icons  ### Browser  Chrome, Safari, Firefox, Edge, iOS Safari, Other  ### Operating system  macOS, Windows, Linux, iOS, Android, Other  ### Checklist  - [X] I have searched the existing issues to make sure this bug has not already been reported.",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "rroethof"
+  },
+  {
+    "Issue_Title": "Media Viewer is not rendering in GNOME",
+    "Issue_Url": "https://github.com/telegramdesktop/tdesktop/issues/27792",
+    "Issue_Created_At": "2024-04-21T13:21:05Z",
+    "Issue_Body": "### Steps to reproduce  Just open any media, like photo or video to show Media Viewer  ### Expected behaviour  Media Viewer should be displayed  ### Actual behaviour  ![image](https://github.com/telegramdesktop/tdesktop/assets/14846427/7133cbe2-e1ae-41f8-b159-67f0da849c07) Media viewer has its own window but it is blank  ### Operating system  ArchLinux  ### Version of Telegram Desktop  4.16.8  ### Installation source  Other (unofficial) source  ### Crash ID  _No response_  ### Logs  _No response_",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "jasursadikov"
+  },
+  {
+    "Issue_Title": "How to load the server data disk to docker in apollo 9.0",
+    "Issue_Url": "https://github.com/ApolloAuto/apollo/issues/15383",
+    "Issue_Created_At": "2024-04-22T05:13:37Z",
+    "Issue_Body": "In apollo_9.0 :How do I mount a data disk in docker I have successfully loaded the data disk locally using the mount command In Apollo 7.0/5.0, after changing the boot option, ![0D96AC40AC8AD8C03A1B2737F0B90584](https://github.com/ApolloAuto/apollo/assets/141206456/98b322ef-c861-436f-bc93-8083f1d78f9b)  The location is in the apollo/scripts file and was successfully mounted using the -v command on line 339 You can then see it in docer via \"ls\"  command under the apollo/data folder However, in apollo9.0, when it does the same, you can use the \"cyber_recoder\" command to cast the packet However, after starting the dream_view command, an error occurs: ![77FF4DF77F7CDB43FDFF3D9E570C7C15](https://github.com/ApolloAuto/apollo/assets/141206456/5e914dfd-cc6f-4d7b-9b72-2505302eb02e) Check why there was an error in the bootstrap.sh script, but no reason was found.  if I do not do this change ,this will success to start the dreamview,and I make this not change ,they can also start as past. So how do I mount a data disk in apollo9.0 docker? ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "MrGoldminer"
+  },
+  {
+    "Issue_Title": "Rtmp authentication ",
+    "Issue_Url": "https://github.com/ossrs/srs/issues/4034",
+    "Issue_Created_At": "2024-04-21T17:40:13Z",
+    "Issue_Body": "Please point the rtmp file while is used for authentication for blocking unwanted rtmp requests",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "Jithklm"
+  },
+  {
+    "Issue_Title": "Exclamation point fix doesn't work in the static version of the font",
+    "Issue_Url": "https://github.com/microsoft/cascadia-code/issues/725",
+    "Issue_Created_At": "2024-04-21T20:17:39Z",
+    "Issue_Body": "### Cascadia family version  2111.001  ### Cascadia family variant(s)  Cascadia Code (the version with ligatures), Cascadia Mono (the version without ligatures)  ### Font file format(s)  .ttf (static)  ### Platform  Windows 11  ### Other Software  _No response_  ### What happened?  The fix for #524 (Exclamation point clarity at small sizes) that was introduced with #587 does not work in the static version of the ttf.  It works in the variable version.  ![grafik](https://github.com/microsoft/cascadia-code/assets/2885473/bf6b5867-7fcf-4b57-a698-a7ed57f31102)  ![grafik](https://github.com/microsoft/cascadia-code/assets/2885473/a71a4471-85b8-4967-9e36-5a266b587e72) ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "th-bu"
+  },
+  {
+    "Issue_Title": "feat(Theme / Typography): css font-stretch",
+    "Issue_Url": "https://github.com/angular/components/issues/28925",
+    "Issue_Created_At": "2024-04-22T01:09:08Z",
+    "Issue_Body": "### Feature Description  Hello, Font-stretch CSS property is an important typographic property, to manage condensed and/or expanded font. To define a typography level, we have those properties : font-size, line-height, font-weight, font-family, and letter-spacing I think font-stretch is an important font styling missing rule.  ### Use Case  _No response_",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "BenLune"
+  },
+  {
+    "Issue_Title": "I Can't verified contract in Coredao",
+    "Issue_Url": "https://github.com/OpenZeppelin/openzeppelin-contracts/issues/5022",
+    "Issue_Created_At": "2024-04-22T03:58:53Z",
+    "Issue_Body": "I was trying to verifiy contract in remix plug in, but when im trying to paste the API Key of Coredao it says need 34 characters long. Anyone help me to solve this problem? Which i've done wrong? help me to verify contract ![da](https://github.com/OpenZeppelin/openzeppelin-contracts/assets/108234086/37a6a078-9ebc-4bce-822a-a055d83b271d) ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "vein451"
+  },
+  {
+    "Issue_Title": "Site not loading",
+    "Issue_Url": "https://github.com/TanStack/table/issues/5502",
+    "Issue_Created_At": "2024-04-22T05:21:00Z",
+    "Issue_Body": "### TanStack Table version  latest  ### Framework/Library version  latest  ### Describe the bug and the steps to reproduce it  Visit https://tanstack.com/table/latest directly.  The site should load. Instead it throws an error, resulting in a white screen. I attached the log file with the errors.  [tanstack.com-1713763119713.log](https://github.com/TanStack/table/files/15057928/tanstack.com-1713763119713.log)   ### Your Minimal, Reproducible Example - (Sandbox Highly Recommended)  Website Issue  ### Screenshots or Videos (Optional)  _No response_  ### Do you intend to try to help solve this bug with your own PR?  No, because I do not have time to dig into it  ### Terms \u0026 Code of Conduct  - [X] I agree to follow this project's Code of Conduct - [X] I understand that if my bug cannot be reliable reproduced in a debuggable environment, it will probably not be fixed and this issue may even be closed.",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "devnoot"
+  },
+  {
+    "Issue_Title": "Crashing when try install UTM SE",
+    "Issue_Url": "https://github.com/utmapp/UTM/issues/6297",
+    "Issue_Created_At": "2024-04-22T08:08:31Z",
+    "Issue_Body": "**Describe the issue** When I try sideload UTM SE (latest), AltStore crashing, tried old versions also  **Configuration (required)** * UTM Version: v4.4.5 SE * OS Version: 16.7.7 * Device Model: iPhone 8 * Is it jailbroken (name jailbreak used)?  * How did you install UTM? AltStore ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "Ilya114"
+  },
+  {
+    "Issue_Title": "Failed to load MI Debugger",
+    "Issue_Url": "https://github.com/envoyproxy/envoy/issues/33717",
+    "Issue_Created_At": "2024-04-22T05:42:51Z",
+    "Issue_Body": "I'm trying to debug envoy using VSCode but I'm getting the following error ![image](https://github.com/envoyproxy/envoy/assets/49786112/56119b46-7a05-4485-861c-9eabaf127ed2) ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "ShenFeng312"
+  },
+  {
+    "Issue_Title": "User Directory not created on Signup / access to root folder",
+    "Issue_Url": "https://github.com/filebrowser/filebrowser/issues/3143",
+    "Issue_Created_At": "2024-04-21T19:23:38Z",
+    "Issue_Body": "When the function \"Auto create user home dir while adding new user\" is enabled in Global, the autocreate user directory works only if the account is created from Admin user management. If we allow \"Allow users to signup\" then during signup, the user home dir is set to / giving him access to all the folders.  Can the signup use the same function as creating user from admin, this will resolve the issue.  If anyone has manage to solve this otherwise please let me know ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "bavesh"
+  },
+  {
+    "Issue_Title": "Filebrowser docker container in unhealthy status",
+    "Issue_Url": "https://github.com/filebrowser/filebrowser/issues/3139",
+    "Issue_Created_At": "2024-04-21T10:26:17Z",
+    "Issue_Body": "**Description** My FileBrowser Docker container works like a charm. But for several weeks already, the unhealthy flag is active but I don't neither see any error message in the docker logs, nor any misbehaviour.  **Expected behaviour** Healthy docker container status flag  **What is happening instead?** Unhealthy docker container status flag  **Additional context** n/A  **How to reproduce?** Directly after deployment and start  **Files** ![log](https://github.com/filebrowser/filebrowser/assets/15525250/956c11a8-6a93-438f-bfe2-991bdb3e945d)  ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "pipsen"
+  },
+  {
+    "Issue_Title": "[FEATURE] Add Internationalization",
+    "Issue_Url": "https://github.com/FlowiseAI/Flowise/issues/2233",
+    "Issue_Created_At": "2024-04-22T08:30:17Z",
+    "Issue_Body": "There is a request to internationalize the text and select the language in the settings of the locally running application ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "Topleess"
+  },
+  {
+    "Issue_Title": "[BUG] If you copy a large amount of html/Js/ejs into the chat, it affects the interface.",
+    "Issue_Url": "https://github.com/FlowiseAI/Flowise/issues/2230",
+    "Issue_Created_At": "2024-04-22T03:23:22Z",
+    "Issue_Body": "**Describe the bug** If you copy a large amount of html/Js/ejs into the chat, it leaks to the interface.  **To Reproduce** Steps to reproduce the behavior:  1. Open a flow 2. Start a chat by copy and paste the content of my (GPT-Pilot) project summery file to the chat 3. click \"send\" 4. See the background color turn from black to white (dark mode)  **Expected behavior** No impact what ever you send  **Setup**  -   Installation pnpm start -   Flowise Version 1.6.5 -   OS: Debian 12 -   Browser: Firefox 125.0.1  [project_summary.txt](https://github.com/FlowiseAI/Flowise/files/15057201/project_summary.txt) ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "BadlyDrawnBoy"
+  },
+  {
+    "Issue_Title": "Evaluate moving away from grpc.DialContext",
+    "Issue_Url": "https://github.com/grafana/k6/issues/3699",
+    "Issue_Created_At": "2024-04-22T08:15:20Z",
+    "Issue_Body": "grpc.DialContext has been [deprecated](https://github.com/grpc/grpc-go/pull/7029) and then [undepricated](https://github.com/grpc/grpc-go/pull/7103), but will deprecated again in v1.64   We should evaluate moving to NewClient this also might fix other problems ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "mstoykov"
+  },
+  {
+    "Issue_Title": "Why are you keeping opening mew things?",
+    "Issue_Url": "https://github.com/apache/skywalking/issues/12140",
+    "Issue_Created_At": "2024-04-22T01:50:28Z",
+    "Issue_Body": "              Why are you keeping opening mew things?  _Originally posted by @wu-sheng in https://github.com/apache/skywalking/issues/12139#issuecomment-2068330034_  please tell me ,what issue             ",
+    "CVE_ID": "",
+    "Published_Date": "",
+    "Security_Issue_Full": 0,
+    "Author": "xiaozichen"
+  }
+]
