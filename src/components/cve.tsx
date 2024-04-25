@@ -6,17 +6,15 @@
 "use client"
 
 import React, { useState, useEffect } from 'react';
-
-
+import { Pagination } from 'antd';
 
 import Link from "next/link"
-import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { CardTitle, CardHeader, CardContent, Card } from "@/components/ui/card"
 import { DropdownMenuTrigger, DropdownMenuItem, DropdownMenuContent, DropdownMenu } from "@/components/ui/dropdown-menu"
-import { ResponsiveBar } from "@nivo/bar"
 import { TableHead, TableRow, TableHeader, TableCell, TableBody, Table } from "@/components/ui/table"
-import { Badge } from "@/components/ui/badge"
+import {Badge} from "@/components/ui/badge";
+
 
 interface Vulnerability {
     CVE: string;
@@ -38,20 +36,24 @@ interface Vulnerability {
 
 export default function CVE() {
 
-    const [displayNum, setDisplayNum] = useState(6); // 新增，设定初始显示仓库数量
     const [vulnerabilities, setVulnerabilities] = useState<Vulnerability[]>([]);
 
     // 假设你的 vulnerabilities 状态已经在这里了
     const [filter, setFilter] = useState('all');
+    const [currentPage, setCurrentPage] = useState(1);
 
     // 筛选逻辑
     const filteredVulnerabilities = vulnerabilities.filter(vulnerability => {
-        if (filter === 'high') return vulnerability.severity === 'important';
-        if (filter === 'medium') return vulnerability.severity === 'moderate'; // 假设"moderate" 表示"medium"等级
+        if (filter === 'important') return vulnerability.severity === 'important';
+        if (filter === 'moderate') return vulnerability.severity === 'moderate'; // 假设"moderate" 表示"medium"等级
         if (filter === 'low') return vulnerability.severity === 'low';
         if (filter === 'unknown') return !vulnerability.severity || vulnerability.severity === 'unknown';
         return true; // 如果没有筛选条件或筛选条件为"all"，则返回所有项目
     });
+
+    // ...
+    const displayNum = 12;
+    const pageVulnerabilities = filteredVulnerabilities.slice((currentPage - 1) * displayNum, currentPage * displayNum);
 
     useEffect(() => {
         fetch('https://access.redhat.com/labs/securitydataapi/cve.json?after=2024-04-15')
@@ -74,20 +76,8 @@ export default function CVE() {
                 return <InfoIcon className="w-5 h-5 text-gray-500" />;
         }
     };
-
-    // //新增，监听滚轮事件
-    // useEffect(() => {
-    //   const handleScroll = () => {
-    //     if(window.innerHeight + document.documentElement.scrollTop >= document.documentElement.offsetHeight){
-    //       setDisplayNum(prevNum => prevNum + 6); //当滚动到底部时，显示更多的仓库信息
-    //     }
-    //   };
-    //   window.addEventListener('scroll', handleScroll);
-    //   return () => window.removeEventListener('scroll', handleScroll); // 取消滚动监听
-    // },[]);
-
     return (
-
+    <>
         <Card>
             <CardHeader className="flex items-center justify-between">
                 <CardTitle>Security Vulnerabilities</CardTitle>
@@ -114,23 +104,88 @@ export default function CVE() {
                     </DropdownMenuContent>
                 </DropdownMenu>
             </CardHeader>
-            <CardContent className="grid gap-4">
-                {filteredVulnerabilities.map((vulnerability) => (
-                    <div className="flex items-center justify-between" key={vulnerability.CVE}>
-                        <div className="flex items-center gap-2">
-                            {/* 你可以根据 severity 动态改变图标和样式 */}
-                            {getIcon(vulnerability.severity)}
-                            <Link className="font-medium" href={vulnerability.resource_url}>
-                                {vulnerability.CVE}
-                            </Link>
-                        </div>
-                        <div className="flex items-center gap-1 text-sm text-gray-500 dark:text-gray-400">
-                            <span>{(vulnerability.severity?.charAt(0).toUpperCase() + vulnerability.severity?.slice(1)) || 'Unknown'} Severity</span>
-                        </div>
-                    </div>
-                ))}
+            <CardContent>
+
+                <Table>
+                    <TableHeader>
+                        <TableRow>
+                            <TableHead>CVE</TableHead>
+                            <TableHead>Severity</TableHead>
+                            <TableHead>CWE</TableHead>
+                            <TableHead>Cvss3 Score</TableHead>
+                            <TableHead>Public Date</TableHead>
+                        </TableRow>
+                    </TableHeader>
+                    <TableBody>
+                        {pageVulnerabilities.map((vulnerability, index) => (
+                            <TableRow key={index}>
+                                <TableCell>
+                                    <div className="flex items-center gap-2">
+                                        {getIcon(vulnerability.severity)}
+                                        <Link className="font-medium" href={vulnerability.resource_url}>
+                                            {vulnerability.CVE}
+                                        </Link>
+                                    </div>
+                                </TableCell>
+
+                                <TableCell>
+                                    <Badge variant={
+                                        vulnerability.severity === 'important' ? 'destructive' :
+                                            vulnerability.severity === 'moderate' ? 'secondary' :
+                                                vulnerability.severity === 'low' ? 'default' :
+                                                    'default'}>
+                                        <span>{(vulnerability.severity?.charAt(0).toUpperCase() + vulnerability.severity?.slice(1)) || 'Unknown'} </span>
+                                    </Badge>
+                                </TableCell>
+
+                                <TableCell>
+                                    <div className="flex items-center gap-1 text-sm text-gray-500 dark:text-gray-400">
+                                        <span>{vulnerability.CWE || 'Unknown'} </span>
+                                    </div>
+                                </TableCell>
+
+                                <TableCell>
+                                    <div className="flex items-center gap-1 text-sm text-gray-500 dark:text-gray-400">
+                                        <span>{vulnerability.cvss3_score || 'Unknown'} </span>
+                                    </div>
+                                </TableCell>
+
+                                <TableCell>{
+                                    new Date(vulnerability.public_date).toLocaleDateString()}
+                                </TableCell>
+                            </TableRow>
+                        ))}
+                    </TableBody>
+                </Table>
+
+
+                {/*{pageVulnerabilities.map((vulnerability) => (*/}
+                {/*    <div className="flex items-center justify-between" key={vulnerability.CVE}>*/}
+                {/*        <div className="flex items-center gap-2">*/}
+                {/*            /!* 你可以根据 severity 动态改变图标和样式 *!/*/}
+                {/*            {getIcon(vulnerability.severity)}*/}
+                {/*            <Link className="font-medium" href={vulnerability.resource_url}>*/}
+                {/*                {vulnerability.CVE}*/}
+                {/*            </Link>*/}
+                {/*        </div>*/}
+                {/*        <div className="flex items-center gap-1 text-sm text-gray-500 dark:text-gray-400">*/}
+                {/*            <span>{(vulnerability.severity?.charAt(0).toUpperCase() + vulnerability.severity?.slice(1)) || 'Unknown'} Severity</span>*/}
+                {/*        </div>*/}
+                {/*    </div>*/}
+                {/*))}*/}
             </CardContent>
         </Card>
+        <div style={{display: 'flex', justifyContent: 'center', marginTop: '20px'}}>
+            <Pagination
+                total={filteredVulnerabilities.length}
+                showTotal={(total, range) => `${range[0]}-${range[1]} of ${total} items`}
+                pageSize={displayNum}
+                current={currentPage}
+                onChange={setCurrentPage}
+            />
+        </div>
+    </>
+
 
     )
 }
@@ -156,83 +211,6 @@ function AlertCircleIcon(props: React.SVGProps<SVGSVGElement>) {
     )
 }
 
-
-function AlertTriangleIcon(props: React.SVGProps<SVGSVGElement>) {
-    return (
-        <svg
-            {...props}
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-        >
-            <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z" />
-            <path d="M12 9v4" />
-            <path d="M12 17h.01" />
-        </svg>
-    )
-}
-
-
-function BarChart(props: React.ComponentProps<"div">) {
-    return (
-        <div {...props}>
-            <ResponsiveBar
-                data={[
-                    { name: "Jan", count: 111 },
-                    { name: "Feb", count: 157 },
-                    { name: "Mar", count: 129 },
-                    { name: "Apr", count: 150 },
-                    { name: "May", count: 119 },
-                    { name: "Jun", count: 72 },
-                ]}
-                keys={["count"]}
-                indexBy="name"
-                margin={{ top: 0, right: 0, bottom: 40, left: 40 }}
-                padding={0.3}
-                colors={["#2563eb"]}
-                axisBottom={{
-                    tickSize: 0,
-                    tickPadding: 16,
-                }}
-                axisLeft={{
-                    tickSize: 0,
-                    tickValues: 4,
-                    tickPadding: 16,
-                }}
-                gridYValues={4}
-                theme={{
-                    tooltip: {
-                        chip: {
-                            borderRadius: "9999px",
-                        },
-                        container: {
-                            fontSize: "12px",
-                            textTransform: "capitalize",
-                            borderRadius: "6px",
-                        },
-                    },
-                    grid: {
-                        line: {
-                            stroke: "#f3f4f6",
-                        },
-                    },
-                }}
-                tooltipLabel={({ id }) => `${id}`}
-                enableLabel={false}
-                role="application"
-                ariaLabel="A bar chart showing data"
-            />
-        </div>
-    )
-}
-
-
 function FilterIcon(props: React.SVGProps<SVGSVGElement>) {
     return (
         <svg
@@ -251,28 +229,6 @@ function FilterIcon(props: React.SVGProps<SVGSVGElement>) {
         </svg>
     )
 }
-
-
-function GithubIcon(props: React.SVGProps<SVGSVGElement>) {
-    return (
-        <svg
-            {...props}
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-        >
-            <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
-            <path d="M9 18c-4.51 2-5-2-7-2" />
-        </svg>
-    )
-}
-
 
 function InfoIcon(props: React.SVGProps<SVGSVGElement>) {
     return (
@@ -296,45 +252,3 @@ function InfoIcon(props: React.SVGProps<SVGSVGElement>) {
 }
 
 
-function LayoutDashboardIcon(props: React.SVGProps<SVGSVGElement>) {
-    return (
-        <svg
-            {...props}
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-        >
-            <rect width="7" height="9" x="3" y="3" rx="1" />
-            <rect width="7" height="5" x="14" y="3" rx="1" />
-            <rect width="7" height="9" x="14" y="12" rx="1" />
-            <rect width="7" height="5" x="3" y="16" rx="1" />
-        </svg>
-    )
-}
-
-
-function SearchIcon(props: React.SVGProps<SVGSVGElement>) {
-    return (
-        <svg
-            {...props}
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-        >
-            <circle cx="11" cy="11" r="8" />
-            <path d="m21 21-4.3-4.3" />
-        </svg>
-    )
-}

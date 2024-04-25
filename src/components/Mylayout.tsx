@@ -3,22 +3,44 @@ import {
     BarChartOutlined,
     GithubOutlined,
     LaptopOutlined,
-    NotificationOutlined,
+    DashboardOutlined,
     SecurityScanOutlined,
     UserOutlined
 } from '@ant-design/icons';
 import type { MenuProps } from 'antd';
 import { Breadcrumb, Layout, Menu, theme } from 'antd';
-import {Card, CardContent, CardHeader, CardTitle} from "@/components/ui/card";
+import CVE from './cve';
+import Repos from './repos';
+import Issues from './Issues';
+import Form from './Form';
+import NewRepo from './NewRepo';
+import Dashb from './dashb';
 import {Button} from "@/components/ui/button";
 import Link from "next/link";
 
-const { Header, Content, Sider } = Layout;
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
+import {
+    DropdownMenu,
+    DropdownMenuContent,
+    DropdownMenuItem,
+    DropdownMenuLabel,
+    DropdownMenuSeparator,
+    DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu"
+import { Input } from "@/components/ui/input"
+import {
+    Activity,
+    ArrowUpRight,
+    CircleUser,
+    Gauge,
+    DollarSign,
+    Package2,
+    Search,
+    Users,
+} from "lucide-react"
+import {color} from "d3-color";
 
-const items1: MenuProps['items'] = ['1', '2', '3'].map((key) => ({
-    key,
-    label: `nav ${key}`,
-}));
+const { Header, Content, Sider } = Layout;
 
 type MenuItem = Required<MenuProps>['items'][number];
 
@@ -39,6 +61,7 @@ function getItem(
 }
 
 const items: MenuProps['items'] = [
+    getItem('Overview', '6', <LaptopOutlined />),
     getItem('Github Repos', 'sub2', <GithubOutlined />, [
         getItem('List of Repos', '1'),
         getItem('Manually Add Repos', '2'),
@@ -60,7 +83,7 @@ const App: React.FC = () => {
         token: { colorBgContainer, borderRadiusLG },
     } = theme.useToken();
 
-    const [activeMenu, setActiveMenu] = useState('1');
+    const [activeMenu, setActiveMenu] = useState('6');
 
     const onClick: MenuProps['onClick'] = (e) => {
         console.log('click ', e);
@@ -68,45 +91,112 @@ const App: React.FC = () => {
     };
 
     return (
-        <Layout>
-            <Header style={{ display: 'flex', alignItems: 'center' }}>
-                <div className="demo-logo" />
-                <Menu
-                    theme="dark"
-                    mode="horizontal"
-                    defaultSelectedKeys={['2']}
-                    items={items1}
-                    style={{ flex: 1, minWidth: 0 }}
-                />
-            </Header>
-            <Layout>
-                <Sider width={250} style={{ background: colorBgContainer }}>
-                    <Menu
-                        onClick={onClick}
-                        style={{ width: 250 }}
-                        defaultSelectedKeys={['1']}
-                        defaultOpenKeys={['sub1']}
-                        mode="inline"
-                        items={items}
-                    />
-                </Sider>
-                <Layout style={{ padding: '24px 24px 24px' }}>
-
-                    <Content
-                        style={{
-                            padding: 24,
-                            margin: 0,
-                            minHeight: 280,
-                            background: colorBgContainer,
-                            borderRadius: borderRadiusLG,
-                        }}
+    <Layout style={{minHeight: '100vh'}}>
+        <Header style={{display: 'flex', alignItems: 'center', background: 'white'}}>
+                <div className="demo-logo"/>
+                <nav
+                    className="hidden flex-col gap-6 text-lg font-medium md:flex md:flex-row md:items-center md:gap-5 md:text-sm lg:gap-6">
+                    <Link
+                        href="#"
+                        className="flex items-center gap-2 text-lg font-semibold md:text-base"
                     >
-                        {/*{activeMenu === '5' && <CVE />}*/}
-                    </Content>
-                </Layout>
-            </Layout>
+                        <Gauge className="h-6 w-6"/>
+                        {/*<LaptopOutlined /> <DashboardOutlined style = "font-size:20px"/>*/}
+                        {/*<span className="sr-only">Acme Inc</span>*/}
+                    </Link>
+                    <Link
+                        href="#"
+                        className="text-foreground transition-colors hover:text-foreground"
+                    >
+                        Dashboard
+                    </Link>
+                </nav>
+                <Sheet>
+                    <SheetTrigger asChild>
+                        <Button
+                            variant="outline"
+                            size="icon"
+                            className="shrink-0 md:hidden"
+                        >
+                            <Menu className="h-5 w-5"/>
+                            <span className="sr-only">Toggle navigation menu</span>
+                        </Button>
+                    </SheetTrigger>
+                    <SheetContent side="left">
+                        <nav className="grid gap-6 text-lg font-medium">
+                            <Link
+                                href="#"
+                                className="flex items-center gap-2 text-lg font-semibold"
+                            >
+                                <Package2 className="h-6 w-6"/>
+                                <span className="sr-only">Acme Inc</span>
+                            </Link>
+                            <Link href="#" className="hover:text-foreground">
+                                Dashboard
+                            </Link>
+
+                        </nav>
+                    </SheetContent>
+                </Sheet>
+                <div className="flex w-full items-center gap-4 md:ml-auto md:gap-2 lg:gap-4">
+                    <form className="ml-auto flex-1 sm:flex-initial">
+                        {/*<div className="relative">*/}
+                        {/*    <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground"/>*/}
+                        {/*    <Input*/}
+                        {/*        type="search"*/}
+                        {/*        placeholder="Search products..."*/}
+                        {/*        className="pl-8 sm:w-[300px] md:w-[200px] lg:w-[300px]"*/}
+                        {/*    />*/}
+                        {/*</div>*/}
+                    </form>
+                    <DropdownMenu>
+                        <DropdownMenuTrigger asChild>
+                            <Button variant="secondary" size="icon" className="rounded-full">
+                                <CircleUser className="h-5 w-5"/>
+                                <span className="sr-only">Toggle user menu</span>
+                            </Button>
+                        </DropdownMenuTrigger>
+                        <DropdownMenuContent align="end">
+                            <DropdownMenuLabel>My Account</DropdownMenuLabel>
+                            <DropdownMenuItem>Logout</DropdownMenuItem>
+                        </DropdownMenuContent>
+                    </DropdownMenu>
+                </div>
+        </Header>
+        <Layout>
+        <Sider width={250} style={{background: colorBgContainer}}>
+            <Menu
+                onClick={onClick}
+                style={{width: 250}}
+                defaultSelectedKeys={['6']}
+                defaultOpenKeys={['sub1']}
+                mode="inline"
+                items={items}
+            />
+        </Sider>
+        <Layout style={{display: 'flex', flexDirection: 'column', flex: 1, padding: '24px'}}>
+            <Content
+                style={{
+                    flex: 1,
+                    padding: 24,
+                    margin: 0,
+                    minHeight: 280,
+                    background: colorBgContainer,
+                    borderRadius: borderRadiusLG,
+                }}
+            >
+                {activeMenu == '6' && <Dashb/>}
+                {activeMenu == '1' && <NewRepo/>}
+                {activeMenu == '2' && <Form/>}
+                {activeMenu == '4' && <Issues/>}
+                {activeMenu === '5' && <CVE/>}
+            </Content>
         </Layout>
-    );
+    </Layout>
+    </Layout>
+
+)
+    ;
 };
 
 export default App;
