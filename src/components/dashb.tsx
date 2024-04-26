@@ -21,12 +21,12 @@ import {
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import {
-    Card,
+    CustomCard,
     CardContent,
     CardDescription,
     CardHeader,
     CardTitle,
-} from "@/components/ui/card"
+} from "@/components/ui/customCard"
 import {
     Table,
     TableBody,
@@ -35,7 +35,9 @@ import {
     TableHeader,
     TableRow,
 } from "@/components/ui/table"
+import Overview from "@/components/overview";
 import {useEffect, useState} from "react";
+
 interface Vulnerability {
     CVE: string;
     severity: string;
@@ -52,7 +54,12 @@ interface Vulnerability {
     cvss3_scoring_vector: string | null;
     cvss3_score: string | null;
 }
-export default function Dashb() {
+
+interface DashbProps {
+    changeMenu: (menuId: string) => void; // 声明changeMenu函数的类型
+}
+
+const Dashb: React.FC<DashbProps> = ({ changeMenu }) => {
 
     const [cveCount, setCveCount] = useState(0);
     const [repoCount, setRepoCount] = useState(0);
@@ -131,7 +138,7 @@ export default function Dashb() {
         <div className="flex min-h-screen w-full flex-col">
             <main className="flex flex-1 flex-col gap-4 p-4 md:gap-8 md:p-8">
                 <div className="grid gap-4 md:grid-cols-2 md:gap-8 lg:grid-cols-4">
-                    <Card x-chunk="dashboard-01-chunk-0">
+                    <CustomCard x-chunk="dashboard-01-chunk-0">
                         <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                             <CardTitle className="text-sm font-medium">
                                 Github Repos Monitoring
@@ -144,8 +151,8 @@ export default function Dashb() {
                                 {repoCount} repositories are being monitored.
                             </p>
                         </CardContent>
-                    </Card>
-                    <Card x-chunk="dashboard-01-chunk-1">
+                    </CustomCard>
+                    <CustomCard x-chunk="dashboard-01-chunk-1">
                         <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                             <CardTitle className="text-sm font-medium">
                                 CVE-2024 Lists
@@ -158,8 +165,8 @@ export default function Dashb() {
                                 {((cveCount / lastMonthCveCount) * 100).toFixed(1)}% of last month
                             </p>
                         </CardContent>
-                    </Card>
-                    <Card x-chunk="dashboard-01-chunk-2">
+                    </CustomCard>
+                    <CustomCard x-chunk="dashboard-01-chunk-2">
                         <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                             <CardTitle className="text-sm font-medium">Sales</CardTitle>
                             <CreditCard className="h-4 w-4 text-muted-foreground" />
@@ -170,8 +177,8 @@ export default function Dashb() {
                                 +19% from last month
                             </p>
                         </CardContent>
-                    </Card>
-                    <Card x-chunk="dashboard-01-chunk-3">
+                    </CustomCard>
+                    <CustomCard x-chunk="dashboard-01-chunk-3">
                         <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                             <CardTitle className="text-sm font-medium">Active Now</CardTitle>
                             <Activity className="h-4 w-4 text-muted-foreground" />
@@ -182,149 +189,31 @@ export default function Dashb() {
                                 +201 since last hour
                             </p>
                         </CardContent>
-                    </Card>
+                    </CustomCard>
                 </div>
                 <div className="grid gap-4 md:gap-8 lg:grid-cols-2 xl:grid-cols-3">
-                    <Card
+                    <CustomCard
                         className="xl:col-span-2" x-chunk="dashboard-01-chunk-4"
                     >
                         <CardHeader className="flex flex-row items-center">
                             <div className="grid gap-2">
-                                <CardTitle>Transactions</CardTitle>
+                                <CardTitle>Issue Report</CardTitle>
                                 <CardDescription>
                                     Recent transactions from your store.
                                 </CardDescription>
                             </div>
-                            <Button asChild size="sm" className="ml-auto gap-1">
+                            <Button asChild size="sm" className="ml-auto gap-1" onClick={() => changeMenu('4')}>
                                 <Link href="#">
                                     View All
                                     <ArrowUpRight className="h-4 w-4" />
                                 </Link>
                             </Button>
                         </CardHeader>
-                        <CardContent>
-                            <Table>
-                                <TableHeader>
-                                    <TableRow>
-                                        <TableHead>Customer</TableHead>
-                                        <TableHead className="hidden xl:table-column">
-                                            Type
-                                        </TableHead>
-                                        <TableHead className="hidden xl:table-column">
-                                            Status
-                                        </TableHead>
-                                        <TableHead className="hidden xl:table-column">
-                                            Date
-                                        </TableHead>
-                                        <TableHead className="text-right">Amount</TableHead>
-                                    </TableRow>
-                                </TableHeader>
-                                <TableBody>
-                                    <TableRow>
-                                        <TableCell>
-                                            <div className="font-medium">Liam Johnson</div>
-                                            <div className="hidden text-sm text-muted-foreground md:inline">
-                                                liam@example.com
-                                            </div>
-                                        </TableCell>
-                                        <TableCell className="hidden xl:table-column">
-                                            Sale
-                                        </TableCell>
-                                        <TableCell className="hidden xl:table-column">
-                                            <Badge className="text-xs" variant="outline">
-                                                Approved
-                                            </Badge>
-                                        </TableCell>
-                                        <TableCell className="hidden md:table-cell lg:hidden xl:table-column">
-                                            2023-06-23
-                                        </TableCell>
-                                        <TableCell className="text-right">$250.00</TableCell>
-                                    </TableRow>
-                                    <TableRow>
-                                        <TableCell>
-                                            <div className="font-medium">Olivia Smith</div>
-                                            <div className="hidden text-sm text-muted-foreground md:inline">
-                                                olivia@example.com
-                                            </div>
-                                        </TableCell>
-                                        <TableCell className="hidden xl:table-column">
-                                            Refund
-                                        </TableCell>
-                                        <TableCell className="hidden xl:table-column">
-                                            <Badge className="text-xs" variant="outline">
-                                                Declined
-                                            </Badge>
-                                        </TableCell>
-                                        <TableCell className="hidden md:table-cell lg:hidden xl:table-column">
-                                            2023-06-24
-                                        </TableCell>
-                                        <TableCell className="text-right">$150.00</TableCell>
-                                    </TableRow>
-                                    <TableRow>
-                                        <TableCell>
-                                            <div className="font-medium">Noah Williams</div>
-                                            <div className="hidden text-sm text-muted-foreground md:inline">
-                                                noah@example.com
-                                            </div>
-                                        </TableCell>
-                                        <TableCell className="hidden xl:table-column">
-                                            Subscription
-                                        </TableCell>
-                                        <TableCell className="hidden xl:table-column">
-                                            <Badge className="text-xs" variant="outline">
-                                                Approved
-                                            </Badge>
-                                        </TableCell>
-                                        <TableCell className="hidden md:table-cell lg:hidden xl:table-column">
-                                            2023-06-25
-                                        </TableCell>
-                                        <TableCell className="text-right">$350.00</TableCell>
-                                    </TableRow>
-                                    <TableRow>
-                                        <TableCell>
-                                            <div className="font-medium">Emma Brown</div>
-                                            <div className="hidden text-sm text-muted-foreground md:inline">
-                                                emma@example.com
-                                            </div>
-                                        </TableCell>
-                                        <TableCell className="hidden xl:table-column">
-                                            Sale
-                                        </TableCell>
-                                        <TableCell className="hidden xl:table-column">
-                                            <Badge className="text-xs" variant="outline">
-                                                Approved
-                                            </Badge>
-                                        </TableCell>
-                                        <TableCell className="hidden md:table-cell lg:hidden xl:table-column">
-                                            2023-06-26
-                                        </TableCell>
-                                        <TableCell className="text-right">$450.00</TableCell>
-                                    </TableRow>
-                                    <TableRow>
-                                        <TableCell>
-                                            <div className="font-medium">Liam Johnson</div>
-                                            <div className="hidden text-sm text-muted-foreground md:inline">
-                                                liam@example.com
-                                            </div>
-                                        </TableCell>
-                                        <TableCell className="hidden xl:table-column">
-                                            Sale
-                                        </TableCell>
-                                        <TableCell className="hidden xl:table-column">
-                                            <Badge className="text-xs" variant="outline">
-                                                Approved
-                                            </Badge>
-                                        </TableCell>
-                                        <TableCell className="hidden md:table-cell lg:hidden xl:table-column">
-                                            2023-06-27
-                                        </TableCell>
-                                        <TableCell className="text-right">$550.00</TableCell>
-                                    </TableRow>
-                                </TableBody>
-                            </Table>
+                        <CardContent className="pl-2">
+                            <Overview />
                         </CardContent>
-                    </Card>
-                    <Card x-chunk="dashboard-01-chunk-5">
+                    </CustomCard>
+                    <CustomCard x-chunk="dashboard-01-chunk-5">
                         <CardHeader>
                             <CardTitle>Recent Sales</CardTitle>
                         </CardHeader>
@@ -405,9 +294,11 @@ export default function Dashb() {
                                 <div className="ml-auto font-medium">+$39.00</div>
                             </div>
                         </CardContent>
-                    </Card>
+                    </CustomCard>
                 </div>
             </main>
         </div>
-    )
-};
+    );
+}
+
+export default Dashb;

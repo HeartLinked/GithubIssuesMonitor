@@ -1,12 +1,12 @@
 import { Button } from "@/components/ui/button"
 import {
-    Card,
+    CustomCard,
     CardContent,
     CardDescription,
     CardFooter,
     CardHeader,
     CardTitle,
-} from "@/components/ui/card"
+} from "@/components/ui/customCard"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import {message} from "antd";
@@ -19,8 +19,6 @@ export default function Component() {
     const addRepo = () => {
         console.log("Owner" + owner + "RepoName" + repoName);
         const url = `http://localhost:7853/addRepo?owner=${encodeURIComponent(owner)}&name=${encodeURIComponent(repoName)}`;
-        // 发送 GET 请求到后端
-        console.log(url);
         fetch(url)
             .then(response => {
                 // 检查响应的状态码
@@ -52,7 +50,7 @@ export default function Component() {
             paddingTop: '10%',  // 表单居中偏上的样式
             width: '100%',      // 确保包裹容器宽度充满父容器
         }}>
-            <Card className="w-full max-w-sm">
+            <CustomCard className="w-full max-w-sm">
                 <CardHeader>
                     <CardTitle className="text-2xl">Add Repos</CardTitle>
                     <CardDescription>
@@ -73,7 +71,7 @@ export default function Component() {
                 <CardFooter>
                     <Button className="w-full" onClick={addRepo}>Submit</Button>
                 </CardFooter>
-            </Card>
+            </CustomCard>
         </div>
 
 

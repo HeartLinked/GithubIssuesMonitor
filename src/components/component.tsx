@@ -12,7 +12,7 @@ import React, { useState, useEffect } from 'react';
 import Link from "next/link"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
-import { CardTitle, CardHeader, CardContent, Card } from "@/components/ui/card"
+import { CardTitle, CardHeader, CardContent, CustomCard } from "@/components/ui/customCard"
 import { DropdownMenuTrigger, DropdownMenuItem, DropdownMenuContent, DropdownMenu } from "@/components/ui/dropdown-menu"
 import { ResponsiveBar } from "@nivo/bar"
 import { TableHead, TableRow, TableHeader, TableCell, TableBody, Table } from "@/components/ui/table"
@@ -142,7 +142,7 @@ export default function Component() {
         </header>
         <main className="flex-1 bg-gray-100/40 dark:bg-gray-800/40 p-4 md:p-10 grid gap-8">
           <div className="max-w-8xl grid gap-6 md:grid-cols-3 lg:grid-cols-3">
-            <Card>
+            <CustomCard>
               <CardHeader className="flex items-center justify-between">
                 <CardTitle>Popular Projects</CardTitle>
                 <Button size="sm" variant="outline">
@@ -165,10 +165,10 @@ export default function Component() {
                     </div>
                 ))}
               </CardContent>
-            </Card>
+            </CustomCard>
 
             {/*CVE*/}
-            <Card>
+            <CustomCard>
               <CardHeader className="flex items-center justify-between">
                 <CardTitle>Security Vulnerabilities</CardTitle>
                 <DropdownMenu>
@@ -210,9 +210,9 @@ export default function Component() {
                     </div>
                 ))}
               </CardContent>
-            </Card>
+            </CustomCard>
 
-            <Card>
+            <CustomCard>
             <CardHeader className="flex items-center justify-between">
                 <CardTitle>Issue Trends</CardTitle>
                 <Button size="sm" variant="outline">
@@ -222,11 +222,11 @@ export default function Component() {
               <CardContent>
                 <BarChart className="w-full aspect-[16/9]" />
               </CardContent>
-            </Card>
+            </CustomCard>
 
           </div>
           <div className="max-w-8xl grid md:grid-cols-2 lg:grid-cols-2">
-            <Card>
+            <CustomCard>
               <CardHeader className="flex items-center justify-between">
                 <CardTitle>Github Top Projects Issue Report</CardTitle>
                 <DropdownMenu>
@@ -290,7 +290,7 @@ export default function Component() {
                   </TableBody>
                 </Table>
               </CardContent>
-            </Card>
+            </CustomCard>
 
           </div>
         </main>

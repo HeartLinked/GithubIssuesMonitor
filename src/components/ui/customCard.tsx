@@ -1,21 +1,21 @@
 import * as React from "react"
 
-import { cn } from "@/lib/utils"
+import { cn } from "../../../../antd-demo/src/lib/utils"
 
-const Card = React.forwardRef<
+const CustomCard = React.forwardRef<
   HTMLDivElement,
   React.HTMLAttributes<HTMLDivElement>
 >(({ className, ...props }, ref) => (
   <div
     ref={ref}
     className={cn(
-      "rounded-lg border bg-card text-card-foreground shadow-sm",
+      "rounded-lg border border-gray-200 bg-white text-gray-950 shadow-sm dark:border-gray-800 dark:bg-gray-950 dark:text-gray-50",
       className
     )}
     {...props}
   />
 ))
-Card.displayName = "Card"
+CustomCard.displayName = "CustomCard"
 
 const CardHeader = React.forwardRef<
   HTMLDivElement,
@@ -50,7 +50,7 @@ const CardDescription = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <p
     ref={ref}
-    className={cn("text-sm text-muted-foreground", className)}
+    className={cn("text-sm text-gray-500 dark:text-gray-400", className)}
     {...props}
   />
 ))
@@ -76,4 +76,4 @@ const CardFooter = React.forwardRef<
 ))
 CardFooter.displayName = "CardFooter"
 
-export { Card, CardHeader, CardFooter, CardTitle, CardDescription, CardContent }
+export { CustomCard, CardHeader, CardFooter, CardTitle, CardDescription, CardContent }

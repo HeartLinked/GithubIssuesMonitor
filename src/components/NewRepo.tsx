@@ -4,23 +4,16 @@ import { MoreHorizontal } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import {message, notification, Pagination} from "antd";
-
+import {Trash2} from "lucide-react";
 
 import {
-    Card,
+    CustomCard,
     CardContent,
     CardDescription,
     CardFooter,
     CardHeader,
     CardTitle,
-} from "@/components/ui/card"
-import {
-    DropdownMenu,
-    DropdownMenuContent,
-    DropdownMenuItem,
-    DropdownMenuLabel,
-    DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
+} from "@/components/ui/customCard"
 import {
     Table,
     TableBody,
@@ -70,7 +63,6 @@ export default function Component() {
     const deleteSuccess = (repoName: String) => {
         // 假设有一个删除逻辑或调用API的代码
         console.log("Delete action triggered");
-        message.info('This is a normal message');
 
         // 例如，调用一个删除API
         // fetch('/api/delete-item', { method: 'POST' })
@@ -94,7 +86,7 @@ export default function Component() {
 
     return (
     <>
-        <Card>
+        <CustomCard>
             <CardHeader>
                 <CardTitle>Github Repos List</CardTitle>
                 <CardDescription>
@@ -105,12 +97,12 @@ export default function Component() {
                 <Table>
                     <TableHeader>
                         <TableRow>
-                            <TableHead style={{width: '37%'}}>Repository Name</TableHead>
-                            <TableHead style={{width: '20%'}}>Status</TableHead>
+                            <TableHead style={{width: '31%'}}>Repository Name</TableHead>
+                            <TableHead style={{width: '23%'}}>Status</TableHead>
                             <TableHead style={{width: '23%'}} className="hidden md:table-cell">
                                 Owner
                             </TableHead>
-                            <TableHead style={{width: '20%'}}>
+                            <TableHead style={{width: '23%'}}>
                                 <span className="sr-only">Actions</span>
                             </TableHead>
                         </TableRow>
@@ -126,7 +118,7 @@ export default function Component() {
                                 </TableCell>
                                 <TableCell>
                                     {/* 假设issue对象中有Severity属性 */}
-                                    <Badge variant="outline">Active</Badge>
+                                    <Badge variant="default">Active</Badge>
                                 </TableCell>
                                 <TableCell>
                                     <div className="flex items-center gap-2">
@@ -135,18 +127,8 @@ export default function Component() {
                                     </div>
                                 </TableCell>
                                 <TableCell>
-                                    <DropdownMenu>
-                                        <DropdownMenuTrigger asChild>
-                                            <Button aria-haspopup="true" size="icon" variant="ghost">
-                                                <MoreHorizontal className="h-4 w-4"/>
-                                                <span className="sr-only">Toggle menu</span>
-                                            </Button>
-                                        </DropdownMenuTrigger>
-                                        <DropdownMenuContent align="end">
-                                            <DropdownMenuLabel>Actions</DropdownMenuLabel>
-                                            <DropdownMenuItem onClick={() => deleteSuccess(repo.url)}>Delete</DropdownMenuItem>
-                                        </DropdownMenuContent>
-                                    </DropdownMenu>
+                                    <Button size="sm" variant="destructive" onClick={() => deleteSuccess(repo.url)}>
+                                        <Trash2 className="mr-2 h-4 w-4" />Delete</Button>
                                 </TableCell>
 
                             </TableRow>
@@ -156,8 +138,8 @@ export default function Component() {
                 </Table>
             </CardContent>
 
-        </Card>
-        <div style={{display: 'flex', justifyContent: 'center', marginTop: '10px'}}>
+        </CustomCard>
+        <div style={{display: 'flex', justifyContent: 'center', marginTop: '20px'}}>
         <Pagination
             total={githubRepos.length}
             showTotal={(total, range) => `${range[0]}-${range[1]} of ${total} items`}

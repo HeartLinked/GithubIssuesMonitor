@@ -10,12 +10,13 @@ import {
 import type { MenuProps } from 'antd';
 import { Breadcrumb, Layout, Menu, theme } from 'antd';
 import CVE from './cve';
-import Repos from './repos';
-import Issues from './Issues';
+import NewIssue from './NewIssue';
+import Stats from './stats';
 import Form from './Form';
 import NewRepo from './NewRepo';
 import Dashb from './dashb';
 import {Button} from "@/components/ui/button";
+import Overview from "@/components/overview";
 import Link from "next/link";
 
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
@@ -62,6 +63,8 @@ function getItem(
 
 const items: MenuProps['items'] = [
     getItem('Overview', '6', <LaptopOutlined />),
+    { type: 'divider' },
+
     getItem('Github Repos', 'sub2', <GithubOutlined />, [
         getItem('List of Repos', '1'),
         getItem('Manually Add Repos', '2'),
@@ -69,11 +72,14 @@ const items: MenuProps['items'] = [
 
     { type: 'divider' },
 
-    getItem('Issue Status', 'sub', <BarChartOutlined />, [
-        getItem('Issue Charts', '3'),
-        getItem('Issue Details', '4'),
+    // getItem('Issue Status', 'sub', <BarChartOutlined />, [
+    //     getItem('Issue Charts', '3'),
+    //     getItem('Issue Details', '4'),
+    //
+    // ]),
+    getItem('Issue Status', '4', <BarChartOutlined />),
+    { type: 'divider' },
 
-    ]),
     getItem('Security Vulnerabilities', '5',<SecurityScanOutlined /> ),
 
 ];
@@ -168,8 +174,9 @@ const App: React.FC = () => {
             <Menu
                 onClick={onClick}
                 style={{width: 250}}
+                selectedKeys={[activeMenu]} // 更新这一行
                 defaultSelectedKeys={['6']}
-                defaultOpenKeys={['sub1']}
+                defaultOpenKeys={['sub2']}
                 mode="inline"
                 items={items}
             />
@@ -185,10 +192,11 @@ const App: React.FC = () => {
                     borderRadius: borderRadiusLG,
                 }}
             >
-                {activeMenu == '6' && <Dashb/>}
+                {activeMenu == '6' && <Dashb changeMenu={setActiveMenu}/> }
                 {activeMenu == '1' && <NewRepo/>}
                 {activeMenu == '2' && <Form/>}
-                {activeMenu == '4' && <Issues/>}
+                {/*{activeMenu == '3' && <Stats/>}*/}
+                {activeMenu == '4' && <NewIssue/>}
                 {activeMenu === '5' && <CVE/>}
             </Content>
         </Layout>

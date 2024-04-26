@@ -10,10 +10,10 @@ import { Pagination } from 'antd';
 
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { CardTitle, CardHeader, CardContent, Card } from "@/components/ui/card"
-import { DropdownMenuTrigger, DropdownMenuItem, DropdownMenuContent, DropdownMenu } from "@/components/ui/dropdown-menu"
+import {CardTitle, CardHeader, CardContent, CustomCard, CardDescription} from "@/components/ui/customCard"
 import { TableHead, TableRow, TableHeader, TableCell, TableBody, Table } from "@/components/ui/table"
 import {Badge} from "@/components/ui/badge";
+import {MoreHorizontal} from "lucide-react";
 
 
 interface Vulnerability {
@@ -77,115 +77,73 @@ export default function CVE() {
         }
     };
     return (
-    <>
-        <Card>
-            <CardHeader className="flex items-center justify-between">
-                <CardTitle>Security Vulnerabilities</CardTitle>
-                <DropdownMenu>
-                    <DropdownMenuTrigger asChild>
-                        <Button size="sm" variant="outline">
-                            <FilterIcon className="w-4 h-4 mr-2" />
-                            Filter
-                        </Button>
-                    </DropdownMenuTrigger>
-                    <DropdownMenuContent align="end">
-                        <DropdownMenuItem onClick={() => setFilter('high')}>
-                            <AlertCircleIcon className="w-5 h-5 text-red-500" /> High Severity
-                        </DropdownMenuItem>
-                        <DropdownMenuItem onClick={() => setFilter('medium')}>
-                            <AlertCircleIcon className="w-5 h-5 text-yellow-500" /> Medium Severity
-                        </DropdownMenuItem>
-                        <DropdownMenuItem onClick={() => setFilter('low')}>
-                            <AlertCircleIcon className="w-5 h-5 text-blue-500" /> Low Severity
-                        </DropdownMenuItem>
-                        <DropdownMenuItem onClick={() => setFilter('unknown')}>
-                            <AlertCircleIcon className="w-5 h-5 text-gray-500" /> Unknown Severity
-                        </DropdownMenuItem>
-                    </DropdownMenuContent>
-                </DropdownMenu>
-            </CardHeader>
-            <CardContent>
+        <>
+            <CustomCard>
+                <CardHeader>
+                    <CardTitle>CVE List</CardTitle>
+                    <CardDescription>
+                        The list of Github Repositories under monitoring.
+                    </CardDescription>
+                </CardHeader>
+                <CardContent>
+                    <Table>
+                        <TableHeader>
+                            <TableRow>
+                                <TableHead style={{width: '23%'}}>CVE</TableHead>
+                                <TableHead style={{width: '19%'}}>Severity</TableHead>
+                                <TableHead style={{width: '19%'}} className="hidden md:table-cell">
+                                    CWE
+                                </TableHead>
+                                <TableHead style={{width: '19%'}}>Cvss3 Score</TableHead>
+                                <TableHead style={{width: '20%'}}>Public Date</TableHead>
+                            </TableRow>
+                        </TableHeader>
+                        <TableBody>
 
-                <Table>
-                    <TableHeader>
-                        <TableRow>
-                            <TableHead>CVE</TableHead>
-                            <TableHead>Severity</TableHead>
-                            <TableHead>CWE</TableHead>
-                            <TableHead>Cvss3 Score</TableHead>
-                            <TableHead>Public Date</TableHead>
-                        </TableRow>
-                    </TableHeader>
-                    <TableBody>
-                        {pageVulnerabilities.map((vulnerability, index) => (
-                            <TableRow key={index}>
-                                <TableCell>
-                                    <div className="flex items-center gap-2">
-                                        {getIcon(vulnerability.severity)}
+                            {pageVulnerabilities.map((vulnerability, index) => (
+                                <TableRow key={index}>
+                                    <TableCell>
                                         <Link className="font-medium" href={vulnerability.resource_url}>
                                             {vulnerability.CVE}
                                         </Link>
-                                    </div>
-                                </TableCell>
-
-                                <TableCell>
-                                    <Badge variant={
-                                        vulnerability.severity === 'important' ? 'destructive' :
-                                            vulnerability.severity === 'moderate' ? 'secondary' :
+                                    </TableCell>
+                                    <TableCell>
+                                        <Badge variant={vulnerability.severity === 'important' ? 'destructive' :
+                                                vulnerability.severity === 'moderate' ? 'secondary' :
                                                 vulnerability.severity === 'low' ? 'default' :
-                                                    'default'}>
-                                        <span>{(vulnerability.severity?.charAt(0).toUpperCase() + vulnerability.severity?.slice(1)) || 'Unknown'} </span>
-                                    </Badge>
-                                </TableCell>
-
-                                <TableCell>
-                                    <div className="flex items-center gap-1 text-sm text-gray-500 dark:text-gray-400">
-                                        <span>{vulnerability.CWE || 'Unknown'} </span>
-                                    </div>
-                                </TableCell>
-
-                                <TableCell>
-                                    <div className="flex items-center gap-1 text-sm text-gray-500 dark:text-gray-400">
+                                                'default'}>
+                                            <span>{(vulnerability.severity?.charAt(0).toUpperCase() + vulnerability.severity?.slice(1)) || 'Unknown'} </span>
+                                        </Badge>
+                                    </TableCell>
+                                    <TableCell>
+                                        <div className="flex items-center gap-2">
+                                            <span>{vulnerability.CWE || 'Unknown'}</span>
+                                        </div>
+                                    </TableCell>
+                                    <TableCell>
                                         <span>{vulnerability.cvss3_score || 'Unknown'} </span>
-                                    </div>
-                                </TableCell>
+                                    </TableCell>
+                                    <TableCell>{
+                                        new Date(vulnerability.public_date).toLocaleDateString()}
+                                      </TableCell>
+                                </TableRow>
+                            ))}
 
-                                <TableCell>{
-                                    new Date(vulnerability.public_date).toLocaleDateString()}
-                                </TableCell>
-                            </TableRow>
-                        ))}
-                    </TableBody>
-                </Table>
+                        </TableBody>
+                    </Table>
+                </CardContent>
 
-
-                {/*{pageVulnerabilities.map((vulnerability) => (*/}
-                {/*    <div className="flex items-center justify-between" key={vulnerability.CVE}>*/}
-                {/*        <div className="flex items-center gap-2">*/}
-                {/*            /!* 你可以根据 severity 动态改变图标和样式 *!/*/}
-                {/*            {getIcon(vulnerability.severity)}*/}
-                {/*            <Link className="font-medium" href={vulnerability.resource_url}>*/}
-                {/*                {vulnerability.CVE}*/}
-                {/*            </Link>*/}
-                {/*        </div>*/}
-                {/*        <div className="flex items-center gap-1 text-sm text-gray-500 dark:text-gray-400">*/}
-                {/*            <span>{(vulnerability.severity?.charAt(0).toUpperCase() + vulnerability.severity?.slice(1)) || 'Unknown'} Severity</span>*/}
-                {/*        </div>*/}
-                {/*    </div>*/}
-                {/*))}*/}
-            </CardContent>
-        </Card>
-        <div style={{display: 'flex', justifyContent: 'center', marginTop: '20px'}}>
-            <Pagination
-                total={filteredVulnerabilities.length}
-                showTotal={(total, range) => `${range[0]}-${range[1]} of ${total} items`}
-                pageSize={displayNum}
-                current={currentPage}
-                onChange={setCurrentPage}
-            />
-        </div>
-    </>
-
+            </CustomCard>
+            <div style={{display: 'flex', justifyContent: 'center', marginTop: '20px'}}>
+                <Pagination
+                    total={vulnerabilities.length}
+                    showTotal={(total, range) => `${range[0]}-${range[1]} of ${total} items`}
+                    pageSize={displayNum}
+                    current={currentPage}
+                    onChange={setCurrentPage}
+                />
+            </div>
+        </>
 
     )
 }

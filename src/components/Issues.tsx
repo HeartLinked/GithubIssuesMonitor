@@ -12,7 +12,7 @@ import React, { useState, useEffect } from 'react';
 import Link from "next/link"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
-import { CardTitle, CardHeader, CardContent, Card } from "@/components/ui/card"
+import { CardTitle, CardHeader, CardContent, CustomCard } from "@/components/ui/customCard"
 import { DropdownMenuTrigger, DropdownMenuItem, DropdownMenuContent, DropdownMenu } from "@/components/ui/dropdown-menu"
 import { ResponsiveBar } from "@nivo/bar"
 import { TableHead, TableRow, TableHeader, TableCell, TableBody, Table } from "@/components/ui/table"
@@ -49,7 +49,7 @@ export default function Component() {
     }, []); // 空依赖数组保证这段代码只执行一次
     return (
     <>
-        <Card>
+        <CustomCard>
             <CardHeader className="flex items-center justify-between">
                 <CardTitle>Github Top Projects Issue Report</CardTitle>
                 <DropdownMenu>
@@ -119,7 +119,7 @@ export default function Component() {
                     </TableBody>
                 </Table>
             </CardContent>
-        </Card>
+        </CustomCard>
         <div style={{display: 'flex', justifyContent: 'center', marginTop: '20px'}}>
             <Pagination
                 total={issues.length}
