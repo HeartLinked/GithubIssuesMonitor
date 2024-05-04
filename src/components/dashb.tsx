@@ -65,7 +65,7 @@ const Dashb: React.FC<DashbProps> = ({ changeMenu }) => {
     const [repoCount, setRepoCount] = useState(0);
 
     useEffect(() => {
-        const url = `http://localhost:7853/githubList`;
+        const url = `http://39.99.238.81:7853/githubList`;
         console.log(url);
         fetch(url)
             .then(response => response.json())

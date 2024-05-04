@@ -18,7 +18,7 @@ export default function Component() {
     const [repoName, setRepoName] = useState('');
     const addRepo = () => {
         console.log("Owner" + owner + "RepoName" + repoName);
-        const url = `http://localhost:7853/addRepo?owner=${encodeURIComponent(owner)}&name=${encodeURIComponent(repoName)}`;
+        const url = `http://39.99.238.81:7853/addRepo?owner=${encodeURIComponent(owner)}&name=${encodeURIComponent(repoName)}`;
         fetch(url)
             .then(response => {
                 // 检查响应的状态码
@@ -37,7 +37,7 @@ export default function Component() {
             .catch(error => {
                 // 网络或其他错误处理
                 console.error('Network or other error:', error);
-                message.error('This is an error message');
+                message.error('Network or other error:', error);
             });
 
     };

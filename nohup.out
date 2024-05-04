@@ -1,0 +1,148 @@
+
+> my-app1@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.2
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+ ✓ Ready in 7.2s
+ ○ Compiling / ...
+ ✓ Compiled / in 3.2s (5976 modules)
+Warning: [antd: Menu] `children` is deprecated. Please use `items` instead.
+ GET / 200 in 806ms
+ ✓ Compiled in 475ms (2983 modules)
+ ✓ Compiled /_not-found in 421ms (5965 modules)
+ GET /avatars/01.png 404 in 505ms
+ GET /avatars/04.png 404 in 503ms
+ GET /avatars/03.png 404 in 504ms
+ GET /avatars/02.png 404 in 504ms
+ GET /avatars/05.png 404 in 503ms
+Warning: [antd: Menu] `children` is deprecated. Please use `items` instead.
+ GET / 200 in 166ms
+ GET /avatars/02.png 404 in 30ms
+ GET /avatars/01.png 404 in 26ms
+ GET /avatars/05.png 404 in 20ms
+ GET /avatars/03.png 404 in 19ms
+ GET /avatars/04.png 404 in 20ms
+ GET / 200 in 79ms
+ GET / 200 in 65ms
+
+> my-app1@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.2
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+ ✓ Ready in 1740ms
+ ○ Compiling / ...
+ ✓ Compiled / in 3s (5976 modules)
+Warning: [antd: Menu] `children` is deprecated. Please use `items` instead.
+ GET / 200 in 3387ms
+ ✓ Compiled in 434ms (2983 modules)
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 580ms (5995 modules)
+ GET /favicon.ico 200 in 682ms
+ GET /avatars/04.png 404 in 542ms
+ GET /avatars/03.png 404 in 543ms
+ GET /avatars/05.png 404 in 542ms
+ GET /avatars/02.png 404 in 543ms
+ GET /avatars/01.png 404 in 543ms
+Warning: [antd: Menu] `children` is deprecated. Please use `items` instead.
+ GET / 200 in 175ms
+ GET /favicon.ico 200 in 8ms
+ GET /avatars/02.png 404 in 17ms
+ GET /avatars/01.png 404 in 12ms
+ GET /avatars/03.png 404 in 18ms
+ GET /avatars/04.png 404 in 18ms
+ GET /avatars/05.png 404 in 8ms
+ ✓ Compiled in 793ms (5976 modules)
+
+> my-app1@0.1.0 dev
+> next dev
+
+ ⚠ Port 3000 is in use, trying 3001 instead.
+  ▲ Next.js 14.2.2
+  - Local:        http://localhost:3001
+
+ ✓ Starting...
+ ✓ Ready in 1763ms
+ ✓ Compiled /_not-found in 429ms (5965 modules)
+ GET / 404 in 516ms
+ GET /_next/static/css/app/layout.css?v=1714212161573 404 in 23ms
+ GET /_next/static/css/app/layout.css?v=1714212161528 404 in 12ms
+ GET /_next/static/chunks/main-app.js?v=1714212161528 404 in 11ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 11ms
+ GET /_next/static/css/app/layout.css?v=1714212161609 404 in 11ms
+Warning: [antd: Menu] `children` is deprecated. Please use `items` instead.
+ GET / 200 in 224ms
+ GET /_next/static/css/app/layout.css?v=1714212164479 404 in 20ms
+ GET /_next/static/chunks/main-app.js?v=1714212164479 404 in 19ms
+ GET /_next/static/chunks/app/page.js 404 in 19ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 19ms
+ ✓ Compiled /favicon.ico in 116ms (3024 modules)
+ GET /favicon.ico 200 in 165ms
+Warning: [antd: Menu] `children` is deprecated. Please use `items` instead.
+ GET / 200 in 200ms
+ GET /_next/static/css/app/layout.css?v=1714212173447 404 in 17ms
+ GET /_next/static/chunks/main-app.js?v=1714212173447 404 in 18ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 17ms
+ GET /_next/static/chunks/app/page.js 404 in 17ms
+ GET / 200 in 40ms
+ GET /_next/static/css/app/layout.css?v=1714212185471 404 in 15ms
+ GET /_next/static/chunks/main-app.js?v=1714212185471 404 in 19ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 18ms
+ GET /_next/static/chunks/app/page.js 404 in 17ms
+ GET / 200 in 55ms
+ GET /_next/static/css/app/layout.css?v=1714212211409 404 in 30ms
+ GET /_next/static/chunks/app/page.js 404 in 37ms
+ GET /_next/static/chunks/main-app.js?v=1714212211409 404 in 37ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 37ms
+ GET / 200 in 55ms
+ GET /_next/static/css/app/layout.css?v=1714212219544 404 in 27ms
+ GET /_next/static/chunks/app/page.js 404 in 25ms
+ GET /_next/static/chunks/main-app.js?v=1714212219544 404 in 28ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 27ms
+ GET / 200 in 55ms
+ GET /_next/static/css/app/layout.css?v=1714212225631 404 in 15ms
+ GET /_next/static/chunks/app/page.js 404 in 19ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 20ms
+ GET /_next/static/chunks/main-app.js?v=1714212225631 404 in 20ms
+ GET /favicon.ico 200 in 5ms
+ GET / 200 in 58ms
+ GET /_next/static/css/app/layout.css?v=1714212262802 404 in 14ms
+ GET /_next/static/chunks/main-app.js?v=1714212262802 404 in 21ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 21ms
+ GET /_next/static/chunks/app/page.js 404 in 20ms
+ GET / 200 in 47ms
+ GET /_next/static/css/app/layout.css?v=1714212272248 404 in 12ms
+ GET /_next/static/chunks/main-app.js?v=1714212272248 404 in 20ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 20ms
+ GET /_next/static/chunks/app/page.js 404 in 19ms
+ GET /favicon.ico 200 in 3ms
+ GET / 200 in 41ms
+ GET /_next/static/css/app/layout.css?v=1714212272867 404 in 10ms
+ GET /_next/static/chunks/main-app.js?v=1714212272867 404 in 16ms
+ GET /_next/static/chunks/app/page.js 404 in 15ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 15ms
+ GET /favicon.ico 200 in 3ms
+ GET / 200 in 40ms
+ GET /_next/static/css/app/layout.css?v=1714212273292 404 in 13ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 17ms
+ GET /_next/static/chunks/main-app.js?v=1714212273292 404 in 18ms
+ GET /_next/static/chunks/app/page.js 404 in 16ms
+ GET /favicon.ico 200 in 4ms
+ GET / 200 in 38ms
+ GET /_next/static/css/app/layout.css?v=1714212273534 404 in 12ms
+ GET /_next/static/chunks/main-app.js?v=1714212273534 404 in 16ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 15ms
+ GET /_next/static/chunks/app/page.js 404 in 15ms
+ GET /favicon.ico 200 in 4ms
+ GET / 200 in 46ms
+ GET /_next/static/media/c9a5bc6a7c948fb0-s.p.woff2 404 in 24ms
+ GET /_next/static/css/app/layout.css?v=1714212280585 404 in 26ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 22ms
+ GET /_next/static/chunks/main-app.js?v=1714212280585 404 in 24ms
+ GET /_next/static/chunks/app/page.js 404 in 22ms
+[?25h

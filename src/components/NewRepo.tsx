@@ -43,7 +43,7 @@ export default function Component() {
 
 
     useEffect(() => {
-        fetch('http://localhost:7853/githubList')  // 假设文件位于public目录下
+        fetch('http://39.99.238.81:7853/githubList')  // 假设文件位于public目录下
             .then(response => response.json())
             .then(data => {
                 // 转换数据为 githubRepos[] 类型
@@ -68,7 +68,7 @@ export default function Component() {
         // fetch('/api/delete-item', { method: 'POST' })
         //     .then(() => console.log('Item deleted successfully'))
         //     .catch(err => console.error('Error deleting item:', err));
-        fetch(`http://localhost:7853/deleteRepo?url=${repoName}`)
+        fetch(`http://39.99.238.81:7853/deleteRepo?url=${repoName}`)
             .then(response => response.json())
             .then(data => {
                 if (data.success) {
